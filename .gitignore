@@ -16,7 +16,10 @@ frontend/dist/
 .DS_Store
 Thumbs.db
 
-# Generated output (excludes committed sample)
+# IDE
+.vscode/
+
+# Generated output
 data/generated/*.csv
 data/generated/*.json
 data/generated/*.sql
@@ -24,8 +27,7 @@ data/ground_truth/*.csv
 data/ground_truth/*.json
 !data/generated/.gitkeep
 !data/ground_truth/.gitkeep
+frontend/public/data/*.json
 reproducibility_report.json
-
-# Keep sample output for reviewers
-!sample_output/
+output/
 

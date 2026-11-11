@@ -1,5 +1,4 @@
 {
-  "timestamp": "2026-11-11T11:42:58.671978Z",
   "seed": 20261022,
   "scale": "starter",
   "baseline_row_counts": {
@@ -36,5 +35,534 @@
     "notification_to_invalid_contact": 6
   },
   "total_anomalies": 35,
-  "validation_violations": 35
+  "baseline_total_violations": 0,
+  "injected_total_violations": 35,
+  "metrics": [
+    {
+      "issue_type": "bus_capacity_exceeded",
+      "true_positives": 6,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "issue_type": "incompatible_accessibility_route",
+      "true_positives": 6,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "issue_type": "impossible_sequential_travel_time",
+      "true_positives": 8,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "issue_type": "notification_to_invalid_contact",
+      "true_positives": 6,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "issue_type": "unapproved_stop_exposed",
+      "true_positives": 9,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  ],
+  "rule_results": [
+    {
+      "rule_id": "accessibility_route_compatibility",
+      "issue_type": "incompatible_accessibility_route",
+      "baseline_violations": 0,
+      "mutated_violations": 6,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "capacity_vs_assigned",
+      "issue_type": "bus_capacity_exceeded",
+      "baseline_violations": 0,
+      "mutated_violations": 6,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "effective_date_order",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_address_zones_zone_type",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_assignments_status",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_attendance_events_event_type",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_buses_status",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_drivers_license_class",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_drivers_status",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_guardian_contacts_contact_status",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_guardian_contacts_notification_preferences",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_guardian_contacts_relationship",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_notifications_channel",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_notifications_event_collection",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_notifications_status",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_routes_direction",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_routes_status",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_stops_status",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "enum_students_status",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_assignments_route_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_assignments_stop_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_assignments_student_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_attendance_events_assignment_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_attendance_events_route_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_attendance_events_stop_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_attendance_events_student_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_drivers_bus_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_guardian_contacts_student_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_notifications_event_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_notifications_guardian_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_notifications_student_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_route_stops_route_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_route_stops_stop_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_routes_bus_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_routes_driver_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_stops_zone_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_students_guardian_ids",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "fk_students_zone_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "lifecycle_transition_assignments",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "lifecycle_transition_buses",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "lifecycle_transition_drivers",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "lifecycle_transition_notifications",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "lifecycle_transition_routes",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "lifecycle_transition_stops",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "lifecycle_transition_students",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "notification_contact_validity",
+      "issue_type": "notification_to_invalid_contact",
+      "baseline_violations": 0,
+      "mutated_violations": 6,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "pk_format",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "pk_unique",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "reconcile_notifications",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {
+        "absent_and_no_show": 640,
+        "skipped": 0,
+        "expected_notifications": 640,
+        "actual_notifications": 640
+      },
+      "mutated_details": {
+        "absent_and_no_show": 640,
+        "skipped": 0,
+        "expected_notifications": 640,
+        "actual_notifications": 640
+      }
+    },
+    {
+      "rule_id": "reconcile_route_load",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {
+        "active_routes": 20,
+        "active_assignments": 496,
+        "sum_of_route_loads": 496,
+        "unmatched_assignments": []
+      },
+      "mutated_details": {
+        "active_routes": 20,
+        "active_assignments": 496,
+        "sum_of_route_loads": 496,
+        "unmatched_assignments": []
+      }
+    },
+    {
+      "rule_id": "sequential_travel_time",
+      "issue_type": "impossible_sequential_travel_time",
+      "baseline_violations": 0,
+      "mutated_violations": 8,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "unapproved_stop_exposure",
+      "issue_type": "unapproved_stop_exposed",
+      "baseline_violations": 0,
+      "mutated_violations": 9,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "unique_address_zones_name",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "unique_attendance_events_assignment_id_date_event_type",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "unique_buses_license_plate",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "unique_drivers_license_number",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "unique_route_stops_route_id_sequence",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    },
+    {
+      "rule_id": "unique_route_stops_route_id_stop_id",
+      "issue_type": null,
+      "baseline_violations": 0,
+      "mutated_violations": 0,
+      "baseline_details": {},
+      "mutated_details": {}
+    }
+  ]
 }
