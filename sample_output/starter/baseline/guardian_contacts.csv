@@ -1,0 +1,840 @@
+_id,first_name,last_name,relationship,phone_primary,email,contact_status,is_valid,notification_preferences,created_at,updated_at,student_id
+GRD-000001,Pryn,Silverwick,parent,2755550162,pryn.silverwick1@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000001
+GRD-000002,Iren,Quelmar,parent,7625550150,iren.quelmar2@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000001
+GRD-000003,Uvine,Lochwin,parent,8185550137,uvine.lochwin3@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000002
+GRD-000004,Fren,Greystone,emergency_contact,5525550116,fren.greystone4@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000002
+GRD-000005,Pryn,Ironfeld,parent,2665550145,pryn.ironfeld5@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000003
+GRD-000006,Kova,Lornfeld,legal_guardian,3055550197,kova.lornfeld6@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000003
+GRD-000007,Lael,Northgate,parent,8325550178,lael.northgate7@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000004
+GRD-000008,Niko,Keldwick,emergency_contact,7195550127,niko.keldwick8@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000005
+GRD-000009,Niko,Brindal,emergency_contact,8145550143,niko.brindal9@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000006
+GRD-000010,Lorne,Carwick,legal_guardian,3105550117,lorne.carwick10@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000007
+GRD-000011,Zael,Morrow,emergency_contact,6115550101,zael.morrow11@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000007
+GRD-000012,Esrin,Orvyn,parent,4555550148,esrin.orvyn12@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000008
+GRD-000013,Jael,Stonecross,parent,3685550193,jael.stonecross13@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000009
+GRD-000014,Cove,Thistlewood,parent,6335550129,cove.thistlewood14@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000010
+GRD-000015,Orin,Netherwick,emergency_contact,2225550171,orin.netherwick15@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000010
+GRD-000016,Blyth,Brindal,emergency_contact,6505550112,blyth.brindal16@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000011
+GRD-000017,Esrin,Vexmore,other,6095550117,esrin.vexmore17@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000011
+GRD-000018,Wyla,Silverwick,legal_guardian,9935550177,wyla.silverwick18@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000012
+GRD-000019,Uvine,Blackfen,parent,7465550109,uvine.blackfen19@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000013
+GRD-000020,Calyx,Vexmore,parent,6845550189,calyx.vexmore20@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000014
+GRD-000021,Xael,Keldwick,legal_guardian,6495550177,xael.keldwick21@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000014
+GRD-000022,Elian,Pemberton,parent,2665550144,elian.pemberton22@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000015
+GRD-000023,Xael,Westholm,parent,7845550109,xael.westholm23@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000016
+GRD-000024,Blyth,Stonecross,parent,8715550182,blyth.stonecross24@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000017
+GRD-000025,Gael,Harwick,legal_guardian,7075550104,gael.harwick25@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000018
+GRD-000026,Hael,Frostwyn,parent,3025550107,hael.frostwyn26@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000018
+GRD-000027,Juren,Aldmar,other,8965550176,juren.aldmar27@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000019
+GRD-000028,Elowen,Silverwick,parent,5265550187,elowen.silverwick28@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000019
+GRD-000029,Myra,Ridgemont,emergency_contact,5525550177,myra.ridgemont29@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000020
+GRD-000030,Reva,Edgeholm,parent,7225550162,reva.edgeholm30@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000021
+GRD-000031,Quill,Quarrystone,parent,4185550179,quill.quarrystone31@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000021
+GRD-000032,Juren,Pemberton,emergency_contact,9475550159,juren.pemberton32@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000022
+GRD-000033,Alyx,Underhill,parent,3605550145,alyx.underhill33@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000022
+GRD-000034,Tara,Pinecroft,parent,9445550168,tara.pinecroft34@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000023
+GRD-000035,Calyx,Dunvale,parent,3175550166,calyx.dunvale35@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000023
+GRD-000036,Quill,Eldwick,legal_guardian,8225550132,quill.eldwick36@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000024
+GRD-000037,Brix,Blackfen,legal_guardian,8075550164,brix.blackfen37@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000025
+GRD-000038,Dael,Frostwyn,legal_guardian,3275550152,dael.frostwyn38@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000025
+GRD-000039,Aelin,Halwick,emergency_contact,3195550131,aelin.halwick39@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000026
+GRD-000040,Quora,Vexmore,emergency_contact,5625550140,quora.vexmore40@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000026
+GRD-000041,Zane,Harwick,parent,3285550123,zane.harwick41@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000027
+GRD-000042,Blyth,Quarrystone,emergency_contact,4605550183,blyth.quarrystone42@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000028
+GRD-000043,Nael,Lornfeld,parent,4375550135,nael.lornfeld43@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000028
+GRD-000044,Elian,Thistlewood,emergency_contact,8935550192,elian.thistlewood44@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000029
+GRD-000045,Vael,Silverwick,legal_guardian,4815550126,vael.silverwick45@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000029
+GRD-000046,Demi,Netherwick,emergency_contact,8845550154,demi.netherwick46@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000030
+GRD-000047,Iren,Jarvik,parent,4815550113,iren.jarvik47@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000030
+GRD-000048,Idris,Farholm,other,5285550187,idris.farholm48@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000031
+GRD-000049,Xora,Frostwyn,parent,5055550155,xora.frostwyn49@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000031
+GRD-000050,Lael,Harwick,other,9495550148,lael.harwick50@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000032
+GRD-000051,Jova,Rookwood,legal_guardian,8475550125,jova.rookwood51@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000032
+GRD-000052,Faye,Silverwick,other,4255550122,faye.silverwick52@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000033
+GRD-000053,Bren,Jarvik,parent,5185550129,bren.jarvik53@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000033
+GRD-000054,Lorne,Umbervale,emergency_contact,3065550184,lorne.umbervale54@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000034
+GRD-000055,Cove,Whitmore,parent,4455550186,cove.whitmore55@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000034
+GRD-000056,Vira,Blackfen,legal_guardian,3865550148,vira.blackfen56@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000035
+GRD-000057,Kessa,Yarfield,other,7315550138,kessa.yarfield57@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000035
+GRD-000058,Wren,Yarfield,other,2425550177,wren.yarfield58@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000036
+GRD-000059,Brix,Umbervale,parent,4565550152,brix.umbervale59@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000036
+GRD-000060,Elowen,Aldmar,parent,3835550195,elowen.aldmar60@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000037
+GRD-000061,Gova,Yarwick,legal_guardian,2975550145,gova.yarwick61@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000037
+GRD-000062,Quora,Netherwick,legal_guardian,9005550148,quora.netherwick62@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000038
+GRD-000063,Iora,Morrow,legal_guardian,7705550152,iora.morrow63@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000038
+GRD-000064,Gael,Ridgemont,other,3955550125,gael.ridgemont64@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000039
+GRD-000065,Bren,Dunvale,parent,3575550178,bren.dunvale65@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000039
+GRD-000066,Kova,Ironfeld,parent,3975550114,kova.ironfeld66@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000040
+GRD-000067,Zane,Keldrun,legal_guardian,9575550123,zane.keldrun67@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000041
+GRD-000068,Kessa,Oakveil,legal_guardian,9455550140,kessa.oakveil68@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000041
+GRD-000069,Zane,Jarvik,parent,9905550145,zane.jarvik69@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000042
+GRD-000070,Quora,Keldwick,parent,8675550197,quora.keldwick70@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000042
+GRD-000071,Lorne,Dawnmore,legal_guardian,4405550142,lorne.dawnmore71@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000043
+GRD-000072,Idris,Yarfield,parent,5055550139,idris.yarfield72@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000043
+GRD-000073,Quora,Thistlewood,parent,4105550100,quora.thistlewood73@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000044
+GRD-000074,Lorne,Brindal,parent,7345550165,lorne.brindal74@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000045
+GRD-000075,Quora,Northgate,parent,6695550122,quora.northgate75@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000045
+GRD-000076,Uvine,Greystone,parent,4965550188,uvine.greystone76@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000046
+GRD-000077,Jova,Lornfeld,legal_guardian,8175550189,jova.lornfeld77@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000046
+GRD-000078,Niko,Yarfield,parent,9405550142,niko.yarfield78@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000047
+GRD-000079,Gova,Quelmar,parent,2425550122,gova.quelmar79@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000047
+GRD-000080,Xael,Lornfeld,parent,7115550117,xael.lornfeld80@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000048
+GRD-000081,Maren,Jaspervale,other,2485550130,maren.jaspervale81@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000049
+GRD-000082,Lorne,Orvyn,parent,7945550159,lorne.orvyn82@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000049
+GRD-000083,Elowen,Jaspervale,parent,2995550119,elowen.jaspervale83@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000050
+GRD-000084,Doran,Dawnmore,other,7525550185,doran.dawnmore84@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000051
+GRD-000085,Quill,Frostwyn,emergency_contact,9295550140,quill.frostwyn85@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000052
+GRD-000086,Pryn,Ridgemont,legal_guardian,5465550124,pryn.ridgemont86@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000053
+GRD-000087,Quill,Edgeholm,legal_guardian,7565550195,quill.edgeholm87@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000054
+GRD-000088,Ciran,Virelwood,legal_guardian,5285550144,ciran.virelwood88@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000054
+GRD-000089,Vira,Brindal,parent,6245550171,vira.brindal89@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000055
+GRD-000090,Uvine,Lornfeld,legal_guardian,9565550141,uvine.lornfeld90@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000055
+GRD-000091,Wyla,Jaspervale,emergency_contact,6145550184,wyla.jaspervale91@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000056
+GRD-000092,Jova,Lochwin,emergency_contact,2315550120,jova.lochwin92@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000056
+GRD-000093,Esrin,Northgate,parent,6095550186,esrin.northgate93@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000057
+GRD-000094,Lysa,Westholm,legal_guardian,6195550109,lysa.westholm94@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000058
+GRD-000095,Calyx,Virelwood,parent,5305550176,calyx.virelwood95@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000059
+GRD-000096,Aelin,Underhill,other,7625550198,aelin.underhill96@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000060
+GRD-000097,Ciran,Edgeholm,emergency_contact,8165550130,ciran.edgeholm97@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000060
+GRD-000098,Xael,Vexmore,other,8145550173,xael.vexmore98@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000061
+GRD-000099,Silas,Halwick,emergency_contact,6365550139,silas.halwick99@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000061
+GRD-000100,Hira,Brindal,parent,9865550190,hira.brindal100@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000062
+GRD-000101,Arden,Virelwood,parent,3995550190,arden.virelwood101@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000062
+GRD-000102,Vael,Dawnmore,other,7325550182,vael.dawnmore102@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000063
+GRD-000103,Calyx,Harwick,other,7615550127,calyx.harwick103@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000063
+GRD-000104,Fren,Thornfield,parent,3485550115,fren.thornfield104@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000064
+GRD-000105,Aelin,Moorgate,parent,8075550190,aelin.moorgate105@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000064
+GRD-000106,Lysa,Blackfen,parent,4785550149,lysa.blackfen106@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000065
+GRD-000107,Zane,Westholm,legal_guardian,3675550123,zane.westholm107@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000066
+GRD-000108,Fren,Ironwood,parent,9665550170,fren.ironwood108@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000066
+GRD-000109,Aelin,Northgate,legal_guardian,6155550125,aelin.northgate109@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000067
+GRD-000110,Cove,Yarwick,parent,5265550161,cove.yarwick110@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000067
+GRD-000111,Ciran,Aldmar,parent,3155550103,ciran.aldmar111@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000068
+GRD-000112,Vira,Lornfeld,parent,9575550149,vira.lornfeld112@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000069
+GRD-000113,Maren,Ironfeld,parent,6865550164,maren.ironfeld113@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000069
+GRD-000114,Fren,Jaspervale,legal_guardian,8165550104,fren.jaspervale114@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000070
+GRD-000115,Lael,Yarfield,legal_guardian,9875550107,lael.yarfield115@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000070
+GRD-000116,Nael,Ridgemont,parent,2055550110,nael.ridgemont116@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000071
+GRD-000117,Xora,Corvin,parent,2925550172,xora.corvin117@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000071
+GRD-000118,Quora,Umbervale,legal_guardian,6655550157,quora.umbervale118@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000072
+GRD-000119,Gael,Oakveil,parent,3815550102,gael.oakveil119@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000072
+GRD-000120,Arden,Thistlewood,emergency_contact,5575550188,arden.thistlewood120@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000073
+GRD-000121,Gael,Jarvik,legal_guardian,8315550143,gael.jarvik121@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000073
+GRD-000122,Hael,Zephyrton,legal_guardian,8815550197,hael.zephyrton122@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000074
+GRD-000123,Gova,Dawnmore,parent,9765550159,gova.dawnmore123@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000074
+GRD-000124,Quora,Thornfield,parent,6115550104,quora.thornfield124@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000075
+GRD-000125,Ulan,Whitmore,parent,9715550181,ulan.whitmore125@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000075
+GRD-000126,Quill,Carwick,parent,8385550176,quill.carwick126@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000076
+GRD-000127,Gova,Eldwick,parent,3855550146,gova.eldwick127@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000076
+GRD-000128,Elowen,Keldwick,parent,2605550175,elowen.keldwick128@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000077
+GRD-000129,Blyth,Zephyrton,parent,2965550162,blyth.zephyrton129@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000077
+GRD-000130,Bren,Brindal,parent,7105550164,bren.brindal130@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000078
+GRD-000131,Niko,Jaspervale,parent,5655550138,niko.jaspervale131@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000079
+GRD-000132,Wyla,Northgate,legal_guardian,8855550109,wyla.northgate132@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000080
+GRD-000133,Kessa,Lornfeld,legal_guardian,5665550162,kessa.lornfeld133@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000080
+GRD-000134,Silas,Eldwick,emergency_contact,5145550130,silas.eldwick134@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000081
+GRD-000135,Wren,Edgeholm,legal_guardian,5195550174,wren.edgeholm135@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000081
+GRD-000136,Yela,Morrow,other,3375550100,yela.morrow136@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000082
+GRD-000137,Jael,Virelwood,parent,2635550173,jael.virelwood137@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000083
+GRD-000138,Pryn,Farholm,parent,7635550178,pryn.farholm138@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000084
+GRD-000139,Ciran,Westholm,parent,2585550147,ciran.westholm139@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000084
+GRD-000140,Xael,Jaspervale,parent,4985550103,xael.jaspervale140@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000085
+GRD-000141,Arden,Jarvik,legal_guardian,4095550127,arden.jarvik141@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000085
+GRD-000142,Vira,Farholm,parent,3855550168,vira.farholm142@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000086
+GRD-000143,Demi,Orvyn,parent,3355550166,demi.orvyn143@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000087
+GRD-000144,Wyla,Vexmore,parent,4465550105,wyla.vexmore144@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000088
+GRD-000145,Elowen,Pinecroft,other,3635550177,elowen.pinecroft145@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000088
+GRD-000146,Idris,Moorgate,emergency_contact,4705550168,idris.moorgate146@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000089
+GRD-000147,Juren,Pemberton,legal_guardian,6205550178,juren.pemberton147@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000089
+GRD-000148,Tova,Quarrystone,parent,3935550120,tova.quarrystone148@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000090
+GRD-000149,Lael,Silverwick,parent,9085550107,lael.silverwick149@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000090
+GRD-000150,Xora,Yarfield,legal_guardian,8465550174,xora.yarfield150@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000091
+GRD-000151,Tara,Zephyrton,parent,3105550133,tara.zephyrton151@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000092
+GRD-000152,Helix,Vexmore,parent,5355550154,helix.vexmore152@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000093
+GRD-000153,Blyth,Ironfeld,parent,2455550134,blyth.ironfeld153@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000094
+GRD-000154,Niko,Yarfield,parent,8375550154,niko.yarfield154@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000095
+GRD-000155,Alyx,Lochwin,legal_guardian,9965550190,alyx.lochwin155@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000096
+GRD-000156,Jael,Silverwick,parent,7895550152,jael.silverwick156@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000096
+GRD-000157,Myra,Netherwick,parent,2965550170,myra.netherwick157@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000097
+GRD-000158,Jael,Orvyn,legal_guardian,4035550195,jael.orvyn158@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000097
+GRD-000159,Quill,Underhill,legal_guardian,8885550116,quill.underhill159@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000098
+GRD-000160,Cove,Ashveil,emergency_contact,4145550116,cove.ashveil160@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000098
+GRD-000161,Lael,Dunvale,parent,5575550111,lael.dunvale161@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000099
+GRD-000162,Alyx,Morrow,parent,8115550185,alyx.morrow162@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000099
+GRD-000163,Alyx,Dawnmore,legal_guardian,3835550190,alyx.dawnmore163@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000100
+GRD-000164,Aelin,Stonecross,parent,7085550139,aelin.stonecross164@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000101
+GRD-000165,Lysa,Eldwick,legal_guardian,5175550159,lysa.eldwick165@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000101
+GRD-000166,Niko,Ironwood,parent,5845550151,niko.ironwood166@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000102
+GRD-000167,Reva,Eldwick,emergency_contact,4265550131,reva.eldwick167@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000102
+GRD-000168,Favin,Thornfield,parent,3845550183,favin.thornfield168@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000103
+GRD-000169,Lael,Xanthvale,parent,4405550109,lael.xanthvale169@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000104
+GRD-000170,Elian,Blackfen,parent,9205550115,elian.blackfen170@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000104
+GRD-000171,Pella,Thistlewood,other,6875550127,pella.thistlewood171@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000105
+GRD-000172,Lysa,Stonecross,legal_guardian,2825550100,lysa.stonecross172@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000105
+GRD-000173,Nael,Farholm,legal_guardian,2495550103,nael.farholm173@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000106
+GRD-000174,Alyx,Umbervale,parent,3885550189,alyx.umbervale174@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000106
+GRD-000175,Gidra,Underhill,legal_guardian,3395550167,gidra.underhill175@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000107
+GRD-000176,Wren,Stonecross,other,8025550115,wren.stonecross176@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000107
+GRD-000177,Vael,Eldwick,emergency_contact,4875550148,vael.eldwick177@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000108
+GRD-000178,Vael,Virelwood,parent,6395550155,vael.virelwood178@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000109
+GRD-000179,Fren,Edgeholm,parent,3775550160,fren.edgeholm179@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000109
+GRD-000180,Elian,Netherwick,legal_guardian,5155550107,elian.netherwick180@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000110
+GRD-000181,Brix,Eldwick,parent,8785550195,brix.eldwick181@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000110
+GRD-000182,Vael,Ironfeld,legal_guardian,5105550186,vael.ironfeld182@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000111
+GRD-000183,Dael,Keldwick,other,4835550189,dael.keldwick183@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000111
+GRD-000184,Faye,Jarvik,legal_guardian,9345550109,faye.jarvik184@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000112
+GRD-000185,Orin,Ashveil,parent,3755550129,orin.ashveil185@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000112
+GRD-000186,Vael,Zephyrton,emergency_contact,8965550104,vael.zephyrton186@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000113
+GRD-000187,Fren,Xanthvale,parent,8515550127,fren.xanthvale187@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000113
+GRD-000188,Solen,Ironfeld,legal_guardian,9605550165,solen.ironfeld188@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000114
+GRD-000189,Tova,Quelmar,legal_guardian,7915550158,tova.quelmar189@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000115
+GRD-000190,Gidra,Underhill,other,3965550143,gidra.underhill190@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000115
+GRD-000191,Yori,Pemberton,parent,9885550179,yori.pemberton191@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000116
+GRD-000192,Yori,Whitmore,parent,5925550183,yori.whitmore192@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000116
+GRD-000193,Xael,Carwick,parent,5745550142,xael.carwick193@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000117
+GRD-000194,Hira,Xanthvale,legal_guardian,2495550193,hira.xanthvale194@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000117
+GRD-000195,Reva,Ironfeld,legal_guardian,7045550107,reva.ironfeld195@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000118
+GRD-000196,Idris,Whitmore,emergency_contact,2985550142,idris.whitmore196@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000118
+GRD-000197,Arden,Lornfeld,parent,5295550116,arden.lornfeld197@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000119
+GRD-000198,Orin,Thornfield,parent,5735550157,orin.thornfield198@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000119
+GRD-000199,Wyla,Morrow,legal_guardian,7435550141,wyla.morrow199@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000120
+GRD-000200,Vael,Oakveil,legal_guardian,6255550126,vael.oakveil200@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000121
+GRD-000201,Tara,Farholm,legal_guardian,4265550100,tara.farholm201@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000122
+GRD-000202,Doran,Yarwick,legal_guardian,7925550196,doran.yarwick202@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000122
+GRD-000203,Elowen,Galveth,emergency_contact,3765550124,elowen.galveth203@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000123
+GRD-000204,Hael,Westholm,other,2175550179,hael.westholm204@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000124
+GRD-000205,Lorne,Harwick,parent,3785550118,lorne.harwick205@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000125
+GRD-000206,Vael,Westholm,parent,2985550197,vael.westholm206@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000125
+GRD-000207,Juren,Jarvik,emergency_contact,9135550107,juren.jarvik207@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000126
+GRD-000208,Lael,Quarrystone,parent,2675550138,lael.quarrystone208@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000126
+GRD-000209,Elian,Aldmar,legal_guardian,9275550122,elian.aldmar209@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000127
+GRD-000210,Niko,Morrow,parent,4185550184,niko.morrow210@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000127
+GRD-000211,Idris,Yarfield,parent,9675550170,idris.yarfield211@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000128
+GRD-000212,Solen,Pinecroft,parent,3085550168,solen.pinecroft212@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000128
+GRD-000213,Elian,Yarfield,parent,4855550184,elian.yarfield213@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000129
+GRD-000214,Lael,Xanthvale,emergency_contact,2405550111,lael.xanthvale214@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000129
+GRD-000215,Yori,Underhill,parent,4445550140,yori.underhill215@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000130
+GRD-000216,Lorne,Netherwick,parent,8995550178,lorne.netherwick216@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000130
+GRD-000217,Kessa,Lornfeld,parent,6435550172,kessa.lornfeld217@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000131
+GRD-000218,Yori,Westholm,parent,5535550183,yori.westholm218@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000131
+GRD-000219,Gidra,Lochwin,parent,8285550101,gidra.lochwin219@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000132
+GRD-000220,Juren,Whitmore,parent,3675550158,juren.whitmore220@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000132
+GRD-000221,Calyx,Vexmore,parent,9865550150,calyx.vexmore221@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000133
+GRD-000222,Esrin,Greystone,legal_guardian,3635550186,esrin.greystone222@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000133
+GRD-000223,Wyla,Moorgate,legal_guardian,2545550199,wyla.moorgate223@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000134
+GRD-000224,Maren,Brindal,legal_guardian,3465550117,maren.brindal224@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000134
+GRD-000225,Pella,Keldrun,legal_guardian,4515550131,pella.keldrun225@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000135
+GRD-000226,Wren,Moorgate,parent,4095550106,wren.moorgate226@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000136
+GRD-000227,Hira,Ridgemont,legal_guardian,8675550186,hira.ridgemont227@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000136
+GRD-000228,Zane,Galveth,parent,9815550152,zane.galveth228@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000137
+GRD-000229,Faye,Keldrun,parent,7195550102,faye.keldrun229@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000138
+GRD-000230,Silas,Orvyn,legal_guardian,4715550122,silas.orvyn230@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000138
+GRD-000231,Gael,Jarvik,legal_guardian,7705550145,gael.jarvik231@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000139
+GRD-000232,Fren,Northgate,parent,7775550117,fren.northgate232@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000139
+GRD-000233,Blyth,Netherwick,parent,8285550109,blyth.netherwick233@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000140
+GRD-000234,Arden,Dawnmore,legal_guardian,5585550133,arden.dawnmore234@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000140
+GRD-000235,Hira,Frostwyn,parent,9635550134,hira.frostwyn235@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000141
+GRD-000236,Aelin,Eldwick,emergency_contact,2385550117,aelin.eldwick236@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000141
+GRD-000237,Esrin,Thistlewood,parent,6335550122,esrin.thistlewood237@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000142
+GRD-000238,Elowen,Harwick,other,5625550101,elowen.harwick238@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000143
+GRD-000239,Vael,Ironwood,parent,2825550172,vael.ironwood239@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000144
+GRD-000240,Helix,Yarwick,legal_guardian,4225550104,helix.yarwick240@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000144
+GRD-000241,Lael,Harwick,other,2145550192,lael.harwick241@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000145
+GRD-000242,Iren,Brindal,parent,6835550161,iren.brindal242@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000146
+GRD-000243,Jael,Stonecross,parent,3535550160,jael.stonecross243@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000146
+GRD-000244,Arden,Ashveil,parent,5105550121,arden.ashveil244@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000147
+GRD-000245,Juren,Greystone,parent,7705550133,juren.greystone245@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000147
+GRD-000246,Hira,Farholm,legal_guardian,7285550109,hira.farholm246@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000148
+GRD-000247,Lael,Oakveil,parent,7285550179,lael.oakveil247@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000148
+GRD-000248,Arden,Edgeholm,legal_guardian,6085550190,arden.edgeholm248@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000149
+GRD-000249,Faye,Aldmar,legal_guardian,8505550195,faye.aldmar249@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000149
+GRD-000250,Esrin,Halwick,parent,4315550172,esrin.halwick250@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000150
+GRD-000251,Oban,Yarfield,parent,5785550198,oban.yarfield251@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000150
+GRD-000252,Juren,Umbervale,legal_guardian,9255550189,juren.umbervale252@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000151
+GRD-000253,Hira,Farholm,parent,8075550143,hira.farholm253@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000152
+GRD-000254,Juren,Harwick,parent,8415550118,juren.harwick254@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000152
+GRD-000255,Quora,Stonecross,parent,3615550197,quora.stonecross255@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000153
+GRD-000256,Bren,Thornfield,emergency_contact,8615550112,bren.thornfield256@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000154
+GRD-000257,Pella,Yarfield,parent,6775550155,pella.yarfield257@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000154
+GRD-000258,Rael,Whitmore,parent,6515550134,rael.whitmore258@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000155
+GRD-000259,Zane,Vexmore,parent,8765550135,zane.vexmore259@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000156
+GRD-000260,Lysa,Aldmar,parent,9675550155,lysa.aldmar260@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000157
+GRD-000261,Juren,Silverwick,parent,2095550191,juren.silverwick261@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000158
+GRD-000262,Doran,Harwick,parent,7235550177,doran.harwick262@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000159
+GRD-000263,Uvine,Dawnmore,parent,3565550195,uvine.dawnmore263@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000160
+GRD-000264,Wren,Ironfeld,parent,3185550122,wren.ironfeld264@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000161
+GRD-000265,Lorne,Yarwick,parent,3055550104,lorne.yarwick265@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000161
+GRD-000266,Bren,Morrow,legal_guardian,6855550114,bren.morrow266@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000162
+GRD-000267,Elowen,Virelwood,other,6995550164,elowen.virelwood267@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000162
+GRD-000268,Fren,Carwick,emergency_contact,9245550156,fren.carwick268@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000163
+GRD-000269,Myra,Dunvale,legal_guardian,7125550157,myra.dunvale269@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000164
+GRD-000270,Aelin,Carwick,parent,9705550123,aelin.carwick270@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000164
+GRD-000271,Ulan,Umbervale,legal_guardian,4885550129,ulan.umbervale271@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000165
+GRD-000272,Maren,Silverwick,parent,3865550158,maren.silverwick272@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000165
+GRD-000273,Uvine,Eldwick,parent,3615550125,uvine.eldwick273@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000166
+GRD-000274,Alyx,Jaspervale,parent,8265550114,alyx.jaspervale274@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000167
+GRD-000275,Rael,Morrow,parent,2255550128,rael.morrow275@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000167
+GRD-000276,Kael,Brindal,legal_guardian,2705550190,kael.brindal276@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000168
+GRD-000277,Solen,Yarfield,parent,9355550121,solen.yarfield277@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000168
+GRD-000278,Ulan,Westholm,legal_guardian,7645550107,ulan.westholm278@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000169
+GRD-000279,Wyla,Lochwin,legal_guardian,2105550186,wyla.lochwin279@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000169
+GRD-000280,Kessa,Yarfield,legal_guardian,7505550120,kessa.yarfield280@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000170
+GRD-000281,Zane,Keldrun,parent,6775550175,zane.keldrun281@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000171
+GRD-000282,Gael,Yarfield,other,2235550111,gael.yarfield282@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000171
+GRD-000283,Cove,Farholm,parent,3495550112,cove.farholm283@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000172
+GRD-000284,Bren,Edgeholm,other,5135550131,bren.edgeholm284@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000173
+GRD-000285,Fren,Ashveil,parent,6255550185,fren.ashveil285@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000173
+GRD-000286,Jova,Silverwick,other,6915550166,jova.silverwick286@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000174
+GRD-000287,Quora,Ironwood,parent,7005550102,quora.ironwood287@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000175
+GRD-000288,Uvine,Carwick,legal_guardian,5375550145,uvine.carwick288@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000175
+GRD-000289,Ulan,Quelmar,parent,4925550116,ulan.quelmar289@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000176
+GRD-000290,Lael,Brindal,emergency_contact,8235550196,lael.brindal290@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000177
+GRD-000291,Kova,Quarrystone,parent,8195550169,kova.quarrystone291@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000177
+GRD-000292,Solen,Morrow,legal_guardian,6625550196,solen.morrow292@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000178
+GRD-000293,Brix,Netherwick,legal_guardian,4005550144,brix.netherwick293@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000178
+GRD-000294,Niko,Ashveil,legal_guardian,9435550120,niko.ashveil294@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000179
+GRD-000295,Yori,Whitmore,legal_guardian,5465550154,yori.whitmore295@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000180
+GRD-000296,Cove,Westholm,parent,6325550110,cove.westholm296@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000180
+GRD-000297,Solen,Dawnmore,other,2975550102,solen.dawnmore297@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000181
+GRD-000298,Lorne,Virelwood,parent,6855550123,lorne.virelwood298@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000181
+GRD-000299,Arden,Rookwood,legal_guardian,7795550166,arden.rookwood299@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000182
+GRD-000300,Calyx,Virelwood,parent,5005550169,calyx.virelwood300@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000182
+GRD-000301,Vira,Yarwick,legal_guardian,8295550125,vira.yarwick301@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000183
+GRD-000302,Pryn,Morrow,legal_guardian,4165550183,pryn.morrow302@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000184
+GRD-000303,Brix,Ironwood,parent,7885550186,brix.ironwood303@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000184
+GRD-000304,Kova,Harwick,parent,3895550140,kova.harwick304@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000185
+GRD-000305,Ciran,Frostwyn,legal_guardian,8165550166,ciran.frostwyn305@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000186
+GRD-000306,Cove,Thistlewood,parent,4985550101,cove.thistlewood306@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000186
+GRD-000307,Pella,Pemberton,emergency_contact,6885550187,pella.pemberton307@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000187
+GRD-000308,Blyth,Northgate,parent,2145550164,blyth.northgate308@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000187
+GRD-000309,Helix,Lochwin,emergency_contact,5575550156,helix.lochwin309@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000188
+GRD-000310,Pryn,Greystone,other,5295550129,pryn.greystone310@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000188
+GRD-000311,Wren,Jarvik,other,8365550179,wren.jarvik311@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000189
+GRD-000312,Zane,Jaspervale,parent,9065550199,zane.jaspervale312@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000189
+GRD-000313,Xora,Orvyn,legal_guardian,6025550147,xora.orvyn313@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000190
+GRD-000314,Lael,Westholm,emergency_contact,6395550107,lael.westholm314@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000191
+GRD-000315,Cove,Thornfield,parent,9655550189,cove.thornfield315@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000191
+GRD-000316,Kova,Blackfen,emergency_contact,2355550165,kova.blackfen316@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000192
+GRD-000317,Reva,Farholm,parent,4985550113,reva.farholm317@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000192
+GRD-000318,Tara,Keldrun,parent,6005550132,tara.keldrun318@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000193
+GRD-000319,Nael,Pemberton,emergency_contact,5415550144,nael.pemberton319@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000193
+GRD-000320,Lael,Jaspervale,legal_guardian,5055550161,lael.jaspervale320@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000194
+GRD-000321,Kova,Westholm,parent,4295550118,kova.westholm321@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000194
+GRD-000322,Gova,Yarfield,parent,7455550110,gova.yarfield322@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000195
+GRD-000323,Doran,Westholm,other,5505550117,doran.westholm323@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000195
+GRD-000324,Lorne,Stonecross,parent,6895550181,lorne.stonecross324@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000196
+GRD-000325,Quora,Lochwin,parent,4875550162,quora.lochwin325@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000197
+GRD-000326,Lorne,Harwick,legal_guardian,7415550159,lorne.harwick326@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000197
+GRD-000327,Uvine,Jarvik,parent,3565550130,uvine.jarvik327@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000198
+GRD-000328,Calyx,Netherwick,parent,3855550108,calyx.netherwick328@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000198
+GRD-000329,Gova,Eldwick,legal_guardian,4705550158,gova.eldwick329@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000199
+GRD-000330,Lael,Quelmar,parent,8205550147,lael.quelmar330@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000199
+GRD-000331,Kova,Quelmar,parent,5935550131,kova.quelmar331@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000200
+GRD-000332,Orin,Orvyn,parent,2655550162,orin.orvyn332@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000200
+GRD-000333,Lorne,Stonecross,parent,2765550188,lorne.stonecross333@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000201
+GRD-000334,Reva,Eldwick,emergency_contact,7445550172,reva.eldwick334@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000201
+GRD-000335,Hael,Netherwick,parent,5165550138,hael.netherwick335@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000202
+GRD-000336,Kova,Stonecross,legal_guardian,3445550188,kova.stonecross336@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000202
+GRD-000337,Pella,Farholm,emergency_contact,3245550144,pella.farholm337@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000203
+GRD-000338,Oban,Westholm,other,3685550198,oban.westholm338@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000203
+GRD-000339,Kessa,Westholm,parent,5185550148,kessa.westholm339@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000204
+GRD-000340,Helix,Virelwood,parent,2605550172,helix.virelwood340@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000204
+GRD-000341,Solen,Quarrystone,legal_guardian,4895550135,solen.quarrystone341@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000205
+GRD-000342,Cove,Oakveil,parent,2505550126,cove.oakveil342@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000205
+GRD-000343,Tara,Ironwood,legal_guardian,8925550167,tara.ironwood343@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000206
+GRD-000344,Pella,Jaspervale,legal_guardian,7875550134,pella.jaspervale344@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000207
+GRD-000345,Esrin,Pemberton,parent,7025550105,esrin.pemberton345@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000207
+GRD-000346,Juren,Thornfield,parent,3465550144,juren.thornfield346@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000208
+GRD-000347,Brix,Zephyrton,parent,7935550147,brix.zephyrton347@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000208
+GRD-000348,Hael,Corvin,other,5335550103,hael.corvin348@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000209
+GRD-000349,Niko,Yarfield,legal_guardian,4625550154,niko.yarfield349@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000209
+GRD-000350,Kessa,Greystone,legal_guardian,8375550165,kessa.greystone350@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000210
+GRD-000351,Zane,Pemberton,legal_guardian,8635550185,zane.pemberton351@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000210
+GRD-000352,Kessa,Keldrun,parent,2905550108,kessa.keldrun352@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000211
+GRD-000353,Bren,Ashveil,parent,9825550143,bren.ashveil353@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000211
+GRD-000354,Quora,Lochwin,legal_guardian,3705550176,quora.lochwin354@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000212
+GRD-000355,Arden,Thornfield,legal_guardian,5145550114,arden.thornfield355@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000212
+GRD-000356,Aelin,Frostwyn,other,4145550101,aelin.frostwyn356@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000213
+GRD-000357,Juren,Carwick,parent,3665550151,juren.carwick357@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000214
+GRD-000358,Ciran,Galveth,legal_guardian,3855550145,ciran.galveth358@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000214
+GRD-000359,Helix,Morrow,parent,3785550186,helix.morrow359@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000215
+GRD-000360,Yela,Ironfeld,legal_guardian,7705550111,yela.ironfeld360@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000216
+GRD-000361,Jova,Lornfeld,emergency_contact,5435550162,jova.lornfeld361@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000216
+GRD-000362,Reva,Virelwood,parent,4745550161,reva.virelwood362@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000217
+GRD-000363,Reva,Whitmore,legal_guardian,2215550136,reva.whitmore363@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000218
+GRD-000364,Zael,Keldrun,legal_guardian,8635550139,zael.keldrun364@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000218
+GRD-000365,Aelin,Farholm,parent,4005550123,aelin.farholm365@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000219
+GRD-000366,Wyla,Morrow,parent,7875550167,wyla.morrow366@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000220
+GRD-000367,Calyx,Greystone,parent,8455550173,calyx.greystone367@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000220
+GRD-000368,Lorne,Pemberton,legal_guardian,5115550153,lorne.pemberton368@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000221
+GRD-000369,Helix,Carwick,parent,9495550192,helix.carwick369@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000221
+GRD-000370,Ciran,Ironwood,legal_guardian,3225550120,ciran.ironwood370@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000222
+GRD-000371,Iora,Ashveil,legal_guardian,7375550149,iora.ashveil371@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000222
+GRD-000372,Tara,Vexmore,parent,6535550173,tara.vexmore372@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000223
+GRD-000373,Kessa,Silverwick,parent,4225550193,kessa.silverwick373@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000223
+GRD-000374,Gova,Quelmar,legal_guardian,4035550147,gova.quelmar374@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000224
+GRD-000375,Esrin,Northgate,parent,2115550170,esrin.northgate375@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000224
+GRD-000376,Blyth,Edgeholm,parent,4595550196,blyth.edgeholm376@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000225
+GRD-000377,Kova,Pinecroft,other,4575550119,kova.pinecroft377@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000225
+GRD-000378,Brix,Greystone,parent,9475550155,brix.greystone378@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000226
+GRD-000379,Silas,Harwick,legal_guardian,5075550100,silas.harwick379@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000226
+GRD-000380,Ciran,Edgeholm,parent,6895550148,ciran.edgeholm380@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000227
+GRD-000381,Esrin,Keldrun,parent,9675550167,esrin.keldrun381@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000228
+GRD-000382,Nael,Westholm,parent,3115550183,nael.westholm382@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000228
+GRD-000383,Orin,Dunvale,emergency_contact,4835550156,orin.dunvale383@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000229
+GRD-000384,Elian,Ironwood,legal_guardian,3835550142,elian.ironwood384@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000230
+GRD-000385,Fren,Greystone,legal_guardian,3445550102,fren.greystone385@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000231
+GRD-000386,Orin,Pemberton,parent,9965550179,orin.pemberton386@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000231
+GRD-000387,Helix,Vexmore,other,9815550193,helix.vexmore387@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000232
+GRD-000388,Blyth,Morrow,other,4075550160,blyth.morrow388@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000232
+GRD-000389,Yori,Moorgate,parent,8285550145,yori.moorgate389@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000233
+GRD-000390,Juren,Quelmar,other,4855550192,juren.quelmar390@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000234
+GRD-000391,Juren,Ashveil,legal_guardian,9065550122,juren.ashveil391@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000234
+GRD-000392,Lael,Corvin,legal_guardian,4175550136,lael.corvin392@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000235
+GRD-000393,Tova,Aldmar,emergency_contact,7815550148,tova.aldmar393@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000235
+GRD-000394,Silas,Jarvik,parent,4325550163,silas.jarvik394@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000236
+GRD-000395,Kael,Whitmore,legal_guardian,7335550122,kael.whitmore395@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000237
+GRD-000396,Hael,Harwick,legal_guardian,9325550166,hael.harwick396@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000238
+GRD-000397,Uvine,Thornfield,parent,5265550106,uvine.thornfield397@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000238
+GRD-000398,Ciran,Pinecroft,legal_guardian,5345550129,ciran.pinecroft398@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000239
+GRD-000399,Rael,Silverwick,emergency_contact,6725550176,rael.silverwick399@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000239
+GRD-000400,Wyla,Silverwick,other,3455550167,wyla.silverwick400@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000240
+GRD-000401,Pryn,Rookwood,parent,6785550134,pryn.rookwood401@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000241
+GRD-000402,Silas,Westholm,other,5195550193,silas.westholm402@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000241
+GRD-000403,Solen,Orvyn,parent,9685550180,solen.orvyn403@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000242
+GRD-000404,Juren,Ironwood,parent,3645550161,juren.ironwood404@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000242
+GRD-000405,Hael,Pemberton,parent,9375550165,hael.pemberton405@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000243
+GRD-000406,Zael,Keldrun,parent,3965550126,zael.keldrun406@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000243
+GRD-000407,Yori,Jaspervale,parent,6735550198,yori.jaspervale407@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000244
+GRD-000408,Dael,Pemberton,parent,4065550115,dael.pemberton408@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000244
+GRD-000409,Tara,Quelmar,legal_guardian,4495550189,tara.quelmar409@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000245
+GRD-000410,Kessa,Farholm,parent,7795550151,kessa.farholm410@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000246
+GRD-000411,Quora,Pinecroft,legal_guardian,8235550141,quora.pinecroft411@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000246
+GRD-000412,Demi,Brindal,other,8445550197,demi.brindal412@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000247
+GRD-000413,Jova,Pinecroft,parent,6245550180,jova.pinecroft413@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000248
+GRD-000414,Quill,Edgeholm,parent,6575550141,quill.edgeholm414@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000249
+GRD-000415,Orin,Carwick,parent,8595550139,orin.carwick415@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000249
+GRD-000416,Juren,Carwick,parent,3475550133,juren.carwick416@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000250
+GRD-000417,Bren,Ironwood,legal_guardian,9985550177,bren.ironwood417@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000250
+GRD-000418,Vael,Zephyrton,parent,4275550174,vael.zephyrton418@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000251
+GRD-000419,Doran,Zephyrton,parent,7325550113,doran.zephyrton419@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000251
+GRD-000420,Silas,Greystone,parent,2335550188,silas.greystone420@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000252
+GRD-000421,Xael,Vexmore,parent,4035550193,xael.vexmore421@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000252
+GRD-000422,Idris,Jaspervale,emergency_contact,6745550180,idris.jaspervale422@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000253
+GRD-000423,Quill,Eldwick,legal_guardian,5555550134,quill.eldwick423@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000253
+GRD-000424,Yori,Virelwood,legal_guardian,4365550196,yori.virelwood424@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000254
+GRD-000425,Ciran,Oakveil,parent,2515550171,ciran.oakveil425@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000254
+GRD-000426,Elowen,Ridgemont,legal_guardian,5505550161,elowen.ridgemont426@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000255
+GRD-000427,Quora,Stonecross,parent,5225550164,quora.stonecross427@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000255
+GRD-000428,Nael,Ashveil,parent,8835550117,nael.ashveil428@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000256
+GRD-000429,Kael,Corvin,emergency_contact,8505550146,kael.corvin429@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000256
+GRD-000430,Elowen,Carwick,parent,8365550158,elowen.carwick430@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000257
+GRD-000431,Uvine,Aldmar,parent,4455550170,uvine.aldmar431@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000257
+GRD-000432,Quora,Lornfeld,parent,6555550176,quora.lornfeld432@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000258
+GRD-000433,Uvine,Zephyrton,parent,8675550107,uvine.zephyrton433@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000258
+GRD-000434,Maren,Oakveil,legal_guardian,9875550157,maren.oakveil434@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000259
+GRD-000435,Niko,Brindal,parent,7245550196,niko.brindal435@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000260
+GRD-000436,Zael,Ironwood,parent,7515550126,zael.ironwood436@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000260
+GRD-000437,Bren,Pemberton,parent,5455550129,bren.pemberton437@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000261
+GRD-000438,Pryn,Dawnmore,legal_guardian,8475550115,pryn.dawnmore438@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000261
+GRD-000439,Gidra,Umbervale,parent,2095550197,gidra.umbervale439@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000262
+GRD-000440,Vael,Lochwin,legal_guardian,4775550130,vael.lochwin440@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000262
+GRD-000441,Xora,Eldwick,legal_guardian,9485550101,xora.eldwick441@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000263
+GRD-000442,Faye,Keldrun,parent,2335550124,faye.keldrun442@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000263
+GRD-000443,Quill,Rookwood,parent,3545550180,quill.rookwood443@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000264
+GRD-000444,Hael,Virelwood,legal_guardian,8665550189,hael.virelwood444@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000264
+GRD-000445,Niko,Virelwood,parent,6435550122,niko.virelwood445@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000265
+GRD-000446,Gidra,Zephyrton,parent,2755550160,gidra.zephyrton446@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000265
+GRD-000447,Demi,Farholm,parent,9125550180,demi.farholm447@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000266
+GRD-000448,Iora,Farholm,parent,5875550164,iora.farholm448@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000267
+GRD-000449,Jova,Eldwick,parent,8605550151,jova.eldwick449@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000267
+GRD-000450,Pella,Jaspervale,other,4695550138,pella.jaspervale450@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000268
+GRD-000451,Jova,Edgeholm,parent,4395550191,jova.edgeholm451@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000268
+GRD-000452,Tova,Xanthvale,parent,7225550177,tova.xanthvale452@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000269
+GRD-000453,Zael,Quarrystone,other,9055550162,zael.quarrystone453@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000269
+GRD-000454,Pella,Whitmore,legal_guardian,8275550192,pella.whitmore454@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000270
+GRD-000455,Hael,Vexmore,parent,3055550154,hael.vexmore455@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000270
+GRD-000456,Blyth,Pinecroft,parent,3235550110,blyth.pinecroft456@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000271
+GRD-000457,Tara,Xanthvale,parent,8205550130,tara.xanthvale457@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000272
+GRD-000458,Hira,Galveth,legal_guardian,5425550147,hira.galveth458@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000272
+GRD-000459,Niko,Zephyrton,parent,5065550151,niko.zephyrton459@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000273
+GRD-000460,Iren,Keldwick,legal_guardian,2405550165,iren.keldwick460@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000273
+GRD-000461,Rael,Harwick,parent,8635550103,rael.harwick461@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000274
+GRD-000462,Tara,Oakveil,other,9935550185,tara.oakveil462@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000274
+GRD-000463,Gael,Whitmore,emergency_contact,4675550159,gael.whitmore463@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000275
+GRD-000464,Aelin,Eldwick,emergency_contact,4365550194,aelin.eldwick464@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000275
+GRD-000465,Rael,Dunvale,legal_guardian,9475550177,rael.dunvale465@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000276
+GRD-000466,Orin,Pemberton,emergency_contact,7885550156,orin.pemberton466@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000276
+GRD-000467,Jova,Ironwood,parent,4605550177,jova.ironwood467@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000277
+GRD-000468,Nael,Northgate,parent,6765550100,nael.northgate468@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000277
+GRD-000469,Pella,Virelwood,parent,6995550172,pella.virelwood469@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000278
+GRD-000470,Calyx,Westholm,emergency_contact,3825550159,calyx.westholm470@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000279
+GRD-000471,Lorne,Underhill,parent,4145550120,lorne.underhill471@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000279
+GRD-000472,Cove,Jarvik,legal_guardian,8195550185,cove.jarvik472@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000280
+GRD-000473,Pella,Thornfield,parent,4245550136,pella.thornfield473@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000280
+GRD-000474,Juren,Rookwood,parent,6265550163,juren.rookwood474@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000281
+GRD-000475,Alyx,Morrow,legal_guardian,4605550169,alyx.morrow475@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000281
+GRD-000476,Calyx,Silverwick,legal_guardian,2655550106,calyx.silverwick476@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000282
+GRD-000477,Fren,Blackfen,parent,8425550166,fren.blackfen477@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000282
+GRD-000478,Hael,Northgate,parent,7915550152,hael.northgate478@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000283
+GRD-000479,Fren,Thistlewood,legal_guardian,2345550129,fren.thistlewood479@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000283
+GRD-000480,Iora,Umbervale,parent,7285550170,iora.umbervale480@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000284
+GRD-000481,Helix,Ironfeld,other,9675550147,helix.ironfeld481@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000284
+GRD-000482,Tara,Lochwin,parent,7745550179,tara.lochwin482@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000285
+GRD-000483,Vira,Carwick,legal_guardian,3955550198,vira.carwick483@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000285
+GRD-000484,Elowen,Virelwood,parent,6645550139,elowen.virelwood484@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000286
+GRD-000485,Tara,Moorgate,legal_guardian,7665550127,tara.moorgate485@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000287
+GRD-000486,Gidra,Farholm,parent,2025550125,gidra.farholm486@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000288
+GRD-000487,Ciran,Galveth,emergency_contact,6715550185,ciran.galveth487@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000289
+GRD-000488,Faye,Carwick,parent,2465550190,faye.carwick488@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000289
+GRD-000489,Kova,Yarwick,parent,2465550103,kova.yarwick489@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000290
+GRD-000490,Silas,Orvyn,legal_guardian,3675550165,silas.orvyn490@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000290
+GRD-000491,Kael,Vexmore,other,9825550107,kael.vexmore491@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000291
+GRD-000492,Gidra,Carwick,legal_guardian,3835550122,gidra.carwick492@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000291
+GRD-000493,Ciran,Eldwick,legal_guardian,9585550195,ciran.eldwick493@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000292
+GRD-000494,Elowen,Aldmar,parent,6055550101,elowen.aldmar494@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000292
+GRD-000495,Quora,Harwick,parent,4995550141,quora.harwick495@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000293
+GRD-000496,Quora,Pemberton,emergency_contact,9025550108,quora.pemberton496@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000293
+GRD-000497,Esrin,Silverwick,parent,2685550133,esrin.silverwick497@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000294
+GRD-000498,Wren,Brindal,parent,7565550198,wren.brindal498@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000295
+GRD-000499,Solen,Yarfield,legal_guardian,4615550189,solen.yarfield499@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000295
+GRD-000500,Pryn,Galveth,parent,5855550128,pryn.galveth500@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000296
+GRD-000501,Quill,Frostwyn,parent,4305550153,quill.frostwyn501@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000297
+GRD-000502,Niko,Oakveil,legal_guardian,6215550133,niko.oakveil502@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000298
+GRD-000503,Uvine,Blackfen,parent,2965550107,uvine.blackfen503@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000299
+GRD-000504,Blyth,Zephyrton,parent,7105550149,blyth.zephyrton504@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000300
+GRD-000505,Cove,Pemberton,legal_guardian,2825550149,cove.pemberton505@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000301
+GRD-000506,Maren,Xanthvale,emergency_contact,5135550135,maren.xanthvale506@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000302
+GRD-000507,Elian,Edgeholm,emergency_contact,4005550127,elian.edgeholm507@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000302
+GRD-000508,Orin,Farholm,other,5525550165,orin.farholm508@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000303
+GRD-000509,Uvine,Oakveil,parent,5865550130,uvine.oakveil509@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000303
+GRD-000510,Pryn,Orvyn,legal_guardian,8535550128,pryn.orvyn510@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000304
+GRD-000511,Quill,Thistlewood,other,5815550137,quill.thistlewood511@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000304
+GRD-000512,Jova,Quelmar,legal_guardian,9545550186,jova.quelmar512@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000305
+GRD-000513,Aelin,Ridgemont,parent,3925550109,aelin.ridgemont513@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000305
+GRD-000514,Solen,Pemberton,legal_guardian,8395550148,solen.pemberton514@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000306
+GRD-000515,Esrin,Stonecross,parent,6655550199,esrin.stonecross515@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000306
+GRD-000516,Helix,Halwick,parent,2105550175,helix.halwick516@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000307
+GRD-000517,Yela,Pinecroft,emergency_contact,5485550112,yela.pinecroft517@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000307
+GRD-000518,Kessa,Yarfield,emergency_contact,6785550188,kessa.yarfield518@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000308
+GRD-000519,Helix,Aldmar,parent,4785550194,helix.aldmar519@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000309
+GRD-000520,Iora,Stonecross,emergency_contact,9375550191,iora.stonecross520@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000310
+GRD-000521,Uvine,Rookwood,parent,9415550123,uvine.rookwood521@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000310
+GRD-000522,Pella,Ashveil,legal_guardian,7685550133,pella.ashveil522@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000311
+GRD-000523,Wyla,Virelwood,legal_guardian,6425550137,wyla.virelwood523@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000311
+GRD-000524,Niko,Jaspervale,legal_guardian,8275550157,niko.jaspervale524@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000312
+GRD-000525,Bren,Whitmore,other,4965550112,bren.whitmore525@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000312
+GRD-000526,Pella,Dunvale,parent,9915550132,pella.dunvale526@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000313
+GRD-000527,Kael,Lornfeld,parent,4125550183,kael.lornfeld527@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000314
+GRD-000528,Esrin,Dunvale,other,3015550139,esrin.dunvale528@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000314
+GRD-000529,Pryn,Dawnmore,parent,7665550142,pryn.dawnmore529@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000315
+GRD-000530,Gidra,Carwick,parent,6645550189,gidra.carwick530@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000316
+GRD-000531,Gova,Aldmar,parent,3745550107,gova.aldmar531@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000317
+GRD-000532,Faye,Pemberton,parent,9725550120,faye.pemberton532@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000317
+GRD-000533,Cove,Corvin,parent,2665550114,cove.corvin533@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000318
+GRD-000534,Gidra,Pinecroft,parent,2455550177,gidra.pinecroft534@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000318
+GRD-000535,Iora,Westholm,parent,7325550192,iora.westholm535@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000319
+GRD-000536,Arden,Corvin,other,3185550140,arden.corvin536@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000320
+GRD-000537,Kessa,Stonecross,legal_guardian,8455550105,kessa.stonecross537@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000320
+GRD-000538,Favin,Greystone,parent,2935550100,favin.greystone538@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000321
+GRD-000539,Lysa,Keldwick,parent,5305550176,lysa.keldwick539@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000322
+GRD-000540,Gidra,Ironwood,other,8755550136,gidra.ironwood540@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000322
+GRD-000541,Brix,Edgeholm,parent,9415550116,brix.edgeholm541@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000323
+GRD-000542,Alyx,Rookwood,emergency_contact,4665550150,alyx.rookwood542@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000324
+GRD-000543,Iora,Silverwick,parent,8015550127,iora.silverwick543@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000324
+GRD-000544,Uvine,Quelmar,legal_guardian,5225550155,uvine.quelmar544@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000325
+GRD-000545,Hira,Blackfen,legal_guardian,2245550149,hira.blackfen545@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000325
+GRD-000546,Arden,Lochwin,legal_guardian,3825550117,arden.lochwin546@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000326
+GRD-000547,Jael,Quelmar,legal_guardian,5395550154,jael.quelmar547@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000327
+GRD-000548,Lael,Netherwick,parent,9565550156,lael.netherwick548@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000327
+GRD-000549,Jael,Galveth,parent,5055550110,jael.galveth549@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000328
+GRD-000550,Quora,Oakveil,parent,6015550166,quora.oakveil550@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000329
+GRD-000551,Dael,Pinecroft,parent,3505550113,dael.pinecroft551@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000329
+GRD-000552,Lorne,Morrow,parent,9405550104,lorne.morrow552@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000330
+GRD-000553,Solen,Underhill,other,3805550154,solen.underhill553@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000330
+GRD-000554,Maren,Galveth,legal_guardian,5485550171,maren.galveth554@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000331
+GRD-000555,Lael,Pemberton,parent,8405550130,lael.pemberton555@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000331
+GRD-000556,Iren,Greystone,other,6515550197,iren.greystone556@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000332
+GRD-000557,Favin,Frostwyn,legal_guardian,2185550107,favin.frostwyn557@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000332
+GRD-000558,Zane,Silverwick,emergency_contact,6165550127,zane.silverwick558@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000333
+GRD-000559,Yori,Umbervale,parent,7615550190,yori.umbervale559@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000334
+GRD-000560,Lorne,Corvin,parent,2705550177,lorne.corvin560@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000334
+GRD-000561,Nael,Keldrun,parent,6135550152,nael.keldrun561@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000335
+GRD-000562,Kael,Ridgemont,parent,7475550116,kael.ridgemont562@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000335
+GRD-000563,Gael,Northgate,parent,2985550170,gael.northgate563@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000336
+GRD-000564,Wren,Dunvale,emergency_contact,7925550152,wren.dunvale564@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000336
+GRD-000565,Yela,Ridgemont,other,8665550173,yela.ridgemont565@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000337
+GRD-000566,Alyx,Greystone,legal_guardian,5105550190,alyx.greystone566@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000338
+GRD-000567,Kessa,Keldrun,emergency_contact,3415550121,kessa.keldrun567@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000338
+GRD-000568,Jael,Orvyn,parent,4295550156,jael.orvyn568@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000339
+GRD-000569,Iora,Lornfeld,emergency_contact,7185550173,iora.lornfeld569@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000339
+GRD-000570,Jael,Yarwick,parent,3035550139,jael.yarwick570@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000340
+GRD-000571,Aelin,Northgate,other,9765550141,aelin.northgate571@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000340
+GRD-000572,Zane,Ironfeld,legal_guardian,2405550147,zane.ironfeld572@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000341
+GRD-000573,Zane,Pemberton,legal_guardian,3165550170,zane.pemberton573@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000341
+GRD-000574,Helix,Orvyn,parent,3555550131,helix.orvyn574@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000342
+GRD-000575,Cove,Zephyrton,emergency_contact,4225550150,cove.zephyrton575@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000342
+GRD-000576,Maren,Vexmore,emergency_contact,9035550114,maren.vexmore576@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000343
+GRD-000577,Arden,Ironwood,parent,5515550161,arden.ironwood577@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000343
+GRD-000578,Xael,Stonecross,other,3585550159,xael.stonecross578@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000344
+GRD-000579,Bren,Yarfield,parent,4435550104,bren.yarfield579@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000344
+GRD-000580,Ulan,Ashveil,parent,7545550162,ulan.ashveil580@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000345
+GRD-000581,Quora,Yarwick,legal_guardian,4225550128,quora.yarwick581@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000345
+GRD-000582,Kessa,Oakveil,emergency_contact,2205550168,kessa.oakveil582@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000346
+GRD-000583,Iora,Thornfield,other,5635550155,iora.thornfield583@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000346
+GRD-000584,Lorne,Greystone,parent,4595550166,lorne.greystone584@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000347
+GRD-000585,Arden,Brindal,legal_guardian,5495550151,arden.brindal585@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000348
+GRD-000586,Uvine,Greystone,parent,7895550169,uvine.greystone586@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000348
+GRD-000587,Esrin,Lochwin,legal_guardian,2395550141,esrin.lochwin587@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000349
+GRD-000588,Faye,Ironwood,legal_guardian,6225550172,faye.ironwood588@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000349
+GRD-000589,Hael,Ironfeld,parent,7655550121,hael.ironfeld589@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000350
+GRD-000590,Gidra,Xanthvale,legal_guardian,4335550170,gidra.xanthvale590@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000350
+GRD-000591,Iren,Brindal,other,8835550155,iren.brindal591@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000351
+GRD-000592,Pella,Ashveil,legal_guardian,3925550119,pella.ashveil592@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000351
+GRD-000593,Elian,Quarrystone,emergency_contact,2615550170,elian.quarrystone593@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000352
+GRD-000594,Jova,Edgeholm,parent,3035550141,jova.edgeholm594@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000352
+GRD-000595,Jael,Blackfen,parent,5575550175,jael.blackfen595@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000353
+GRD-000596,Vael,Vexmore,emergency_contact,4325550128,vael.vexmore596@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000353
+GRD-000597,Juren,Orvyn,legal_guardian,2935550153,juren.orvyn597@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000354
+GRD-000598,Lorne,Zephyrton,parent,6775550136,lorne.zephyrton598@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000354
+GRD-000599,Doran,Pemberton,other,9735550109,doran.pemberton599@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000355
+GRD-000600,Alyx,Morrow,legal_guardian,7675550118,alyx.morrow600@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000355
+GRD-000601,Silas,Jarvik,legal_guardian,6865550153,silas.jarvik601@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000356
+GRD-000602,Gidra,Ashveil,parent,3605550128,gidra.ashveil602@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000357
+GRD-000603,Pella,Harwick,other,5005550112,pella.harwick603@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000358
+GRD-000604,Elian,Quarrystone,parent,3925550192,elian.quarrystone604@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000358
+GRD-000605,Iora,Aldmar,parent,6855550178,iora.aldmar605@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000359
+GRD-000606,Hael,Umbervale,legal_guardian,9905550164,hael.umbervale606@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000359
+GRD-000607,Bren,Oakveil,parent,8205550125,bren.oakveil607@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000360
+GRD-000608,Hael,Moorgate,parent,6925550130,hael.moorgate608@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000360
+GRD-000609,Zael,Moorgate,legal_guardian,4985550123,zael.moorgate609@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000361
+GRD-000610,Kessa,Ironwood,parent,8925550181,kessa.ironwood610@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000361
+GRD-000611,Esrin,Quelmar,parent,2815550151,esrin.quelmar611@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000362
+GRD-000612,Esrin,Yarwick,parent,9795550181,esrin.yarwick612@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000362
+GRD-000613,Aelin,Ridgemont,other,7455550172,aelin.ridgemont613@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000363
+GRD-000614,Kova,Keldrun,other,2175550129,kova.keldrun614@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000363
+GRD-000615,Tova,Vexmore,parent,7675550144,tova.vexmore615@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000364
+GRD-000616,Lysa,Greystone,parent,6525550187,lysa.greystone616@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000365
+GRD-000617,Jael,Lornfeld,legal_guardian,7415550101,jael.lornfeld617@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000366
+GRD-000618,Helix,Ironwood,other,3315550196,helix.ironwood618@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000366
+GRD-000619,Helix,Galveth,legal_guardian,7015550173,helix.galveth619@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000367
+GRD-000620,Gael,Brindal,legal_guardian,8015550120,gael.brindal620@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000368
+GRD-000621,Calyx,Westholm,parent,9765550197,calyx.westholm621@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000368
+GRD-000622,Rael,Yarfield,parent,7765550134,rael.yarfield622@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000369
+GRD-000623,Silas,Xanthvale,other,2495550178,silas.xanthvale623@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000369
+GRD-000624,Ciran,Lornfeld,parent,6815550102,ciran.lornfeld624@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000370
+GRD-000625,Alyx,Lornfeld,legal_guardian,6015550122,alyx.lornfeld625@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000370
+GRD-000626,Wyla,Galveth,legal_guardian,3515550108,wyla.galveth626@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000371
+GRD-000627,Quora,Zephyrton,parent,2285550116,quora.zephyrton627@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000372
+GRD-000628,Gova,Moorgate,parent,3825550132,gova.moorgate628@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000372
+GRD-000629,Favin,Underhill,parent,3395550168,favin.underhill629@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000373
+GRD-000630,Kova,Quelmar,parent,7835550165,kova.quelmar630@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000373
+GRD-000631,Ulan,Netherwick,parent,4555550165,ulan.netherwick631@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000374
+GRD-000632,Quill,Umbervale,parent,2965550137,quill.umbervale632@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000375
+GRD-000633,Myra,Vexmore,parent,5755550159,myra.vexmore633@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000375
+GRD-000634,Aelin,Edgeholm,legal_guardian,3425550176,aelin.edgeholm634@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000376
+GRD-000635,Maren,Vexmore,parent,5735550138,maren.vexmore635@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000377
+GRD-000636,Kessa,Blackfen,parent,3745550151,kessa.blackfen636@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000377
+GRD-000637,Myra,Greystone,parent,7885550148,myra.greystone637@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000378
+GRD-000638,Rael,Whitmore,emergency_contact,3255550134,rael.whitmore638@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000378
+GRD-000639,Orin,Morrow,parent,3575550152,orin.morrow639@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000379
+GRD-000640,Orin,Keldwick,parent,7515550160,orin.keldwick640@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000379
+GRD-000641,Fren,Ashveil,parent,2035550136,fren.ashveil641@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000380
+GRD-000642,Aelin,Harwick,parent,9755550101,aelin.harwick642@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000381
+GRD-000643,Bren,Underhill,legal_guardian,5855550125,bren.underhill643@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000381
+GRD-000644,Vael,Dawnmore,parent,3565550108,vael.dawnmore644@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000382
+GRD-000645,Uvine,Farholm,parent,6865550139,uvine.farholm645@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000382
+GRD-000646,Orin,Lornfeld,emergency_contact,2035550195,orin.lornfeld646@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000383
+GRD-000647,Uvine,Aldmar,parent,8915550137,uvine.aldmar647@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000383
+GRD-000648,Tara,Greystone,parent,6685550126,tara.greystone648@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000384
+GRD-000649,Xora,Underhill,parent,8085550154,xora.underhill649@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000384
+GRD-000650,Xael,Galveth,other,7885550120,xael.galveth650@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000385
+GRD-000651,Aelin,Pemberton,parent,5075550188,aelin.pemberton651@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000386
+GRD-000652,Ciran,Brindal,legal_guardian,9605550137,ciran.brindal652@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000386
+GRD-000653,Elian,Xanthvale,parent,9095550108,elian.xanthvale653@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000387
+GRD-000654,Calyx,Underhill,parent,2195550110,calyx.underhill654@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000387
+GRD-000655,Tova,Halwick,legal_guardian,7205550152,tova.halwick655@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000388
+GRD-000656,Tara,Morrow,other,7585550161,tara.morrow656@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000389
+GRD-000657,Nael,Jaspervale,emergency_contact,4915550174,nael.jaspervale657@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000389
+GRD-000658,Lael,Moorgate,parent,4815550155,lael.moorgate658@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000390
+GRD-000659,Solen,Orvyn,parent,9855550119,solen.orvyn659@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000390
+GRD-000660,Ciran,Pemberton,parent,3525550130,ciran.pemberton660@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000391
+GRD-000661,Wren,Jarvik,parent,7985550118,wren.jarvik661@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000391
+GRD-000662,Zane,Aldmar,parent,2675550192,zane.aldmar662@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000392
+GRD-000663,Yori,Carwick,parent,5685550128,yori.carwick663@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000392
+GRD-000664,Niko,Yarfield,legal_guardian,2285550179,niko.yarfield664@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000393
+GRD-000665,Bren,Brindal,legal_guardian,3285550194,bren.brindal665@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000394
+GRD-000666,Pella,Westholm,parent,5915550181,pella.westholm666@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000394
+GRD-000667,Arden,Brindal,legal_guardian,8745550167,arden.brindal667@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000395
+GRD-000668,Ciran,Farholm,parent,9015550146,ciran.farholm668@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000395
+GRD-000669,Blyth,Oakveil,parent,5125550152,blyth.oakveil669@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000396
+GRD-000670,Quora,Jarvik,parent,8245550195,quora.jarvik670@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000396
+GRD-000671,Wyla,Quelmar,other,2405550106,wyla.quelmar671@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000397
+GRD-000672,Gova,Greystone,parent,8265550106,gova.greystone672@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000397
+GRD-000673,Dael,Whitmore,legal_guardian,4525550191,dael.whitmore673@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000398
+GRD-000674,Lysa,Netherwick,other,6535550124,lysa.netherwick674@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000398
+GRD-000675,Yori,Thornfield,legal_guardian,3605550165,yori.thornfield675@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000399
+GRD-000676,Tova,Carwick,legal_guardian,2895550198,tova.carwick676@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000399
+GRD-000677,Myra,Halwick,parent,2635550179,myra.halwick677@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000400
+GRD-000678,Demi,Underhill,emergency_contact,5605550197,demi.underhill678@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000400
+GRD-000679,Alyx,Brindal,legal_guardian,9785550186,alyx.brindal679@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000401
+GRD-000680,Uvine,Quelmar,parent,5105550149,uvine.quelmar680@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000401
+GRD-000681,Bren,Greystone,legal_guardian,7935550137,bren.greystone681@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000402
+GRD-000682,Idris,Quarrystone,other,3705550158,idris.quarrystone682@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000402
+GRD-000683,Myra,Stonecross,parent,4285550179,myra.stonecross683@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000403
+GRD-000684,Gova,Corvin,legal_guardian,6875550121,gova.corvin684@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000403
+GRD-000685,Arden,Ironwood,parent,5095550174,arden.ironwood685@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000404
+GRD-000686,Favin,Zephyrton,parent,9425550144,favin.zephyrton686@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000404
+GRD-000687,Iren,Brindal,legal_guardian,7975550129,iren.brindal687@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000405
+GRD-000688,Uvine,Netherwick,parent,4665550112,uvine.netherwick688@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000406
+GRD-000689,Reva,Harwick,parent,8575550100,reva.harwick689@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000406
+GRD-000690,Yori,Greystone,parent,5055550197,yori.greystone690@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000407
+GRD-000691,Vael,Orvyn,legal_guardian,7085550133,vael.orvyn691@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000407
+GRD-000692,Pryn,Orvyn,parent,5965550190,pryn.orvyn692@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000408
+GRD-000693,Jova,Netherwick,legal_guardian,7925550145,jova.netherwick693@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000409
+GRD-000694,Elowen,Whitmore,parent,9545550115,elowen.whitmore694@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000410
+GRD-000695,Calyx,Netherwick,parent,2115550168,calyx.netherwick695@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000411
+GRD-000696,Iora,Blackfen,parent,5695550185,iora.blackfen696@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000411
+GRD-000697,Myra,Umbervale,parent,5195550173,myra.umbervale697@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000412
+GRD-000698,Myra,Quelmar,parent,2625550196,myra.quelmar698@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000413
+GRD-000699,Pella,Halwick,legal_guardian,3545550108,pella.halwick699@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000413
+GRD-000700,Faye,Westholm,parent,3175550161,faye.westholm700@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000414
+GRD-000701,Fren,Carwick,legal_guardian,9095550104,fren.carwick701@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000414
+GRD-000702,Zael,Orvyn,other,8585550182,zael.orvyn702@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000415
+GRD-000703,Orin,Silverwick,parent,4365550119,orin.silverwick703@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000416
+GRD-000704,Zane,Ironfeld,legal_guardian,2955550151,zane.ironfeld704@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000416
+GRD-000705,Bren,Moorgate,legal_guardian,4565550159,bren.moorgate705@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000417
+GRD-000706,Jael,Keldwick,legal_guardian,9385550151,jael.keldwick706@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000417
+GRD-000707,Gael,Stonecross,parent,8795550154,gael.stonecross707@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000418
+GRD-000708,Xora,Westholm,parent,8845550159,xora.westholm708@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000418
+GRD-000709,Favin,Orvyn,parent,9295550155,favin.orvyn709@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000419
+GRD-000710,Quill,Oakveil,parent,5955550142,quill.oakveil710@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000420
+GRD-000711,Quill,Pinecroft,parent,6225550129,quill.pinecroft711@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000420
+GRD-000712,Vael,Morrow,parent,7575550100,vael.morrow712@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000421
+GRD-000713,Aelin,Rookwood,parent,4955550190,aelin.rookwood713@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000421
+GRD-000714,Dael,Ridgemont,emergency_contact,9785550156,dael.ridgemont714@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000422
+GRD-000715,Reva,Quelmar,emergency_contact,7305550181,reva.quelmar715@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000423
+GRD-000716,Arden,Quelmar,parent,6465550198,arden.quelmar716@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000424
+GRD-000717,Reva,Netherwick,legal_guardian,4235550166,reva.netherwick717@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000425
+GRD-000718,Hael,Ironwood,emergency_contact,6495550101,hael.ironwood718@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000425
+GRD-000719,Silas,Rookwood,legal_guardian,9525550106,silas.rookwood719@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000426
+GRD-000720,Solen,Whitmore,legal_guardian,4865550119,solen.whitmore720@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000427
+GRD-000721,Kova,Jarvik,legal_guardian,8555550163,kova.jarvik721@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000428
+GRD-000722,Kessa,Moorgate,other,2865550195,kessa.moorgate722@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000428
+GRD-000723,Kova,Corvin,parent,2795550113,kova.corvin723@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000429
+GRD-000724,Silas,Ironfeld,legal_guardian,6435550173,silas.ironfeld724@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000430
+GRD-000725,Iren,Zephyrton,parent,8665550125,iren.zephyrton725@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000430
+GRD-000726,Hira,Underhill,parent,4875550117,hira.underhill726@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000431
+GRD-000727,Jova,Umbervale,legal_guardian,9965550173,jova.umbervale727@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000431
+GRD-000728,Elian,Lochwin,parent,7225550182,elian.lochwin728@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000432
+GRD-000729,Myra,Lornfeld,parent,5635550137,myra.lornfeld729@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000432
+GRD-000730,Doran,Pemberton,parent,6705550192,doran.pemberton730@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000433
+GRD-000731,Gael,Frostwyn,parent,9475550189,gael.frostwyn731@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000433
+GRD-000732,Brix,Lornfeld,legal_guardian,8845550150,brix.lornfeld732@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000434
+GRD-000733,Bren,Harwick,parent,7035550111,bren.harwick733@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000434
+GRD-000734,Maren,Pinecroft,other,4625550165,maren.pinecroft734@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000435
+GRD-000735,Gael,Stonecross,parent,3185550169,gael.stonecross735@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000436
+GRD-000736,Doran,Netherwick,other,8225550179,doran.netherwick736@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000437
+GRD-000737,Kessa,Pemberton,parent,5345550154,kessa.pemberton737@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000437
+GRD-000738,Myra,Jarvik,legal_guardian,4285550183,myra.jarvik738@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000438
+GRD-000739,Arden,Blackfen,emergency_contact,3155550105,arden.blackfen739@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000439
+GRD-000740,Orin,Edgeholm,parent,8155550109,orin.edgeholm740@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000439
+GRD-000741,Tara,Eldwick,parent,8655550195,tara.eldwick741@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000440
+GRD-000742,Dael,Netherwick,parent,3835550145,dael.netherwick742@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000441
+GRD-000743,Gael,Lochwin,other,9635550182,gael.lochwin743@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000442
+GRD-000744,Pryn,Brindal,parent,3155550104,pryn.brindal744@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000443
+GRD-000745,Myra,Netherwick,legal_guardian,3255550100,myra.netherwick745@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000444
+GRD-000746,Lorne,Halwick,parent,2225550199,lorne.halwick746@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000444
+GRD-000747,Zane,Zephyrton,parent,9025550160,zane.zephyrton747@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000445
+GRD-000748,Xael,Underhill,legal_guardian,4465550177,xael.underhill748@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000445
+GRD-000749,Favin,Ironwood,parent,4335550185,favin.ironwood749@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000446
+GRD-000750,Tova,Morrow,parent,5835550117,tova.morrow750@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000446
+GRD-000751,Ulan,Ironwood,parent,3005550151,ulan.ironwood751@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000447
+GRD-000752,Zane,Ashveil,parent,9145550107,zane.ashveil752@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000447
+GRD-000753,Yori,Pinecroft,legal_guardian,3345550186,yori.pinecroft753@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000448
+GRD-000754,Ciran,Thornfield,legal_guardian,2225550166,ciran.thornfield754@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000448
+GRD-000755,Niko,Virelwood,parent,5995550180,niko.virelwood755@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000449
+GRD-000756,Kael,Silverwick,legal_guardian,5375550111,kael.silverwick756@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000449
+GRD-000757,Elian,Northgate,legal_guardian,9665550193,elian.northgate757@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000450
+GRD-000758,Fren,Morrow,other,4995550144,fren.morrow758@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000450
+GRD-000759,Yori,Edgeholm,parent,2295550194,yori.edgeholm759@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000451
+GRD-000760,Wyla,Corvin,other,6755550151,wyla.corvin760@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000451
+GRD-000761,Idris,Eldwick,parent,9755550185,idris.eldwick761@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000452
+GRD-000762,Ciran,Frostwyn,parent,3725550178,ciran.frostwyn762@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000452
+GRD-000763,Jael,Ridgemont,legal_guardian,7305550135,jael.ridgemont763@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000453
+GRD-000764,Oban,Jaspervale,parent,7035550109,oban.jaspervale764@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000453
+GRD-000765,Elowen,Umbervale,legal_guardian,6165550128,elowen.umbervale765@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000454
+GRD-000766,Uvine,Vexmore,parent,7965550151,uvine.vexmore766@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000454
+GRD-000767,Lysa,Lochwin,legal_guardian,9245550155,lysa.lochwin767@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000455
+GRD-000768,Pryn,Corvin,emergency_contact,9475550158,pryn.corvin768@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000455
+GRD-000769,Yori,Vexmore,parent,8685550187,yori.vexmore769@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000456
+GRD-000770,Vael,Orvyn,parent,7635550126,vael.orvyn770@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000456
+GRD-000771,Fren,Zephyrton,parent,2425550177,fren.zephyrton771@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000457
+GRD-000772,Calyx,Lornfeld,parent,5775550186,calyx.lornfeld772@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000458
+GRD-000773,Arden,Rookwood,legal_guardian,4975550166,arden.rookwood773@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000458
+GRD-000774,Arden,Westholm,parent,4875550103,arden.westholm774@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000459
+GRD-000775,Aelin,Vexmore,parent,6875550122,aelin.vexmore775@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000460
+GRD-000776,Quill,Lornfeld,legal_guardian,8015550106,quill.lornfeld776@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000461
+GRD-000777,Quill,Pemberton,legal_guardian,8295550185,quill.pemberton777@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000461
+GRD-000778,Wyla,Moorgate,parent,9095550171,wyla.moorgate778@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000462
+GRD-000779,Hael,Xanthvale,emergency_contact,4465550179,hael.xanthvale779@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000463
+GRD-000780,Doran,Frostwyn,parent,4075550138,doran.frostwyn780@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000464
+GRD-000781,Arden,Vexmore,parent,4215550114,arden.vexmore781@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000465
+GRD-000782,Iora,Brindal,legal_guardian,2705550128,iora.brindal782@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000465
+GRD-000783,Vira,Ridgemont,legal_guardian,3935550116,vira.ridgemont783@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000466
+GRD-000784,Helix,Xanthvale,parent,4285550170,helix.xanthvale784@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000467
+GRD-000785,Pella,Ashveil,parent,2085550129,pella.ashveil785@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000467
+GRD-000786,Wyla,Northgate,legal_guardian,7445550136,wyla.northgate786@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000468
+GRD-000787,Oban,Zephyrton,other,9335550166,oban.zephyrton787@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000468
+GRD-000788,Ulan,Thistlewood,parent,6895550180,ulan.thistlewood788@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000469
+GRD-000789,Wyla,Xanthvale,legal_guardian,4555550154,wyla.xanthvale789@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000469
+GRD-000790,Iora,Yarwick,parent,5665550196,iora.yarwick790@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000470
+GRD-000791,Lael,Oakveil,parent,8385550117,lael.oakveil791@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000470
+GRD-000792,Aelin,Virelwood,emergency_contact,2435550160,aelin.virelwood792@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000471
+GRD-000793,Hira,Dunvale,legal_guardian,6765550115,hira.dunvale793@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000471
+GRD-000794,Arden,Keldrun,legal_guardian,8825550177,arden.keldrun794@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000472
+GRD-000795,Vira,Ridgemont,parent,9245550126,vira.ridgemont795@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000473
+GRD-000796,Maren,Eldwick,parent,6455550116,maren.eldwick796@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000473
+GRD-000797,Xora,Keldwick,other,9355550158,xora.keldwick797@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000474
+GRD-000798,Fren,Oakveil,parent,7825550160,fren.oakveil798@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000474
+GRD-000799,Jova,Dawnmore,parent,2305550114,jova.dawnmore799@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000475
+GRD-000800,Jael,Frostwyn,parent,5355550105,jael.frostwyn800@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000476
+GRD-000801,Esrin,Yarwick,parent,2065550183,esrin.yarwick801@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000476
+GRD-000802,Vira,Ironwood,parent,9815550127,vira.ironwood802@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000477
+GRD-000803,Elowen,Keldrun,legal_guardian,3865550114,elowen.keldrun803@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000478
+GRD-000804,Maren,Ridgemont,legal_guardian,8655550151,maren.ridgemont804@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000478
+GRD-000805,Rael,Thistlewood,parent,2455550176,rael.thistlewood805@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000479
+GRD-000806,Elian,Thornfield,legal_guardian,5025550169,elian.thornfield806@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000480
+GRD-000807,Fren,Pinecroft,legal_guardian,6785550144,fren.pinecroft807@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000480
+GRD-000808,Esrin,Moorgate,legal_guardian,2775550123,esrin.moorgate808@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000481
+GRD-000809,Vira,Brindal,parent,7595550108,vira.brindal809@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000481
+GRD-000810,Calyx,Jarvik,emergency_contact,6805550173,calyx.jarvik810@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000482
+GRD-000811,Fren,Pinecroft,parent,3815550134,fren.pinecroft811@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000482
+GRD-000812,Xora,Thornfield,parent,6675550160,xora.thornfield812@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000483
+GRD-000813,Gova,Corvin,parent,5905550141,gova.corvin813@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000483
+GRD-000814,Maren,Keldrun,legal_guardian,4915550133,maren.keldrun814@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000484
+GRD-000815,Alyx,Underhill,parent,7935550143,alyx.underhill815@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000484
+GRD-000816,Hael,Silverwick,parent,6495550122,hael.silverwick816@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000485
+GRD-000817,Kael,Blackfen,parent,8255550162,kael.blackfen817@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000485
+GRD-000818,Idris,Yarfield,emergency_contact,3335550178,idris.yarfield818@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000486
+GRD-000819,Tova,Lornfeld,parent,6415550196,tova.lornfeld819@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000486
+GRD-000820,Wyla,Westholm,parent,6475550128,wyla.westholm820@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000487
+GRD-000821,Favin,Eldwick,other,6805550177,favin.eldwick821@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000488
+GRD-000822,Gova,Frostwyn,parent,4665550178,gova.frostwyn822@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000489
+GRD-000823,Blyth,Netherwick,legal_guardian,7125550151,blyth.netherwick823@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000490
+GRD-000824,Hael,Corvin,legal_guardian,3175550165,hael.corvin824@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000490
+GRD-000825,Lysa,Orvyn,parent,4405550175,lysa.orvyn825@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000491
+GRD-000826,Favin,Eldwick,parent,8345550123,favin.eldwick826@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000491
+GRD-000827,Lysa,Orvyn,emergency_contact,6965550108,lysa.orvyn827@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000492
+GRD-000828,Solen,Underhill,parent,8675550154,solen.underhill828@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000492
+GRD-000829,Gidra,Northgate,legal_guardian,8965550117,gidra.northgate829@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000493
+GRD-000830,Arden,Ashveil,parent,2015550141,arden.ashveil830@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000493
+GRD-000831,Maren,Corvin,parent,9125550166,maren.corvin831@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000494
+GRD-000832,Calyx,Corvin,legal_guardian,6175550182,calyx.corvin832@example.com,VALID,True,['email'],2025-09-01,2025-09-01,STU-000494
+GRD-000833,Uvine,Harwick,parent,5135550156,uvine.harwick833@example.com,VALID,True,['sms'],2025-09-01,2025-09-01,STU-000495
+GRD-000834,Kova,Netherwick,parent,9635550149,kova.netherwick834@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000496
+GRD-000835,Jael,Harwick,legal_guardian,4775550154,jael.harwick835@example.com,VALID,True,['push'],2025-09-01,2025-09-01,STU-000497
+GRD-000836,Zane,Keldrun,other,8185550169,zane.keldrun836@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000498
+GRD-000837,Yela,Pemberton,legal_guardian,6145550132,yela.pemberton837@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000498
+GRD-000838,Lysa,Farholm,other,6375550152,lysa.farholm838@example.com,VALID,True,"['email', 'push']",2025-09-01,2025-09-01,STU-000499
+GRD-000839,Ciran,Stonecross,emergency_contact,4975550124,ciran.stonecross839@example.com,VALID,True,"['sms', 'email']",2025-09-01,2025-09-01,STU-000500

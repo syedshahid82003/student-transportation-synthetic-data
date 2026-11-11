@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-11-11T11:42:58.671978Z",
+  "seed": 20261022,
+  "scale": "starter",
+  "baseline_row_counts": {
+    "address_zones": 30,
+    "stops": 40,
+    "buses": 20,
+    "drivers": 20,
+    "students": 500,
+    "guardian_contacts": 839,
+    "routes": 22,
+    "route_stops": 86,
+    "assignments": 496,
+    "attendance_events": 9920,
+    "notifications": 640
+  },
+  "injected_row_counts": {
+    "address_zones": 30,
+    "stops": 40,
+    "buses": 20,
+    "drivers": 20,
+    "students": 500,
+    "guardian_contacts": 845,
+    "routes": 22,
+    "route_stops": 86,
+    "assignments": 496,
+    "attendance_events": 9920,
+    "notifications": 640
+  },
+  "anomaly_counts": {
+    "unapproved_stop_exposed": 9,
+    "impossible_sequential_travel_time": 8,
+    "bus_capacity_exceeded": 6,
+    "incompatible_accessibility_route": 6,
+    "notification_to_invalid_contact": 6
+  },
+  "total_anomalies": 35,
+  "validation_violations": 35
+}

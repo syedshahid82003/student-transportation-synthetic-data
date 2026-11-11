@@ -1,79 +1,87 @@
-# Student Transportation Synthetic Data Generator
+﻿# Student Transportation Synthetic Data Generator
 
-End-to-end synthetic data pipeline for a school bus routing system.
-Assigns students to routes/stops respecting capacity, pickup windows, safety.
+Synthetic data pipeline for school bus routing: assigns students to routes/stops respecting capacity, pickup windows, safety, and attendance patterns.
 
-## Quick start
+## Quick Start
 
-    cd backend
-    python -m venv venv
-    venv\Scripts\activate
-    pip install -r requirements.txt
-    cd ..
-    python -m pytest backend/tests/ -q
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate  # Windows
+pip install -r requirements.txt
+cd ..
+python -m pytest backend/tests/ -q
+```
 
-## Generate data
+## Generate Data
 
-    python scripts/export_frontend_data.py     # frontend JSON (starter)
-    python scripts/export_pipeline_data.py     # CSVs + ground truth + manifest
-    python scripts/reproducibility.py          # reproducibility report
+```bash
+# Starter scale (fast: 500 students, 20 buses, 20 school days)
+$env:DATA_SCALE='starter'; python scripts/export_pipeline_data.py
 
-## Frontend dashboard
+# Full scale (slow: 5k students, 100 buses, 200 school days)
+$env:DATA_SCALE='full'; python scripts/export_pipeline_data.py
+```
 
-    cd frontend
-    npm install
-    npm start                      # dev server http://localhost:5173
-    npm run build                  # production -> frontend/dist/
+Outputs to `sample_output/{scale}/`:
+- `baseline/` — clean CSV + JSON for 11 entities
+- `injected/` — same data with 35 anomalies injected
+- `ground_truth.csv` — labels for all 35 anomalies (5 types)
+- `validation_summary.json` — row counts and anomaly breakdown
+- `source_manifest.json` + `checksums.sha256`
+
+## Run Tests
+
+```bash
+# Fast: starter scale only (167 tests, ~20 seconds)
+python -m pytest backend/tests/ -k "not full" --tb=short -q
+
+# Slow: all tests including full scale (233 tests, ~3 minutes)
+python -m pytest backend/tests/ --tb=short -q
+```
 
 ## Entities
 
-Student, GuardianContact, AddressZone, Stop, Bus, Driver, Route, RouteStop,
-Assignment, AttendanceEvent, Notification (+ audit_events, bus_capacity_history).
-See docs/data_dictionary.md and docs/erd.md.
+11 core: Student, GuardianContact, AddressZone, Stop, Bus, Driver, Route, RouteStop, Assignment, AttendanceEvent, Notification
 
-## ID formats
+Auxiliary: BusCapacityHistory, Disruption, RejectedAssignment, SkippedNotification
 
-| Entity | Format | Example |
-|---|---|---|
-| Student | STU-000001 | STU-000042 |
-| Stop | STOP-000001 | STOP-000015 |
-| Bus | BUS-000001 | BUS-000002 |
-| Route | ROUTE-2026-000001 | ROUTE-2026-000008 |
-| Assignment | ASN-STU-000001-2026 | ASN-STU-000042-2026 |
-| Notification | NOT-2026-000001 | NOT-2026-000099 |
+See `docs/data_dictionary.md` and `docs/erd.md`.
 
-## Seed and reproducibility
+## Reproducibility
 
-All generators: numpy.random.default_rng(20261022). No default state.
-Same seed + scale = byte-identical output (SHA-256 verified per table).
-Run python scripts/reproducibility.py to confirm.
+**Seed:** `20261022`
 
-## Volumes (full scale)
+All generators use `numpy.random.default_rng(20261022)`. Same seed + scale = byte-identical output.
 
-| Entity | Count |
-|---|---|
-| Students | 5000 |
-| Buses | 100 |
-| Stops | 300 |
-| School days | 200 |
-| Active assignments | 4065 |
-| Attendance events | 813000 |
-| Notifications sent | 53059 |
-| Anomaly edge cases | 150-250 (30-50 per type x 5 types) |
+```bash
+python scripts/reproducibility.py
+```
 
-## Key design decisions
+## Edge Cases (5 types, 35 instances at starter scale)
 
-| Decision | Rationale |
-|---|---|
-| Seed 20261022 | Passed explicitly to every numpy.default_rng(). No default state. |
-| Parent-before-child | zones->stops->buses->drivers->students->guardians->routes->assignments->attendance->notifications |
-| Append-only history | effective_from/effective_to versioning; history tables never overwritten |
-| Separate ground truth | anomaly_injector deep-copies tables; labels never in entity columns |
-| Deterministic delivery | sha256(notification_id) % 100 < 85 -- no RNG, reproduces without seed |
-| Lazy attendance | generate_attendance_day() yields one day at a time |
-| event_type mapping | late_pickup used for capacity-reduced events (validator has no CAPACITY_REDUCED type) |
+1. **bus_capacity_exceeded** — route has more active assignments than bus capacity
+2. **incompatible_accessibility_route** — accessible student assigned to non-accessible bus  
+3. **impossible_sequential_travel_time** — consecutive stops too far apart for pickup window
+4. **notification_to_invalid_contact** — notification sent to contact with opted-out preferences
+5. **unapproved_stop_exposed** — "unapproved address" modeled as stop with `is_approved=False`
 
-## Data provenance
+All anomalies are in `ground_truth.csv` with `issue_type`, `severity`, and `expected_decision`.
 
-Fully synthetic. No real PII. Names from fictional word-lists.
-Phones: 555-01xx (non-geographic). Emails: @example.com. No external datasets.
+## Sample Output
+
+Starter-scale export committed to `sample_output/starter/` (baseline + injected + ground truth).
+
+Full-scale too large for git. Generate locally: `DATA_SCALE=full python scripts/export_pipeline_data.py`
+
+## What's Missing
+
+- **SQL export:** Step 9 lists CSV/JSON/SQL; only CSV/JSON implemented
+- **FastAPI routes:** Stub directories exist but no runtime API  
+- **MongoDB integration:** Validators documented but not deployed
+
+Deferred to Phase 2.
+
+## Data Provenance
+
+Fully synthetic. No real PII. Names from fictional word-lists. Phones: 555-01xx. Emails: @example.com.

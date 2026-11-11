@@ -1,0 +1,317 @@
+[
+  {
+    "anomaly_id":"ANOM-000001",
+    "issue_type":"bus_capacity_exceeded",
+    "entity":"routes",
+    "record_id":"ROUTE-2026-000004",
+    "rule_violated":"Active assignment count on a route must not exceed its bus capacity.",
+    "expected_decision":"Reject or flag the route as over capacity; do not silently drop assignments.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000002",
+    "issue_type":"bus_capacity_exceeded",
+    "entity":"routes",
+    "record_id":"ROUTE-2026-000011",
+    "rule_violated":"Active assignment count on a route must not exceed its bus capacity.",
+    "expected_decision":"Reject or flag the route as over capacity; do not silently drop assignments.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000003",
+    "issue_type":"bus_capacity_exceeded",
+    "entity":"routes",
+    "record_id":"ROUTE-2026-000010",
+    "rule_violated":"Active assignment count on a route must not exceed its bus capacity.",
+    "expected_decision":"Reject or flag the route as over capacity; do not silently drop assignments.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000004",
+    "issue_type":"bus_capacity_exceeded",
+    "entity":"routes",
+    "record_id":"ROUTE-2026-000002",
+    "rule_violated":"Active assignment count on a route must not exceed its bus capacity.",
+    "expected_decision":"Reject or flag the route as over capacity; do not silently drop assignments.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000005",
+    "issue_type":"bus_capacity_exceeded",
+    "entity":"routes",
+    "record_id":"ROUTE-2026-000001",
+    "rule_violated":"Active assignment count on a route must not exceed its bus capacity.",
+    "expected_decision":"Reject or flag the route as over capacity; do not silently drop assignments.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000006",
+    "issue_type":"bus_capacity_exceeded",
+    "entity":"routes",
+    "record_id":"ROUTE-2026-000014",
+    "rule_violated":"Active assignment count on a route must not exceed its bus capacity.",
+    "expected_decision":"Reject or flag the route as over capacity; do not silently drop assignments.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000007",
+    "issue_type":"incompatible_accessibility_route",
+    "entity":"assignments",
+    "record_id":"ASN-STU-000305-2026",
+    "rule_violated":"A student requiring accessibility must be assigned to a route using an accessible bus.",
+    "expected_decision":"Reject the route assignment and retain the student's assignment record.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000008",
+    "issue_type":"incompatible_accessibility_route",
+    "entity":"assignments",
+    "record_id":"ASN-STU-000105-2026",
+    "rule_violated":"A student requiring accessibility must be assigned to a route using an accessible bus.",
+    "expected_decision":"Reject the route assignment and retain the student's assignment record.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000009",
+    "issue_type":"incompatible_accessibility_route",
+    "entity":"assignments",
+    "record_id":"ASN-STU-000376-2026",
+    "rule_violated":"A student requiring accessibility must be assigned to a route using an accessible bus.",
+    "expected_decision":"Reject the route assignment and retain the student's assignment record.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000010",
+    "issue_type":"incompatible_accessibility_route",
+    "entity":"assignments",
+    "record_id":"ASN-STU-000210-2026",
+    "rule_violated":"A student requiring accessibility must be assigned to a route using an accessible bus.",
+    "expected_decision":"Reject the route assignment and retain the student's assignment record.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000011",
+    "issue_type":"incompatible_accessibility_route",
+    "entity":"assignments",
+    "record_id":"ASN-STU-000453-2026",
+    "rule_violated":"A student requiring accessibility must be assigned to a route using an accessible bus.",
+    "expected_decision":"Reject the route assignment and retain the student's assignment record.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000012",
+    "issue_type":"incompatible_accessibility_route",
+    "entity":"assignments",
+    "record_id":"ASN-STU-000419-2026",
+    "rule_violated":"A student requiring accessibility must be assigned to a route using an accessible bus.",
+    "expected_decision":"Reject the route assignment and retain the student's assignment record.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000013",
+    "issue_type":"impossible_sequential_travel_time",
+    "entity":"route_stops",
+    "record_id":"RS-ROUTE-2026-000020-STOP-000037-0002",
+    "rule_violated":"A stop arrival must be later than the previous stop arrival by at least travel_minutes_from_prev.",
+    "expected_decision":"Reject or flag the sequential stop schedule as impossible.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000014",
+    "issue_type":"impossible_sequential_travel_time",
+    "entity":"route_stops",
+    "record_id":"RS-ROUTE-2026-000007-STOP-000025-0002",
+    "rule_violated":"A stop arrival must be later than the previous stop arrival by at least travel_minutes_from_prev.",
+    "expected_decision":"Reject or flag the sequential stop schedule as impossible.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000015",
+    "issue_type":"impossible_sequential_travel_time",
+    "entity":"route_stops",
+    "record_id":"RS-ROUTE-2026-000008-STOP-000030-0002",
+    "rule_violated":"A stop arrival must be later than the previous stop arrival by at least travel_minutes_from_prev.",
+    "expected_decision":"Reject or flag the sequential stop schedule as impossible.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000016",
+    "issue_type":"impossible_sequential_travel_time",
+    "entity":"route_stops",
+    "record_id":"RS-ROUTE-2026-000018-STOP-000028-0002",
+    "rule_violated":"A stop arrival must be later than the previous stop arrival by at least travel_minutes_from_prev.",
+    "expected_decision":"Reject or flag the sequential stop schedule as impossible.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000017",
+    "issue_type":"impossible_sequential_travel_time",
+    "entity":"route_stops",
+    "record_id":"RS-ROUTE-2026-000022-STOP-000025-0002",
+    "rule_violated":"A stop arrival must be later than the previous stop arrival by at least travel_minutes_from_prev.",
+    "expected_decision":"Reject or flag the sequential stop schedule as impossible.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000018",
+    "issue_type":"impossible_sequential_travel_time",
+    "entity":"route_stops",
+    "record_id":"RS-ROUTE-2026-000017-STOP-000031-0002",
+    "rule_violated":"A stop arrival must be later than the previous stop arrival by at least travel_minutes_from_prev.",
+    "expected_decision":"Reject or flag the sequential stop schedule as impossible.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000019",
+    "issue_type":"impossible_sequential_travel_time",
+    "entity":"route_stops",
+    "record_id":"RS-ROUTE-2026-000004-STOP-000009-0002",
+    "rule_violated":"A stop arrival must be later than the previous stop arrival by at least travel_minutes_from_prev.",
+    "expected_decision":"Reject or flag the sequential stop schedule as impossible.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000020",
+    "issue_type":"impossible_sequential_travel_time",
+    "entity":"route_stops",
+    "record_id":"RS-ROUTE-2026-000021-STOP-000006-0002",
+    "rule_violated":"A stop arrival must be later than the previous stop arrival by at least travel_minutes_from_prev.",
+    "expected_decision":"Reject or flag the sequential stop schedule as impossible.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000021",
+    "issue_type":"notification_to_invalid_contact",
+    "entity":"notifications",
+    "record_id":"NOT-2026-000290",
+    "rule_violated":"A sent notification must target a contact with contact_status VALID and is_valid true.",
+    "expected_decision":"Flag the notification as sent to an invalid contact; do not treat it as a valid delivery.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000022",
+    "issue_type":"notification_to_invalid_contact",
+    "entity":"notifications",
+    "record_id":"NOT-2026-000424",
+    "rule_violated":"A sent notification must target a contact with contact_status VALID and is_valid true.",
+    "expected_decision":"Flag the notification as sent to an invalid contact; do not treat it as a valid delivery.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000023",
+    "issue_type":"notification_to_invalid_contact",
+    "entity":"notifications",
+    "record_id":"NOT-2026-000157",
+    "rule_violated":"A sent notification must target a contact with contact_status VALID and is_valid true.",
+    "expected_decision":"Flag the notification as sent to an invalid contact; do not treat it as a valid delivery.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000024",
+    "issue_type":"notification_to_invalid_contact",
+    "entity":"notifications",
+    "record_id":"NOT-2026-000258",
+    "rule_violated":"A sent notification must target a contact with contact_status VALID and is_valid true.",
+    "expected_decision":"Flag the notification as sent to an invalid contact; do not treat it as a valid delivery.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000025",
+    "issue_type":"notification_to_invalid_contact",
+    "entity":"notifications",
+    "record_id":"NOT-2026-000037",
+    "rule_violated":"A sent notification must target a contact with contact_status VALID and is_valid true.",
+    "expected_decision":"Flag the notification as sent to an invalid contact; do not treat it as a valid delivery.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000026",
+    "issue_type":"notification_to_invalid_contact",
+    "entity":"notifications",
+    "record_id":"NOT-2026-000206",
+    "rule_violated":"A sent notification must target a contact with contact_status VALID and is_valid true.",
+    "expected_decision":"Flag the notification as sent to an invalid contact; do not treat it as a valid delivery.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000027",
+    "issue_type":"unapproved_stop_exposed",
+    "entity":"stops",
+    "record_id":"STOP-000004",
+    "rule_violated":"A route must not expose an address through a stop that is not approved.",
+    "expected_decision":"Remove the unapproved stop from route exposure pending approval.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000028",
+    "issue_type":"unapproved_stop_exposed",
+    "entity":"stops",
+    "record_id":"STOP-000035",
+    "rule_violated":"A route must not expose an address through a stop that is not approved.",
+    "expected_decision":"Remove the unapproved stop from route exposure pending approval.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000029",
+    "issue_type":"unapproved_stop_exposed",
+    "entity":"stops",
+    "record_id":"STOP-000016",
+    "rule_violated":"A route must not expose an address through a stop that is not approved.",
+    "expected_decision":"Remove the unapproved stop from route exposure pending approval.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000030",
+    "issue_type":"unapproved_stop_exposed",
+    "entity":"stops",
+    "record_id":"STOP-000020",
+    "rule_violated":"A route must not expose an address through a stop that is not approved.",
+    "expected_decision":"Remove the unapproved stop from route exposure pending approval.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000031",
+    "issue_type":"unapproved_stop_exposed",
+    "entity":"stops",
+    "record_id":"STOP-000007",
+    "rule_violated":"A route must not expose an address through a stop that is not approved.",
+    "expected_decision":"Remove the unapproved stop from route exposure pending approval.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000032",
+    "issue_type":"unapproved_stop_exposed",
+    "entity":"stops",
+    "record_id":"STOP-000038",
+    "rule_violated":"A route must not expose an address through a stop that is not approved.",
+    "expected_decision":"Remove the unapproved stop from route exposure pending approval.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000033",
+    "issue_type":"unapproved_stop_exposed",
+    "entity":"stops",
+    "record_id":"STOP-000008",
+    "rule_violated":"A route must not expose an address through a stop that is not approved.",
+    "expected_decision":"Remove the unapproved stop from route exposure pending approval.",
+    "severity":"boundary"
+  },
+  {
+    "anomaly_id":"ANOM-000034",
+    "issue_type":"unapproved_stop_exposed",
+    "entity":"stops",
+    "record_id":"STOP-000039",
+    "rule_violated":"A route must not expose an address through a stop that is not approved.",
+    "expected_decision":"Remove the unapproved stop from route exposure pending approval.",
+    "severity":"clear"
+  },
+  {
+    "anomaly_id":"ANOM-000035",
+    "issue_type":"unapproved_stop_exposed",
+    "entity":"stops",
+    "record_id":"STOP-000002",
+    "rule_violated":"A route must not expose an address through a stop that is not approved.",
+    "expected_decision":"Remove the unapproved stop from route exposure pending approval.",
+    "severity":"boundary"
+  }
+]

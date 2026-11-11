@@ -1,0 +1,212 @@
+[
+  {
+    "_id":"ZONE-0001",
+    "name":"Ashwood District",
+    "zone_type":"elementary",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0002",
+    "name":"Birchfield District",
+    "zone_type":"elementary",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0003",
+    "name":"Cedarvale District",
+    "zone_type":"elementary",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0004",
+    "name":"Duskhollow District",
+    "zone_type":"middle",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0005",
+    "name":"Elmwood District",
+    "zone_type":"elementary",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0006",
+    "name":"Ferndale District",
+    "zone_type":"middle",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0007",
+    "name":"Glenwood District",
+    "zone_type":"mixed",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0008",
+    "name":"Hillcrest District",
+    "zone_type":"high",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0009",
+    "name":"Ironwood District",
+    "zone_type":"elementary",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0010",
+    "name":"Jadefield District",
+    "zone_type":"middle",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0011",
+    "name":"Knotwood District",
+    "zone_type":"mixed",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0012",
+    "name":"Larchmont District",
+    "zone_type":"elementary",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0013",
+    "name":"Maplewood District",
+    "zone_type":"middle",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0014",
+    "name":"Northfield District",
+    "zone_type":"mixed",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0015",
+    "name":"Oakdale District",
+    "zone_type":"special_education",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0016",
+    "name":"Pinewood District",
+    "zone_type":"high",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0017",
+    "name":"Quarryhill District",
+    "zone_type":"middle",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0018",
+    "name":"Ridgewood District",
+    "zone_type":"special_education",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0019",
+    "name":"Silverdale District",
+    "zone_type":"elementary",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0020",
+    "name":"Thornfield District",
+    "zone_type":"elementary",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0021",
+    "name":"Underwood District",
+    "zone_type":"elementary",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0022",
+    "name":"Valewood District",
+    "zone_type":"mixed",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0023",
+    "name":"Westfield District",
+    "zone_type":"mixed",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0024",
+    "name":"Xerophyte District",
+    "zone_type":"high",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0025",
+    "name":"Yewdale District",
+    "zone_type":"middle",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0026",
+    "name":"Zetherwood District",
+    "zone_type":"mixed",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0027",
+    "name":"Alderwood District",
+    "zone_type":"elementary",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0028",
+    "name":"Briarfield District",
+    "zone_type":"middle",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0029",
+    "name":"Copperwood District",
+    "zone_type":"mixed",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  },
+  {
+    "_id":"ZONE-0030",
+    "name":"Dustwood District",
+    "zone_type":"mixed",
+    "created_at":"2025-09-01T00:00:00.000",
+    "updated_at":"2025-09-01T00:00:00.000"
+  }
+]

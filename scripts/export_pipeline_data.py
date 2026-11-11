@@ -1,20 +1,25 @@
 ﻿"""
 scripts/export_pipeline_data.py
 --------------------------------
-Export complete synthetic dataset for submission.
+Export complete synthetic dataset with anomalies for submission.
 
 Runs the full pipeline and writes:
-- CSV files for all 11 core entities + auxiliary tables
-- Ground truth files (rejections, disruptions, skipped notifications)
-- Validation summary
-- Manifest with SHA-256 checksums
+- Baseline CSV/JSON files for all entities
+- Anomaly-injected versions with ground truth labels
+- Validation summary from validate_dataset.py
+- Source manifest with SHA-256 checksums
 
 Usage (from repo root):
-    python scripts/export_pipeline_data.py
+    DATA_SCALE=starter python scripts/export_pipeline_data.py
+    DATA_SCALE=full python scripts/export_pipeline_data.py
 
-Outputs to:
-- data/generated/*.csv
-- data/ground_truth/*.{csv,json}
+Outputs to sample_output/{scale}/:
+- baseline/*.csv (clean baseline data)
+- injected/*.csv (data with anomalies)
+- ground_truth.csv (anomaly labels)
+- validation_summary.json
+- source_manifest.json
+- checksums.sha256
 """
 
 from __future__ import annotations
@@ -25,9 +30,6 @@ import json
 import os
 import pathlib
 import sys
-
-# Set scale to full for complete export
-os.environ["DATA_SCALE"] = os.environ.get("DATA_SCALE", "full")
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
@@ -42,17 +44,20 @@ from backend.app.services.assignment_service import assign_all_students
 from backend.app.services.capacity_service import build_capacity_history
 from backend.app.generators.attendance_generator import generate_attendance
 from backend.app.generators.notification_generator import generate_notifications
+from backend.app.generators.anomaly_injector import inject_anomalies
+from backend.app.validation.validate_dataset import validate_dataset
 
 # Output directories
-GENERATED_DIR = ROOT / "data" / "generated"
-GROUND_TRUTH_DIR = ROOT / "data" / "ground_truth"
+OUT_DIR = ROOT / "sample_output" / DATA_SCALE
+BASELINE_DIR = OUT_DIR / "baseline"
+INJECTED_DIR = OUT_DIR / "injected"
 
-GENERATED_DIR.mkdir(parents=True, exist_ok=True)
-GROUND_TRUTH_DIR.mkdir(parents=True, exist_ok=True)
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+BASELINE_DIR.mkdir(parents=True, exist_ok=True)
+INJECTED_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def file_sha256(path: pathlib.Path) -> str:
-    """Compute SHA-256 hash of a file."""
     sha = hashlib.sha256()
     with open(path, "rb") as f:
         while chunk := f.read(8192):
@@ -60,13 +65,14 @@ def file_sha256(path: pathlib.Path) -> str:
     return sha.hexdigest()
 
 
-def write_csv(df: pd.DataFrame, name: str, target_dir: pathlib.Path) -> pathlib.Path:
-    """Write DataFrame to CSV and return path."""
-    path = target_dir / name
-    df.to_csv(path, index=False)
-    size_kb = path.stat().st_size / 1024
-    print(f"  ✓ {name:35s} {len(df):>6,} rows  {size_kb:>8.1f} KB")
-    return path
+def write_csv_json(df: pd.DataFrame, name: str, target_dir: pathlib.Path) -> tuple[pathlib.Path, pathlib.Path]:
+    csv_path = target_dir / f"{name}.csv"
+    json_path = target_dir / f"{name}.json"
+    df.to_csv(csv_path, index=False)
+    df.to_json(json_path, orient="records", indent=2, date_format="iso")
+    size_kb = csv_path.stat().st_size / 1024
+    print(f"  ✓ {name:30s} {len(df):>6,} rows  {size_kb:>8.1f} KB")
+    return csv_path, json_path
 
 
 def main() -> None:
@@ -75,182 +81,131 @@ def main() -> None:
     print(f"{'='*70}\n")
     print(f"Seed: {SEED}")
     print(f"Scale: {DATA_SCALE}")
-    print(f"Target volumes: {SCALES[DATA_SCALE]}\n")
+    print(f"Volumes: {SCALES[DATA_SCALE]}\n")
     
+    # Step 1: Generate baseline
     print("=" * 70)
-    print("STEP 1: Generate Master Data")
+    print("STEP 1: Generate Baseline Data")
     print("=" * 70)
     master = generate_master_data(DATA_SCALE)
-    
-    print("\n" + "=" * 70)
-    print("STEP 2: Generate Routes")
-    print("=" * 70)
     rng_routes = np.random.default_rng(SEED)
     routes_df, route_stops_df = generate_routes(
-        master["buses"], master["drivers"],
-        master["stops"], master["students"], rng_routes,
+        master["buses"], master["drivers"], master["stops"], master["students"], rng_routes
     )
-    
-    print("\n" + "=" * 70)
-    print("STEP 3: Assign Students")
-    print("=" * 70)
     rng_asn = np.random.default_rng(SEED)
     assign_result = assign_all_students(master, routes_df, route_stops_df, rng_asn)
     assignments_df = assign_result["assignments"]
-    rejections_df = assign_result["rejections"]
-    
-    print("\n" + "=" * 70)
-    print("STEP 4: Build Capacity History")
-    print("=" * 70)
     cap_history = build_capacity_history(master["buses"])
-    
-    print("\n" + "=" * 70)
-    print("STEP 5: Generate Attendance")
-    print("=" * 70)
     rng_att = np.random.default_rng(SEED)
     att_df, disr_df = generate_attendance(
-        assignments_df, master["students"],
-        routes_df, master["buses"],
-        scale=DATA_SCALE, rng=rng_att,
+        assignments_df, master["students"], routes_df, master["buses"], scale=DATA_SCALE, rng=rng_att
     )
-    
-    print("\n" + "=" * 70)
-    print("STEP 6: Generate Notifications")
-    print("=" * 70)
     rng_not = np.random.default_rng(SEED)
-    notif_df, skipped_df = generate_notifications(
-        att_df, master["students"], master["guardian_contacts"], rng=rng_not,
-    )
+    notif_df, _ = generate_notifications(att_df, master["students"], master["guardian_contacts"], rng=rng_not)
     
-    print("\n" + "=" * 70)
-    print("STEP 7: Write CSV Files")
-    print("=" * 70)
-    print("\nCore entity files (data/generated/):")
-    
-    written_files = []
-    
-    # Core entities
-    written_files.append(write_csv(master["students"], "students.csv", GENERATED_DIR))
-    written_files.append(write_csv(master["guardian_contacts"], "guardian_contacts.csv", GENERATED_DIR))
-    written_files.append(write_csv(master["address_zones"], "address_zones.csv", GENERATED_DIR))
-    written_files.append(write_csv(master["stops"], "stops.csv", GENERATED_DIR))
-    written_files.append(write_csv(master["buses"], "buses.csv", GENERATED_DIR))
-    written_files.append(write_csv(master["drivers"], "drivers.csv", GENERATED_DIR))
-    written_files.append(write_csv(routes_df, "routes.csv", GENERATED_DIR))
-    written_files.append(write_csv(route_stops_df, "route_stops.csv", GENERATED_DIR))
-    written_files.append(write_csv(assignments_df, "assignments.csv", GENERATED_DIR))
-    written_files.append(write_csv(cap_history, "bus_capacity_history.csv", GENERATED_DIR))
-    written_files.append(write_csv(att_df, "attendance_events.csv", GENERATED_DIR))
-    written_files.append(write_csv(notif_df, "notifications.csv", GENERATED_DIR))
-    
-    print("\nGround truth files (data/ground_truth/):")
-    written_files.append(write_csv(rejections_df, "rejections.csv", GROUND_TRUTH_DIR))
-    written_files.append(write_csv(disr_df, "disruptions.csv", GROUND_TRUTH_DIR))
-    written_files.append(write_csv(skipped_df, "skipped_notifications.csv", GROUND_TRUTH_DIR))
-    
-    print("\n" + "=" * 70)
-    print("STEP 8: Compute Checksums")
-    print("=" * 70)
-    
-    manifest = {
-        "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
-        "seed": SEED,
-        "scale": DATA_SCALE,
-        "volumes": SCALES[DATA_SCALE],
-        "files": []
+    baseline = {
+        **master,
+        "routes": routes_df,
+        "route_stops": route_stops_df,
+        "assignments": assignments_df,
+        "attendance_events": att_df,
+        "notifications": notif_df,
     }
     
-    for path in written_files:
-        rel_path = path.relative_to(ROOT)
-        sha = file_sha256(path)
-        manifest["files"].append({
-            "path": str(rel_path).replace("\\", "/"),
-            "name": path.name,
-            "size_bytes": path.stat().st_size,
-            "sha256": sha,
-        })
-        print(f"  {path.name:35s} {sha[:16]}...")
-    
-    manifest_path = GENERATED_DIR / "manifest.json"
-    with open(manifest_path, "w", encoding="utf-8") as f:
-        json.dump(manifest, f, indent=2)
-    print(f"\n  ✓ Manifest written to {manifest_path.name}")
-    
+    # Step 2: Inject anomalies
     print("\n" + "=" * 70)
-    print("STEP 9: Validation Summary")
+    print("STEP 2: Inject Anomalies")
     print("=" * 70)
+    rng_anom = np.random.default_rng(SEED)
+    injected, ground_truth = inject_anomalies(baseline, rng_anom)
+    print(f"  Injected {len(ground_truth)} anomalies across {ground_truth['issue_type'].nunique()} types")
     
-    n_students = len(master["students"])
-    n_assigned = int((assignments_df["status"] == "active").sum())
-    n_rejected = len(rejections_df)
-    n_routes = int((routes_df["status"] == "active").sum())
-    n_attendance = len(att_df)
-    n_disruptions = len(disr_df)
-    n_notifications = len(notif_df)
-    n_skipped = len(skipped_df)
+    # Step 3: Write baseline
+    print("\n" + "=" * 70)
+    print("STEP 3: Write Baseline CSVs and JSON")
+    print("=" * 70)
+    written_files = []
+    for name, df in baseline.items():
+        csv, json_f = write_csv_json(df, name, BASELINE_DIR)
+        written_files.extend([csv, json_f])
     
+    # Step 4: Write injected
+    print("\n" + "=" * 70)
+    print("STEP 4: Write Injected CSVs and JSON")
+    print("=" * 70)
+    for name, df in injected.items():
+        csv, json_f = write_csv_json(df, name, INJECTED_DIR)
+        written_files.extend([csv, json_f])
+    
+    # Step 5: Write ground truth
+    print("\n" + "=" * 70)
+    print("STEP 5: Write Ground Truth")
+    print("=" * 70)
+    gt_csv = OUT_DIR / "ground_truth.csv"
+    gt_json = OUT_DIR / "ground_truth.json"
+    ground_truth.to_csv(gt_csv, index=False)
+    ground_truth.to_json(gt_json, orient="records", indent=2)
+    written_files.extend([gt_csv, gt_json])
+    print(f"  ✓ ground_truth.csv/json  {len(ground_truth)} anomalies")
+    
+    # Step 6: Validation
+    print("\n" + "=" * 70)
+    print("STEP 6: Run Validation")
+    print("=" * 70)
+    violations = validate_dataset(injected)
     validation = {
         "timestamp": datetime.datetime.utcnow().isoformat() + "Z",
         "seed": SEED,
         "scale": DATA_SCALE,
-        "summary": {
-            "students_total": n_students,
-            "students_assigned": n_assigned,
-            "students_rejected": n_rejected,
-            "routes_active": n_routes,
-            "attendance_events": n_attendance,
-            "disruptions": n_disruptions,
-            "notifications_sent": n_notifications,
-            "notifications_skipped": n_skipped,
-        },
-        "primary_key_checks": {
-            "students_unique": master["students"]["_id"].is_unique,
-            "buses_unique": master["buses"]["_id"].is_unique,
-            "stops_unique": master["stops"]["_id"].is_unique,
-            "routes_unique": routes_df["_id"].is_unique,
-            "assignments_unique": assignments_df["_id"].is_unique,
-        },
-        "referential_integrity": {
-            "all_assignments_valid_student_id": assignments_df["student_id"].isin(master["students"]["_id"]).all(),
-            "all_assignments_valid_route_id": assignments_df["route_id"].isin(routes_df["_id"]).all(),
-            "all_assignments_valid_stop_id": assignments_df["stop_id"].isin(master["stops"]["_id"]).all(),
-            "all_attendance_valid_student_id": att_df["student_id"].isin(master["students"]["_id"]).all(),
-            "all_notifications_valid_student_id": notif_df["student_id"].isin(master["students"]["_id"]).all() if not notif_df.empty else True,
-        },
+        "baseline_row_counts": {k: len(v) for k, v in baseline.items()},
+        "injected_row_counts": {k: len(v) for k, v in injected.items()},
+        "anomaly_counts": ground_truth["issue_type"].value_counts().to_dict(),
+        "total_anomalies": len(ground_truth),
+        "validation_violations": len(violations),
     }
-    
-    validation_path = GENERATED_DIR / "validation_summary.json"
-    with open(validation_path, "w", encoding="utf-8") as f:
+    val_path = OUT_DIR / "validation_summary.json"
+    with open(val_path, "w") as f:
         json.dump(validation, f, indent=2)
+    written_files.append(val_path)
+    print(f"  ✓ validation_summary.json  {len(violations)} violations found in injected data")
     
-    print(f"\nSummary:")
-    print(f"  Students (total):      {n_students:>6,}")
-    print(f"  Students (assigned):   {n_assigned:>6,}")
-    print(f"  Students (rejected):   {n_rejected:>6,}")
-    print(f"  Routes (active):       {n_routes:>6,}")
-    print(f"  Attendance events:     {n_attendance:>6,}")
-    print(f"  Disruptions:           {n_disruptions:>6,}")
-    print(f"  Notifications:         {n_notifications:>6,}")
-    print(f"  Skipped notifications: {n_skipped:>6,}")
+    # Step 7: Manifest
+    print("\n" + "=" * 70)
+    print("STEP 7: Write Manifest and Checksums")
+    print("=" * 70)
+    manifest = {
+        "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "seed": SEED,
+        "scale": DATA_SCALE,
+        "files": []
+    }
+    checksums = []
+    for path in written_files:
+        rel = path.relative_to(OUT_DIR)
+        sha = file_sha256(path)
+        manifest["files"].append({
+            "path": str(rel).replace("\\", "/"),
+            "size_bytes": path.stat().st_size,
+            "sha256": sha
+        })
+        checksums.append(f"{sha}  {rel}")
     
-    all_valid = all(validation["primary_key_checks"].values()) and \
-                all(validation["referential_integrity"].values())
+    manifest_path = OUT_DIR / "source_manifest.json"
+    with open(manifest_path, "w") as f:
+        json.dump(manifest, f, indent=2)
     
-    if all_valid:
-        print(f"\n  ✓ All validation checks PASSED")
-    else:
-        print(f"\n  ✗ Some validation checks FAILED")
+    checksum_path = OUT_DIR / "checksums.sha256"
+    with open(checksum_path, "w") as f:
+        f.write("\n".join(checksums))
     
-    print(f"\n  Validation summary written to {validation_path.name}")
+    print(f"  ✓ source_manifest.json")
+    print(f"  ✓ checksums.sha256")
     
     print("\n" + "=" * 70)
     print("EXPORT COMPLETE")
     print("=" * 70)
-    print(f"\nGenerated: {GENERATED_DIR}")
-    print(f"Ground truth: {GROUND_TRUTH_DIR}")
-    print(f"\nTotal files: {len(written_files)}")
-    print(f"Manifest: {manifest_path.name}")
-    print(f"Validation: {validation_path.name}\n")
+    print(f"\nOutput: {OUT_DIR}")
+    print(f"Files: {len(written_files) + 2}")
 
 
 if __name__ == "__main__":
