@@ -1,0 +1,50 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "student_id", "route_id", "stop_id", "status", "effective_from", "created_at"],
+    "additionalProperties": true,
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "pattern": "^ASN-STU-[0-9]{6}-[0-9]{4}$",
+        "description": "Assignment business ID. Format: ASN-STU-000001-2026"
+      },
+      "student_id": {
+        "bsonType": "string",
+        "pattern": "^STU-[0-9]{6}$",
+        "description": "Reference to students._id"
+      },
+      "route_id": {
+        "bsonType": "string",
+        "pattern": "^ROUTE-[0-9]{4}-[0-9]{6}$",
+        "description": "Reference to routes._id"
+      },
+      "stop_id": {
+        "bsonType": "string",
+        "pattern": "^STOP-[0-9]{6}$",
+        "description": "Reference to stops._id"
+      },
+      "status": {
+        "bsonType": "string",
+        "enum": ["active", "inactive", "pending", "cancelled"],
+        "description": "Lifecycle state of this assignment"
+      },
+      "effective_from": {
+        "bsonType": "date",
+        "description": "Date this assignment becomes valid"
+      },
+      "effective_to": {
+        "bsonType": ["date", "null"],
+        "description": "Date this assignment expires; null = currently active"
+      },
+      "academic_year": {
+        "bsonType": "int",
+        "minimum": 2000,
+        "maximum": 2100
+      },
+      "notes": { "bsonType": "string", "maxLength": 500 },
+      "created_at": { "bsonType": "date" },
+      "updated_at": { "bsonType": "date" }
+    }
+  }
+}

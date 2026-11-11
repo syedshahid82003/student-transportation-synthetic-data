@@ -1,0 +1,42 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "route_id", "stop_id", "sequence", "created_at"],
+    "additionalProperties": true,
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "pattern": "^RS-[A-Z0-9-]+-[0-9]{4}$",
+        "description": "Route-Stop bridge ID. Format: RS-<route_id>-<stop_id>-<seq>"
+      },
+      "route_id": {
+        "bsonType": "string",
+        "pattern": "^ROUTE-[0-9]{4}-[0-9]{6}$",
+        "description": "Reference to routes._id"
+      },
+      "stop_id": {
+        "bsonType": "string",
+        "pattern": "^STOP-[0-9]{6}$",
+        "description": "Reference to stops._id"
+      },
+      "sequence": {
+        "bsonType": "int",
+        "minimum": 1,
+        "description": "Ordered position of this stop within the route (1-based)"
+      },
+      "travel_minutes_from_prev": {
+        "bsonType": ["int", "null"],
+        "minimum": 0,
+        "maximum": 240,
+        "description": "Estimated travel time in minutes from the previous stop. Null for sequence=1"
+      },
+      "scheduled_time": {
+        "bsonType": "string",
+        "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$",
+        "description": "HH:MM scheduled arrival time at this stop"
+      },
+      "created_at": { "bsonType": "date" },
+      "updated_at": { "bsonType": "date" }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "collection_name", "document_id", "action", "actor", "timestamp"],
+    "additionalProperties": true,
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "pattern": "^AUD-[0-9]{14}-[A-Za-z0-9]{8}$",
+        "description": "Audit event ID. Format: AUD-20261022143000-a1b2c3d4"
+      },
+      "collection_name": {
+        "bsonType": "string",
+        "enum": [
+          "students", "guardian_contacts", "address_zones", "stops", "buses",
+          "drivers", "routes", "route_stops", "assignments", "attendance_events",
+          "notifications", "audit_events", "bus_capacity_history"
+        ],
+        "description": "The collection that was modified"
+      },
+      "document_id": {
+        "bsonType": "string",
+        "description": "The _id of the document that was created/updated/deleted"
+      },
+      "action": {
+        "bsonType": "string",
+        "enum": ["insert", "update", "delete", "read"],
+        "description": "Type of operation performed"
+      },
+      "actor": {
+        "bsonType": "string",
+        "description": "User ID, service account, or 'system' that performed the action"
+      },
+      "timestamp": {
+        "bsonType": "date",
+        "description": "UTC timestamp of the action"
+      },
+      "before_state": {
+        "bsonType": ["object", "null"],
+        "description": "Document state before the change (null for inserts)"
+      },
+      "after_state": {
+        "bsonType": ["object", "null"],
+        "description": "Document state after the change (null for deletes)"
+      },
+      "changed_fields": {
+        "bsonType": "array",
+        "items": { "bsonType": "string" },
+        "description": "List of field names that were modified"
+      },
+      "request_id": { "bsonType": "string" },
+      "ip_address":  { "bsonType": "string" }
+    }
+  }
+}

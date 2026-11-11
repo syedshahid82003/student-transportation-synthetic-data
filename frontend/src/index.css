@@ -1,0 +1,3 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #f4f6fa; color: #1a2233; font-size: 14px; }
+a { color: inherit; text-decoration: none; }

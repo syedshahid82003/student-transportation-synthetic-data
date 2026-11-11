@@ -1,0 +1,2978 @@
+{
+  "STU-000020": {
+    "assignment_id": "ASN-STU-000020-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000023": {
+    "assignment_id": "ASN-STU-000023-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000105": {
+    "assignment_id": "ASN-STU-000105-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000199": {
+    "assignment_id": "ASN-STU-000199-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000208": {
+    "assignment_id": "ASN-STU-000208-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active"
+  },
+  "STU-000210": {
+    "assignment_id": "ASN-STU-000210-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000245": {
+    "assignment_id": "ASN-STU-000245-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000251": {
+    "assignment_id": "ASN-STU-000251-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000292": {
+    "assignment_id": "ASN-STU-000292-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000300": {
+    "assignment_id": "ASN-STU-000300-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000305": {
+    "assignment_id": "ASN-STU-000305-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000308": {
+    "assignment_id": "ASN-STU-000308-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000328": {
+    "assignment_id": "ASN-STU-000328-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000332": {
+    "assignment_id": "ASN-STU-000332-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000349": {
+    "assignment_id": "ASN-STU-000349-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000350": {
+    "assignment_id": "ASN-STU-000350-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000364": {
+    "assignment_id": "ASN-STU-000364-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000015",
+    "status": "active"
+  },
+  "STU-000376": {
+    "assignment_id": "ASN-STU-000376-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000392": {
+    "assignment_id": "ASN-STU-000392-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000408": {
+    "assignment_id": "ASN-STU-000408-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000024",
+    "status": "active"
+  },
+  "STU-000418": {
+    "assignment_id": "ASN-STU-000418-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000419": {
+    "assignment_id": "ASN-STU-000419-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active"
+  },
+  "STU-000431": {
+    "assignment_id": "ASN-STU-000431-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000453": {
+    "assignment_id": "ASN-STU-000453-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000009",
+    "status": "active"
+  },
+  "STU-000456": {
+    "assignment_id": "ASN-STU-000456-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000463": {
+    "assignment_id": "ASN-STU-000463-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000483": {
+    "assignment_id": "ASN-STU-000483-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000024",
+    "status": "active"
+  },
+  "STU-000001": {
+    "assignment_id": "ASN-STU-000001-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000002": {
+    "assignment_id": "ASN-STU-000002-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000003": {
+    "assignment_id": "ASN-STU-000003-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000004": {
+    "assignment_id": "ASN-STU-000004-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000005": {
+    "assignment_id": "ASN-STU-000005-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000006": {
+    "assignment_id": "ASN-STU-000006-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000007": {
+    "assignment_id": "ASN-STU-000007-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active"
+  },
+  "STU-000008": {
+    "assignment_id": "ASN-STU-000008-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000009": {
+    "assignment_id": "ASN-STU-000009-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000010": {
+    "assignment_id": "ASN-STU-000010-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000011": {
+    "assignment_id": "ASN-STU-000011-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000012": {
+    "assignment_id": "ASN-STU-000012-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000013": {
+    "assignment_id": "ASN-STU-000013-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000014": {
+    "assignment_id": "ASN-STU-000014-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000015": {
+    "assignment_id": "ASN-STU-000015-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active"
+  },
+  "STU-000016": {
+    "assignment_id": "ASN-STU-000016-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000006",
+    "status": "active"
+  },
+  "STU-000017": {
+    "assignment_id": "ASN-STU-000017-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000018": {
+    "assignment_id": "ASN-STU-000018-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000019": {
+    "assignment_id": "ASN-STU-000019-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000021": {
+    "assignment_id": "ASN-STU-000021-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active"
+  },
+  "STU-000022": {
+    "assignment_id": "ASN-STU-000022-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000024": {
+    "assignment_id": "ASN-STU-000024-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000025": {
+    "assignment_id": "ASN-STU-000025-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000026": {
+    "assignment_id": "ASN-STU-000026-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000027": {
+    "assignment_id": "ASN-STU-000027-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000028": {
+    "assignment_id": "ASN-STU-000028-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000029": {
+    "assignment_id": "ASN-STU-000029-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000030": {
+    "assignment_id": "ASN-STU-000030-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000031": {
+    "assignment_id": "ASN-STU-000031-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000032": {
+    "assignment_id": "ASN-STU-000032-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000033": {
+    "assignment_id": "ASN-STU-000033-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active"
+  },
+  "STU-000034": {
+    "assignment_id": "ASN-STU-000034-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000035": {
+    "assignment_id": "ASN-STU-000035-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000036": {
+    "assignment_id": "ASN-STU-000036-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000037": {
+    "assignment_id": "ASN-STU-000037-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active"
+  },
+  "STU-000038": {
+    "assignment_id": "ASN-STU-000038-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000039": {
+    "assignment_id": "ASN-STU-000039-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active"
+  },
+  "STU-000040": {
+    "assignment_id": "ASN-STU-000040-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000041": {
+    "assignment_id": "ASN-STU-000041-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000042": {
+    "assignment_id": "ASN-STU-000042-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000043": {
+    "assignment_id": "ASN-STU-000043-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active"
+  },
+  "STU-000044": {
+    "assignment_id": "ASN-STU-000044-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000045": {
+    "assignment_id": "ASN-STU-000045-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active"
+  },
+  "STU-000046": {
+    "assignment_id": "ASN-STU-000046-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000009",
+    "status": "active"
+  },
+  "STU-000047": {
+    "assignment_id": "ASN-STU-000047-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active"
+  },
+  "STU-000048": {
+    "assignment_id": "ASN-STU-000048-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000049": {
+    "assignment_id": "ASN-STU-000049-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000050": {
+    "assignment_id": "ASN-STU-000050-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000051": {
+    "assignment_id": "ASN-STU-000051-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000052": {
+    "assignment_id": "ASN-STU-000052-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000053": {
+    "assignment_id": "ASN-STU-000053-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000054": {
+    "assignment_id": "ASN-STU-000054-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000055": {
+    "assignment_id": "ASN-STU-000055-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000056": {
+    "assignment_id": "ASN-STU-000056-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000057": {
+    "assignment_id": "ASN-STU-000057-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000058": {
+    "assignment_id": "ASN-STU-000058-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active"
+  },
+  "STU-000059": {
+    "assignment_id": "ASN-STU-000059-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000006",
+    "status": "active"
+  },
+  "STU-000060": {
+    "assignment_id": "ASN-STU-000060-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000061": {
+    "assignment_id": "ASN-STU-000061-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000062": {
+    "assignment_id": "ASN-STU-000062-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000063": {
+    "assignment_id": "ASN-STU-000063-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000064": {
+    "assignment_id": "ASN-STU-000064-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000065": {
+    "assignment_id": "ASN-STU-000065-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000066": {
+    "assignment_id": "ASN-STU-000066-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active"
+  },
+  "STU-000067": {
+    "assignment_id": "ASN-STU-000067-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000068": {
+    "assignment_id": "ASN-STU-000068-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000069": {
+    "assignment_id": "ASN-STU-000069-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active"
+  },
+  "STU-000070": {
+    "assignment_id": "ASN-STU-000070-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000071": {
+    "assignment_id": "ASN-STU-000071-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000072": {
+    "assignment_id": "ASN-STU-000072-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000009",
+    "status": "active"
+  },
+  "STU-000073": {
+    "assignment_id": "ASN-STU-000073-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000074": {
+    "assignment_id": "ASN-STU-000074-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active"
+  },
+  "STU-000075": {
+    "assignment_id": "ASN-STU-000075-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000076": {
+    "assignment_id": "ASN-STU-000076-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000077": {
+    "assignment_id": "ASN-STU-000077-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000078": {
+    "assignment_id": "ASN-STU-000078-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000079": {
+    "assignment_id": "ASN-STU-000079-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000024",
+    "status": "active"
+  },
+  "STU-000080": {
+    "assignment_id": "ASN-STU-000080-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000081": {
+    "assignment_id": "ASN-STU-000081-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000082": {
+    "assignment_id": "ASN-STU-000082-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active"
+  },
+  "STU-000083": {
+    "assignment_id": "ASN-STU-000083-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active"
+  },
+  "STU-000084": {
+    "assignment_id": "ASN-STU-000084-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000085": {
+    "assignment_id": "ASN-STU-000085-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000086": {
+    "assignment_id": "ASN-STU-000086-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000087": {
+    "assignment_id": "ASN-STU-000087-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000088": {
+    "assignment_id": "ASN-STU-000088-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000089": {
+    "assignment_id": "ASN-STU-000089-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000090": {
+    "assignment_id": "ASN-STU-000090-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active"
+  },
+  "STU-000091": {
+    "assignment_id": "ASN-STU-000091-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000092": {
+    "assignment_id": "ASN-STU-000092-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active"
+  },
+  "STU-000093": {
+    "assignment_id": "ASN-STU-000093-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000094": {
+    "assignment_id": "ASN-STU-000094-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000095": {
+    "assignment_id": "ASN-STU-000095-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000096": {
+    "assignment_id": "ASN-STU-000096-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active"
+  },
+  "STU-000097": {
+    "assignment_id": "ASN-STU-000097-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000098": {
+    "assignment_id": "ASN-STU-000098-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000099": {
+    "assignment_id": "ASN-STU-000099-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000100": {
+    "assignment_id": "ASN-STU-000100-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000101": {
+    "assignment_id": "ASN-STU-000101-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active"
+  },
+  "STU-000102": {
+    "assignment_id": "ASN-STU-000102-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active"
+  },
+  "STU-000103": {
+    "assignment_id": "ASN-STU-000103-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active"
+  },
+  "STU-000104": {
+    "assignment_id": "ASN-STU-000104-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000106": {
+    "assignment_id": "ASN-STU-000106-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000107": {
+    "assignment_id": "ASN-STU-000107-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000108": {
+    "assignment_id": "ASN-STU-000108-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000109": {
+    "assignment_id": "ASN-STU-000109-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000110": {
+    "assignment_id": "ASN-STU-000110-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000111": {
+    "assignment_id": "ASN-STU-000111-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000112": {
+    "assignment_id": "ASN-STU-000112-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active"
+  },
+  "STU-000113": {
+    "assignment_id": "ASN-STU-000113-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active"
+  },
+  "STU-000114": {
+    "assignment_id": "ASN-STU-000114-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000115": {
+    "assignment_id": "ASN-STU-000115-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000116": {
+    "assignment_id": "ASN-STU-000116-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000117": {
+    "assignment_id": "ASN-STU-000117-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000118": {
+    "assignment_id": "ASN-STU-000118-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000119": {
+    "assignment_id": "ASN-STU-000119-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000120": {
+    "assignment_id": "ASN-STU-000120-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000121": {
+    "assignment_id": "ASN-STU-000121-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000122": {
+    "assignment_id": "ASN-STU-000122-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000123": {
+    "assignment_id": "ASN-STU-000123-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000124": {
+    "assignment_id": "ASN-STU-000124-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000125": {
+    "assignment_id": "ASN-STU-000125-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000126": {
+    "assignment_id": "ASN-STU-000126-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000127": {
+    "assignment_id": "ASN-STU-000127-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000128": {
+    "assignment_id": "ASN-STU-000128-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active"
+  },
+  "STU-000129": {
+    "assignment_id": "ASN-STU-000129-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000130": {
+    "assignment_id": "ASN-STU-000130-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000131": {
+    "assignment_id": "ASN-STU-000131-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000132": {
+    "assignment_id": "ASN-STU-000132-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000133": {
+    "assignment_id": "ASN-STU-000133-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000134": {
+    "assignment_id": "ASN-STU-000134-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000135": {
+    "assignment_id": "ASN-STU-000135-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active"
+  },
+  "STU-000136": {
+    "assignment_id": "ASN-STU-000136-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000137": {
+    "assignment_id": "ASN-STU-000137-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000138": {
+    "assignment_id": "ASN-STU-000138-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000139": {
+    "assignment_id": "ASN-STU-000139-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000140": {
+    "assignment_id": "ASN-STU-000140-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000141": {
+    "assignment_id": "ASN-STU-000141-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000142": {
+    "assignment_id": "ASN-STU-000142-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000143": {
+    "assignment_id": "ASN-STU-000143-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000144": {
+    "assignment_id": "ASN-STU-000144-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000145": {
+    "assignment_id": "ASN-STU-000145-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000146": {
+    "assignment_id": "ASN-STU-000146-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000147": {
+    "assignment_id": "ASN-STU-000147-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000148": {
+    "assignment_id": "ASN-STU-000148-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000149": {
+    "assignment_id": "ASN-STU-000149-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000150": {
+    "assignment_id": "ASN-STU-000150-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active"
+  },
+  "STU-000151": {
+    "assignment_id": "ASN-STU-000151-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000152": {
+    "assignment_id": "ASN-STU-000152-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000153": {
+    "assignment_id": "ASN-STU-000153-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000154": {
+    "assignment_id": "ASN-STU-000154-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000155": {
+    "assignment_id": "ASN-STU-000155-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000156": {
+    "assignment_id": "ASN-STU-000156-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000157": {
+    "assignment_id": "ASN-STU-000157-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000158": {
+    "assignment_id": "ASN-STU-000158-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active"
+  },
+  "STU-000159": {
+    "assignment_id": "ASN-STU-000159-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active"
+  },
+  "STU-000160": {
+    "assignment_id": "ASN-STU-000160-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000161": {
+    "assignment_id": "ASN-STU-000161-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000162": {
+    "assignment_id": "ASN-STU-000162-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000163": {
+    "assignment_id": "ASN-STU-000163-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000164": {
+    "assignment_id": "ASN-STU-000164-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000165": {
+    "assignment_id": "ASN-STU-000165-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000166": {
+    "assignment_id": "ASN-STU-000166-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000167": {
+    "assignment_id": "ASN-STU-000167-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000168": {
+    "assignment_id": "ASN-STU-000168-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000169": {
+    "assignment_id": "ASN-STU-000169-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000170": {
+    "assignment_id": "ASN-STU-000170-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000171": {
+    "assignment_id": "ASN-STU-000171-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000172": {
+    "assignment_id": "ASN-STU-000172-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000173": {
+    "assignment_id": "ASN-STU-000173-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000174": {
+    "assignment_id": "ASN-STU-000174-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active"
+  },
+  "STU-000175": {
+    "assignment_id": "ASN-STU-000175-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000176": {
+    "assignment_id": "ASN-STU-000176-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000177": {
+    "assignment_id": "ASN-STU-000177-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000178": {
+    "assignment_id": "ASN-STU-000178-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000179": {
+    "assignment_id": "ASN-STU-000179-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000180": {
+    "assignment_id": "ASN-STU-000180-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000181": {
+    "assignment_id": "ASN-STU-000181-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active"
+  },
+  "STU-000182": {
+    "assignment_id": "ASN-STU-000182-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active"
+  },
+  "STU-000183": {
+    "assignment_id": "ASN-STU-000183-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000184": {
+    "assignment_id": "ASN-STU-000184-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active"
+  },
+  "STU-000185": {
+    "assignment_id": "ASN-STU-000185-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000186": {
+    "assignment_id": "ASN-STU-000186-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active"
+  },
+  "STU-000187": {
+    "assignment_id": "ASN-STU-000187-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000009",
+    "status": "active"
+  },
+  "STU-000188": {
+    "assignment_id": "ASN-STU-000188-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000189": {
+    "assignment_id": "ASN-STU-000189-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000190": {
+    "assignment_id": "ASN-STU-000190-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000191": {
+    "assignment_id": "ASN-STU-000191-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000192": {
+    "assignment_id": "ASN-STU-000192-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000193": {
+    "assignment_id": "ASN-STU-000193-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000194": {
+    "assignment_id": "ASN-STU-000194-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000195": {
+    "assignment_id": "ASN-STU-000195-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000196": {
+    "assignment_id": "ASN-STU-000196-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active"
+  },
+  "STU-000197": {
+    "assignment_id": "ASN-STU-000197-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000198": {
+    "assignment_id": "ASN-STU-000198-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000200": {
+    "assignment_id": "ASN-STU-000200-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000201": {
+    "assignment_id": "ASN-STU-000201-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000202": {
+    "assignment_id": "ASN-STU-000202-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000203": {
+    "assignment_id": "ASN-STU-000203-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000204": {
+    "assignment_id": "ASN-STU-000204-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000205": {
+    "assignment_id": "ASN-STU-000205-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000206": {
+    "assignment_id": "ASN-STU-000206-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000207": {
+    "assignment_id": "ASN-STU-000207-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000209": {
+    "assignment_id": "ASN-STU-000209-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000211": {
+    "assignment_id": "ASN-STU-000211-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000212": {
+    "assignment_id": "ASN-STU-000212-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000213": {
+    "assignment_id": "ASN-STU-000213-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000214": {
+    "assignment_id": "ASN-STU-000214-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000215": {
+    "assignment_id": "ASN-STU-000215-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000216": {
+    "assignment_id": "ASN-STU-000216-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000217": {
+    "assignment_id": "ASN-STU-000217-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000022",
+    "status": "active"
+  },
+  "STU-000218": {
+    "assignment_id": "ASN-STU-000218-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000219": {
+    "assignment_id": "ASN-STU-000219-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active"
+  },
+  "STU-000220": {
+    "assignment_id": "ASN-STU-000220-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000221": {
+    "assignment_id": "ASN-STU-000221-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active"
+  },
+  "STU-000222": {
+    "assignment_id": "ASN-STU-000222-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000223": {
+    "assignment_id": "ASN-STU-000223-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000224": {
+    "assignment_id": "ASN-STU-000224-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000225": {
+    "assignment_id": "ASN-STU-000225-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000226": {
+    "assignment_id": "ASN-STU-000226-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000227": {
+    "assignment_id": "ASN-STU-000227-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000228": {
+    "assignment_id": "ASN-STU-000228-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000229": {
+    "assignment_id": "ASN-STU-000229-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000230": {
+    "assignment_id": "ASN-STU-000230-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000231": {
+    "assignment_id": "ASN-STU-000231-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000232": {
+    "assignment_id": "ASN-STU-000232-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000233": {
+    "assignment_id": "ASN-STU-000233-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000234": {
+    "assignment_id": "ASN-STU-000234-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000235": {
+    "assignment_id": "ASN-STU-000235-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000236": {
+    "assignment_id": "ASN-STU-000236-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000237": {
+    "assignment_id": "ASN-STU-000237-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000238": {
+    "assignment_id": "ASN-STU-000238-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active"
+  },
+  "STU-000239": {
+    "assignment_id": "ASN-STU-000239-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000009",
+    "status": "active"
+  },
+  "STU-000240": {
+    "assignment_id": "ASN-STU-000240-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000241": {
+    "assignment_id": "ASN-STU-000241-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000242": {
+    "assignment_id": "ASN-STU-000242-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000243": {
+    "assignment_id": "ASN-STU-000243-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000244": {
+    "assignment_id": "ASN-STU-000244-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000246": {
+    "assignment_id": "ASN-STU-000246-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000009",
+    "status": "active"
+  },
+  "STU-000247": {
+    "assignment_id": "ASN-STU-000247-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000248": {
+    "assignment_id": "ASN-STU-000248-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000249": {
+    "assignment_id": "ASN-STU-000249-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000250": {
+    "assignment_id": "ASN-STU-000250-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000252": {
+    "assignment_id": "ASN-STU-000252-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000024",
+    "status": "active"
+  },
+  "STU-000253": {
+    "assignment_id": "ASN-STU-000253-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000254": {
+    "assignment_id": "ASN-STU-000254-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000255": {
+    "assignment_id": "ASN-STU-000255-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000256": {
+    "assignment_id": "ASN-STU-000256-2026",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000257": {
+    "assignment_id": "ASN-STU-000257-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000001",
+    "status": "active"
+  },
+  "STU-000258": {
+    "assignment_id": "ASN-STU-000258-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000259": {
+    "assignment_id": "ASN-STU-000259-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000260": {
+    "assignment_id": "ASN-STU-000260-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active"
+  },
+  "STU-000261": {
+    "assignment_id": "ASN-STU-000261-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000262": {
+    "assignment_id": "ASN-STU-000262-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000263": {
+    "assignment_id": "ASN-STU-000263-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000264": {
+    "assignment_id": "ASN-STU-000264-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000265": {
+    "assignment_id": "ASN-STU-000265-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000266": {
+    "assignment_id": "ASN-STU-000266-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active"
+  },
+  "STU-000267": {
+    "assignment_id": "ASN-STU-000267-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000268": {
+    "assignment_id": "ASN-STU-000268-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000269": {
+    "assignment_id": "ASN-STU-000269-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active"
+  },
+  "STU-000270": {
+    "assignment_id": "ASN-STU-000270-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000271": {
+    "assignment_id": "ASN-STU-000271-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000272": {
+    "assignment_id": "ASN-STU-000272-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000273": {
+    "assignment_id": "ASN-STU-000273-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000274": {
+    "assignment_id": "ASN-STU-000274-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000022",
+    "status": "active"
+  },
+  "STU-000275": {
+    "assignment_id": "ASN-STU-000275-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000276": {
+    "assignment_id": "ASN-STU-000276-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000277": {
+    "assignment_id": "ASN-STU-000277-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active"
+  },
+  "STU-000278": {
+    "assignment_id": "ASN-STU-000278-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000279": {
+    "assignment_id": "ASN-STU-000279-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000022",
+    "status": "active"
+  },
+  "STU-000280": {
+    "assignment_id": "ASN-STU-000280-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000281": {
+    "assignment_id": "ASN-STU-000281-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active"
+  },
+  "STU-000282": {
+    "assignment_id": "ASN-STU-000282-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000283": {
+    "assignment_id": "ASN-STU-000283-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active"
+  },
+  "STU-000284": {
+    "assignment_id": "ASN-STU-000284-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000285": {
+    "assignment_id": "ASN-STU-000285-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000286": {
+    "assignment_id": "ASN-STU-000286-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000024",
+    "status": "active"
+  },
+  "STU-000287": {
+    "assignment_id": "ASN-STU-000287-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000288": {
+    "assignment_id": "ASN-STU-000288-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000289": {
+    "assignment_id": "ASN-STU-000289-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000290": {
+    "assignment_id": "ASN-STU-000290-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active"
+  },
+  "STU-000291": {
+    "assignment_id": "ASN-STU-000291-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000293": {
+    "assignment_id": "ASN-STU-000293-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000294": {
+    "assignment_id": "ASN-STU-000294-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active"
+  },
+  "STU-000295": {
+    "assignment_id": "ASN-STU-000295-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000296": {
+    "assignment_id": "ASN-STU-000296-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000297": {
+    "assignment_id": "ASN-STU-000297-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000298": {
+    "assignment_id": "ASN-STU-000298-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000299": {
+    "assignment_id": "ASN-STU-000299-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active"
+  },
+  "STU-000301": {
+    "assignment_id": "ASN-STU-000301-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000302": {
+    "assignment_id": "ASN-STU-000302-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000303": {
+    "assignment_id": "ASN-STU-000303-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000304": {
+    "assignment_id": "ASN-STU-000304-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active"
+  },
+  "STU-000306": {
+    "assignment_id": "ASN-STU-000306-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000307": {
+    "assignment_id": "ASN-STU-000307-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000309": {
+    "assignment_id": "ASN-STU-000309-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active"
+  },
+  "STU-000310": {
+    "assignment_id": "ASN-STU-000310-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000311": {
+    "assignment_id": "ASN-STU-000311-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000312": {
+    "assignment_id": "ASN-STU-000312-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000313": {
+    "assignment_id": "ASN-STU-000313-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000314": {
+    "assignment_id": "ASN-STU-000314-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000315": {
+    "assignment_id": "ASN-STU-000315-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000316": {
+    "assignment_id": "ASN-STU-000316-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000317": {
+    "assignment_id": "ASN-STU-000317-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000318": {
+    "assignment_id": "ASN-STU-000318-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000006",
+    "status": "active"
+  },
+  "STU-000319": {
+    "assignment_id": "ASN-STU-000319-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000320": {
+    "assignment_id": "ASN-STU-000320-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000321": {
+    "assignment_id": "ASN-STU-000321-2026",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000322": {
+    "assignment_id": "ASN-STU-000322-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000323": {
+    "assignment_id": "ASN-STU-000323-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000324": {
+    "assignment_id": "ASN-STU-000324-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active"
+  },
+  "STU-000325": {
+    "assignment_id": "ASN-STU-000325-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000326": {
+    "assignment_id": "ASN-STU-000326-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000327": {
+    "assignment_id": "ASN-STU-000327-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000329": {
+    "assignment_id": "ASN-STU-000329-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000330": {
+    "assignment_id": "ASN-STU-000330-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000022",
+    "status": "active"
+  },
+  "STU-000331": {
+    "assignment_id": "ASN-STU-000331-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active"
+  },
+  "STU-000333": {
+    "assignment_id": "ASN-STU-000333-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000334": {
+    "assignment_id": "ASN-STU-000334-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000335": {
+    "assignment_id": "ASN-STU-000335-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000336": {
+    "assignment_id": "ASN-STU-000336-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active"
+  },
+  "STU-000337": {
+    "assignment_id": "ASN-STU-000337-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000338": {
+    "assignment_id": "ASN-STU-000338-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000339": {
+    "assignment_id": "ASN-STU-000339-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000340": {
+    "assignment_id": "ASN-STU-000340-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000341": {
+    "assignment_id": "ASN-STU-000341-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000342": {
+    "assignment_id": "ASN-STU-000342-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000343": {
+    "assignment_id": "ASN-STU-000343-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000344": {
+    "assignment_id": "ASN-STU-000344-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active"
+  },
+  "STU-000345": {
+    "assignment_id": "ASN-STU-000345-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000346": {
+    "assignment_id": "ASN-STU-000346-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000347": {
+    "assignment_id": "ASN-STU-000347-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000348": {
+    "assignment_id": "ASN-STU-000348-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000351": {
+    "assignment_id": "ASN-STU-000351-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active"
+  },
+  "STU-000352": {
+    "assignment_id": "ASN-STU-000352-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000009",
+    "status": "active"
+  },
+  "STU-000353": {
+    "assignment_id": "ASN-STU-000353-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active"
+  },
+  "STU-000354": {
+    "assignment_id": "ASN-STU-000354-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000355": {
+    "assignment_id": "ASN-STU-000355-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000356": {
+    "assignment_id": "ASN-STU-000356-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000357": {
+    "assignment_id": "ASN-STU-000357-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000358": {
+    "assignment_id": "ASN-STU-000358-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000359": {
+    "assignment_id": "ASN-STU-000359-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000360": {
+    "assignment_id": "ASN-STU-000360-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000361": {
+    "assignment_id": "ASN-STU-000361-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000362": {
+    "assignment_id": "ASN-STU-000362-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000363": {
+    "assignment_id": "ASN-STU-000363-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000365": {
+    "assignment_id": "ASN-STU-000365-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000366": {
+    "assignment_id": "ASN-STU-000366-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000367": {
+    "assignment_id": "ASN-STU-000367-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000368": {
+    "assignment_id": "ASN-STU-000368-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000369": {
+    "assignment_id": "ASN-STU-000369-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000370": {
+    "assignment_id": "ASN-STU-000370-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000371": {
+    "assignment_id": "ASN-STU-000371-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active"
+  },
+  "STU-000372": {
+    "assignment_id": "ASN-STU-000372-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active"
+  },
+  "STU-000373": {
+    "assignment_id": "ASN-STU-000373-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000374": {
+    "assignment_id": "ASN-STU-000374-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000006",
+    "status": "active"
+  },
+  "STU-000375": {
+    "assignment_id": "ASN-STU-000375-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active"
+  },
+  "STU-000377": {
+    "assignment_id": "ASN-STU-000377-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000378": {
+    "assignment_id": "ASN-STU-000378-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000379": {
+    "assignment_id": "ASN-STU-000379-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000380": {
+    "assignment_id": "ASN-STU-000380-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000381": {
+    "assignment_id": "ASN-STU-000381-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000382": {
+    "assignment_id": "ASN-STU-000382-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000383": {
+    "assignment_id": "ASN-STU-000383-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000384": {
+    "assignment_id": "ASN-STU-000384-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000385": {
+    "assignment_id": "ASN-STU-000385-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000009",
+    "status": "active"
+  },
+  "STU-000386": {
+    "assignment_id": "ASN-STU-000386-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active"
+  },
+  "STU-000387": {
+    "assignment_id": "ASN-STU-000387-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000006",
+    "status": "active"
+  },
+  "STU-000388": {
+    "assignment_id": "ASN-STU-000388-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000389": {
+    "assignment_id": "ASN-STU-000389-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active"
+  },
+  "STU-000390": {
+    "assignment_id": "ASN-STU-000390-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000391": {
+    "assignment_id": "ASN-STU-000391-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000393": {
+    "assignment_id": "ASN-STU-000393-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active"
+  },
+  "STU-000394": {
+    "assignment_id": "ASN-STU-000394-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000395": {
+    "assignment_id": "ASN-STU-000395-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000396": {
+    "assignment_id": "ASN-STU-000396-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000397": {
+    "assignment_id": "ASN-STU-000397-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000398": {
+    "assignment_id": "ASN-STU-000398-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000399": {
+    "assignment_id": "ASN-STU-000399-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000400": {
+    "assignment_id": "ASN-STU-000400-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000401": {
+    "assignment_id": "ASN-STU-000401-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000402": {
+    "assignment_id": "ASN-STU-000402-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000403": {
+    "assignment_id": "ASN-STU-000403-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active"
+  },
+  "STU-000404": {
+    "assignment_id": "ASN-STU-000404-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000405": {
+    "assignment_id": "ASN-STU-000405-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000406": {
+    "assignment_id": "ASN-STU-000406-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000407": {
+    "assignment_id": "ASN-STU-000407-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000409": {
+    "assignment_id": "ASN-STU-000409-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000410": {
+    "assignment_id": "ASN-STU-000410-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000411": {
+    "assignment_id": "ASN-STU-000411-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000412": {
+    "assignment_id": "ASN-STU-000412-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000413": {
+    "assignment_id": "ASN-STU-000413-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000414": {
+    "assignment_id": "ASN-STU-000414-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000415": {
+    "assignment_id": "ASN-STU-000415-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000416": {
+    "assignment_id": "ASN-STU-000416-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active"
+  },
+  "STU-000417": {
+    "assignment_id": "ASN-STU-000417-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000420": {
+    "assignment_id": "ASN-STU-000420-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000421": {
+    "assignment_id": "ASN-STU-000421-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000422": {
+    "assignment_id": "ASN-STU-000422-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000423": {
+    "assignment_id": "ASN-STU-000423-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000424": {
+    "assignment_id": "ASN-STU-000424-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000425": {
+    "assignment_id": "ASN-STU-000425-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active"
+  },
+  "STU-000426": {
+    "assignment_id": "ASN-STU-000426-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active"
+  },
+  "STU-000427": {
+    "assignment_id": "ASN-STU-000427-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active"
+  },
+  "STU-000428": {
+    "assignment_id": "ASN-STU-000428-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000429": {
+    "assignment_id": "ASN-STU-000429-2026",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000430": {
+    "assignment_id": "ASN-STU-000430-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000432": {
+    "assignment_id": "ASN-STU-000432-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000433": {
+    "assignment_id": "ASN-STU-000433-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000006",
+    "status": "active"
+  },
+  "STU-000434": {
+    "assignment_id": "ASN-STU-000434-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000435": {
+    "assignment_id": "ASN-STU-000435-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000436": {
+    "assignment_id": "ASN-STU-000436-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000437": {
+    "assignment_id": "ASN-STU-000437-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000438": {
+    "assignment_id": "ASN-STU-000438-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000439": {
+    "assignment_id": "ASN-STU-000439-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000440": {
+    "assignment_id": "ASN-STU-000440-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000441": {
+    "assignment_id": "ASN-STU-000441-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000442": {
+    "assignment_id": "ASN-STU-000442-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000443": {
+    "assignment_id": "ASN-STU-000443-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000444": {
+    "assignment_id": "ASN-STU-000444-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000445": {
+    "assignment_id": "ASN-STU-000445-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000446": {
+    "assignment_id": "ASN-STU-000446-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000447": {
+    "assignment_id": "ASN-STU-000447-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000448": {
+    "assignment_id": "ASN-STU-000448-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000449": {
+    "assignment_id": "ASN-STU-000449-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000450": {
+    "assignment_id": "ASN-STU-000450-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active"
+  },
+  "STU-000451": {
+    "assignment_id": "ASN-STU-000451-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000452": {
+    "assignment_id": "ASN-STU-000452-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000454": {
+    "assignment_id": "ASN-STU-000454-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000455": {
+    "assignment_id": "ASN-STU-000455-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000457": {
+    "assignment_id": "ASN-STU-000457-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000458": {
+    "assignment_id": "ASN-STU-000458-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000459": {
+    "assignment_id": "ASN-STU-000459-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000460": {
+    "assignment_id": "ASN-STU-000460-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active"
+  },
+  "STU-000461": {
+    "assignment_id": "ASN-STU-000461-2026",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active"
+  },
+  "STU-000462": {
+    "assignment_id": "ASN-STU-000462-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active"
+  },
+  "STU-000464": {
+    "assignment_id": "ASN-STU-000464-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000002",
+    "status": "active"
+  },
+  "STU-000465": {
+    "assignment_id": "ASN-STU-000465-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000466": {
+    "assignment_id": "ASN-STU-000466-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active"
+  },
+  "STU-000467": {
+    "assignment_id": "ASN-STU-000467-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000468": {
+    "assignment_id": "ASN-STU-000468-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000469": {
+    "assignment_id": "ASN-STU-000469-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000024",
+    "status": "active"
+  },
+  "STU-000470": {
+    "assignment_id": "ASN-STU-000470-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000471": {
+    "assignment_id": "ASN-STU-000471-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000472": {
+    "assignment_id": "ASN-STU-000472-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000001",
+    "status": "active"
+  },
+  "STU-000473": {
+    "assignment_id": "ASN-STU-000473-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active"
+  },
+  "STU-000474": {
+    "assignment_id": "ASN-STU-000474-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active"
+  },
+  "STU-000475": {
+    "assignment_id": "ASN-STU-000475-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000476": {
+    "assignment_id": "ASN-STU-000476-2026",
+    "route_id": "ROUTE-2026-000012",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000477": {
+    "assignment_id": "ASN-STU-000477-2026",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active"
+  },
+  "STU-000478": {
+    "assignment_id": "ASN-STU-000478-2026",
+    "route_id": "ROUTE-2026-000012",
+    "stop_id": "STOP-000029",
+    "status": "active"
+  },
+  "STU-000479": {
+    "assignment_id": "ASN-STU-000479-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000480": {
+    "assignment_id": "ASN-STU-000480-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000481": {
+    "assignment_id": "ASN-STU-000481-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active"
+  },
+  "STU-000482": {
+    "assignment_id": "ASN-STU-000482-2026",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active"
+  },
+  "STU-000484": {
+    "assignment_id": "ASN-STU-000484-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000485": {
+    "assignment_id": "ASN-STU-000485-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000486": {
+    "assignment_id": "ASN-STU-000486-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  },
+  "STU-000487": {
+    "assignment_id": "ASN-STU-000487-2026",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active"
+  },
+  "STU-000488": {
+    "assignment_id": "ASN-STU-000488-2026",
+    "route_id": "ROUTE-2026-000016",
+    "stop_id": "STOP-000033",
+    "status": "active"
+  },
+  "STU-000489": {
+    "assignment_id": "ASN-STU-000489-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000491": {
+    "assignment_id": "ASN-STU-000491-2026",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active"
+  },
+  "STU-000492": {
+    "assignment_id": "ASN-STU-000492-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active"
+  },
+  "STU-000496": {
+    "assignment_id": "ASN-STU-000496-2026",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active"
+  },
+  "STU-000497": {
+    "assignment_id": "ASN-STU-000497-2026",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active"
+  },
+  "STU-000498": {
+    "assignment_id": "ASN-STU-000498-2026",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active"
+  },
+  "STU-000499": {
+    "assignment_id": "ASN-STU-000499-2026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active"
+  },
+  "STU-000500": {
+    "assignment_id": "ASN-STU-000500-2026",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active"
+  }
+}

@@ -1,0 +1,4962 @@
+[
+  {
+    "id": "ASN-STU-000020-2026",
+    "student_id": "STU-000020",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000023-2026",
+    "student_id": "STU-000023",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000105-2026",
+    "student_id": "STU-000105",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000199-2026",
+    "student_id": "STU-000199",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000208-2026",
+    "student_id": "STU-000208",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000210-2026",
+    "student_id": "STU-000210",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000245-2026",
+    "student_id": "STU-000245",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000251-2026",
+    "student_id": "STU-000251",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000292-2026",
+    "student_id": "STU-000292",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000300-2026",
+    "student_id": "STU-000300",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000305-2026",
+    "student_id": "STU-000305",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000308-2026",
+    "student_id": "STU-000308",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000328-2026",
+    "student_id": "STU-000328",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000332-2026",
+    "student_id": "STU-000332",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000349-2026",
+    "student_id": "STU-000349",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000350-2026",
+    "student_id": "STU-000350",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000364-2026",
+    "student_id": "STU-000364",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000015",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000376-2026",
+    "student_id": "STU-000376",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000392-2026",
+    "student_id": "STU-000392",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000408-2026",
+    "student_id": "STU-000408",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000024",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000418-2026",
+    "student_id": "STU-000418",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000419-2026",
+    "student_id": "STU-000419",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000431-2026",
+    "student_id": "STU-000431",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000453-2026",
+    "student_id": "STU-000453",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000009",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000456-2026",
+    "student_id": "STU-000456",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000463-2026",
+    "student_id": "STU-000463",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000483-2026",
+    "student_id": "STU-000483",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000024",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000001-2026",
+    "student_id": "STU-000001",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000002-2026",
+    "student_id": "STU-000002",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000003-2026",
+    "student_id": "STU-000003",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000004-2026",
+    "student_id": "STU-000004",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000005-2026",
+    "student_id": "STU-000005",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000006-2026",
+    "student_id": "STU-000006",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000007-2026",
+    "student_id": "STU-000007",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000008-2026",
+    "student_id": "STU-000008",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000009-2026",
+    "student_id": "STU-000009",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000010-2026",
+    "student_id": "STU-000010",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000011-2026",
+    "student_id": "STU-000011",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000012-2026",
+    "student_id": "STU-000012",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000013-2026",
+    "student_id": "STU-000013",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000014-2026",
+    "student_id": "STU-000014",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000015-2026",
+    "student_id": "STU-000015",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000016-2026",
+    "student_id": "STU-000016",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000006",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000017-2026",
+    "student_id": "STU-000017",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000018-2026",
+    "student_id": "STU-000018",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000019-2026",
+    "student_id": "STU-000019",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000021-2026",
+    "student_id": "STU-000021",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000022-2026",
+    "student_id": "STU-000022",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000024-2026",
+    "student_id": "STU-000024",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000025-2026",
+    "student_id": "STU-000025",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000026-2026",
+    "student_id": "STU-000026",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000027-2026",
+    "student_id": "STU-000027",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000028-2026",
+    "student_id": "STU-000028",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000029-2026",
+    "student_id": "STU-000029",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000030-2026",
+    "student_id": "STU-000030",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000031-2026",
+    "student_id": "STU-000031",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000032-2026",
+    "student_id": "STU-000032",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000033-2026",
+    "student_id": "STU-000033",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000034-2026",
+    "student_id": "STU-000034",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000035-2026",
+    "student_id": "STU-000035",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000036-2026",
+    "student_id": "STU-000036",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000037-2026",
+    "student_id": "STU-000037",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000038-2026",
+    "student_id": "STU-000038",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000039-2026",
+    "student_id": "STU-000039",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000040-2026",
+    "student_id": "STU-000040",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000041-2026",
+    "student_id": "STU-000041",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000042-2026",
+    "student_id": "STU-000042",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000043-2026",
+    "student_id": "STU-000043",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000044-2026",
+    "student_id": "STU-000044",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000045-2026",
+    "student_id": "STU-000045",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000046-2026",
+    "student_id": "STU-000046",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000009",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000047-2026",
+    "student_id": "STU-000047",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000048-2026",
+    "student_id": "STU-000048",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000049-2026",
+    "student_id": "STU-000049",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000050-2026",
+    "student_id": "STU-000050",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000051-2026",
+    "student_id": "STU-000051",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000052-2026",
+    "student_id": "STU-000052",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000053-2026",
+    "student_id": "STU-000053",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000054-2026",
+    "student_id": "STU-000054",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000055-2026",
+    "student_id": "STU-000055",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000056-2026",
+    "student_id": "STU-000056",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000057-2026",
+    "student_id": "STU-000057",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000058-2026",
+    "student_id": "STU-000058",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000059-2026",
+    "student_id": "STU-000059",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000006",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000060-2026",
+    "student_id": "STU-000060",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000061-2026",
+    "student_id": "STU-000061",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000062-2026",
+    "student_id": "STU-000062",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000063-2026",
+    "student_id": "STU-000063",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000064-2026",
+    "student_id": "STU-000064",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000065-2026",
+    "student_id": "STU-000065",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000066-2026",
+    "student_id": "STU-000066",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000067-2026",
+    "student_id": "STU-000067",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000068-2026",
+    "student_id": "STU-000068",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000069-2026",
+    "student_id": "STU-000069",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000070-2026",
+    "student_id": "STU-000070",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000071-2026",
+    "student_id": "STU-000071",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000072-2026",
+    "student_id": "STU-000072",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000009",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000073-2026",
+    "student_id": "STU-000073",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000074-2026",
+    "student_id": "STU-000074",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000075-2026",
+    "student_id": "STU-000075",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000076-2026",
+    "student_id": "STU-000076",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000077-2026",
+    "student_id": "STU-000077",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000078-2026",
+    "student_id": "STU-000078",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000079-2026",
+    "student_id": "STU-000079",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000024",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000080-2026",
+    "student_id": "STU-000080",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000081-2026",
+    "student_id": "STU-000081",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000082-2026",
+    "student_id": "STU-000082",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000083-2026",
+    "student_id": "STU-000083",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000084-2026",
+    "student_id": "STU-000084",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000085-2026",
+    "student_id": "STU-000085",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000086-2026",
+    "student_id": "STU-000086",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000087-2026",
+    "student_id": "STU-000087",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000088-2026",
+    "student_id": "STU-000088",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000089-2026",
+    "student_id": "STU-000089",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000090-2026",
+    "student_id": "STU-000090",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000091-2026",
+    "student_id": "STU-000091",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000092-2026",
+    "student_id": "STU-000092",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000093-2026",
+    "student_id": "STU-000093",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000094-2026",
+    "student_id": "STU-000094",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000095-2026",
+    "student_id": "STU-000095",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000096-2026",
+    "student_id": "STU-000096",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000097-2026",
+    "student_id": "STU-000097",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000098-2026",
+    "student_id": "STU-000098",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000099-2026",
+    "student_id": "STU-000099",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000100-2026",
+    "student_id": "STU-000100",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000101-2026",
+    "student_id": "STU-000101",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000102-2026",
+    "student_id": "STU-000102",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000103-2026",
+    "student_id": "STU-000103",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000104-2026",
+    "student_id": "STU-000104",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000106-2026",
+    "student_id": "STU-000106",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000107-2026",
+    "student_id": "STU-000107",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000108-2026",
+    "student_id": "STU-000108",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000109-2026",
+    "student_id": "STU-000109",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000110-2026",
+    "student_id": "STU-000110",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000111-2026",
+    "student_id": "STU-000111",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000112-2026",
+    "student_id": "STU-000112",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000113-2026",
+    "student_id": "STU-000113",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000114-2026",
+    "student_id": "STU-000114",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000115-2026",
+    "student_id": "STU-000115",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000116-2026",
+    "student_id": "STU-000116",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000117-2026",
+    "student_id": "STU-000117",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000118-2026",
+    "student_id": "STU-000118",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000119-2026",
+    "student_id": "STU-000119",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000120-2026",
+    "student_id": "STU-000120",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000121-2026",
+    "student_id": "STU-000121",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000122-2026",
+    "student_id": "STU-000122",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000123-2026",
+    "student_id": "STU-000123",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000124-2026",
+    "student_id": "STU-000124",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000125-2026",
+    "student_id": "STU-000125",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000126-2026",
+    "student_id": "STU-000126",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000127-2026",
+    "student_id": "STU-000127",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000128-2026",
+    "student_id": "STU-000128",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000129-2026",
+    "student_id": "STU-000129",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000130-2026",
+    "student_id": "STU-000130",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000131-2026",
+    "student_id": "STU-000131",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000132-2026",
+    "student_id": "STU-000132",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000133-2026",
+    "student_id": "STU-000133",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000134-2026",
+    "student_id": "STU-000134",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000135-2026",
+    "student_id": "STU-000135",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000136-2026",
+    "student_id": "STU-000136",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000137-2026",
+    "student_id": "STU-000137",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000138-2026",
+    "student_id": "STU-000138",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000139-2026",
+    "student_id": "STU-000139",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000140-2026",
+    "student_id": "STU-000140",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000141-2026",
+    "student_id": "STU-000141",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000142-2026",
+    "student_id": "STU-000142",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000143-2026",
+    "student_id": "STU-000143",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000144-2026",
+    "student_id": "STU-000144",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000145-2026",
+    "student_id": "STU-000145",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000146-2026",
+    "student_id": "STU-000146",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000147-2026",
+    "student_id": "STU-000147",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000148-2026",
+    "student_id": "STU-000148",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000149-2026",
+    "student_id": "STU-000149",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000150-2026",
+    "student_id": "STU-000150",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000151-2026",
+    "student_id": "STU-000151",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000152-2026",
+    "student_id": "STU-000152",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000153-2026",
+    "student_id": "STU-000153",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000154-2026",
+    "student_id": "STU-000154",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000155-2026",
+    "student_id": "STU-000155",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000156-2026",
+    "student_id": "STU-000156",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000157-2026",
+    "student_id": "STU-000157",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000158-2026",
+    "student_id": "STU-000158",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000159-2026",
+    "student_id": "STU-000159",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000160-2026",
+    "student_id": "STU-000160",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000161-2026",
+    "student_id": "STU-000161",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000162-2026",
+    "student_id": "STU-000162",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000163-2026",
+    "student_id": "STU-000163",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000164-2026",
+    "student_id": "STU-000164",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000165-2026",
+    "student_id": "STU-000165",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000166-2026",
+    "student_id": "STU-000166",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000167-2026",
+    "student_id": "STU-000167",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000168-2026",
+    "student_id": "STU-000168",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000169-2026",
+    "student_id": "STU-000169",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000170-2026",
+    "student_id": "STU-000170",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000171-2026",
+    "student_id": "STU-000171",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000172-2026",
+    "student_id": "STU-000172",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000173-2026",
+    "student_id": "STU-000173",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000174-2026",
+    "student_id": "STU-000174",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000175-2026",
+    "student_id": "STU-000175",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000176-2026",
+    "student_id": "STU-000176",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000177-2026",
+    "student_id": "STU-000177",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000178-2026",
+    "student_id": "STU-000178",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000179-2026",
+    "student_id": "STU-000179",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000180-2026",
+    "student_id": "STU-000180",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000181-2026",
+    "student_id": "STU-000181",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000182-2026",
+    "student_id": "STU-000182",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000183-2026",
+    "student_id": "STU-000183",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000184-2026",
+    "student_id": "STU-000184",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000185-2026",
+    "student_id": "STU-000185",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000186-2026",
+    "student_id": "STU-000186",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000187-2026",
+    "student_id": "STU-000187",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000009",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000188-2026",
+    "student_id": "STU-000188",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000189-2026",
+    "student_id": "STU-000189",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000190-2026",
+    "student_id": "STU-000190",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000191-2026",
+    "student_id": "STU-000191",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000192-2026",
+    "student_id": "STU-000192",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000193-2026",
+    "student_id": "STU-000193",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000194-2026",
+    "student_id": "STU-000194",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000195-2026",
+    "student_id": "STU-000195",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000196-2026",
+    "student_id": "STU-000196",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000197-2026",
+    "student_id": "STU-000197",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000198-2026",
+    "student_id": "STU-000198",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000200-2026",
+    "student_id": "STU-000200",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000201-2026",
+    "student_id": "STU-000201",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000202-2026",
+    "student_id": "STU-000202",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000203-2026",
+    "student_id": "STU-000203",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000204-2026",
+    "student_id": "STU-000204",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000205-2026",
+    "student_id": "STU-000205",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000206-2026",
+    "student_id": "STU-000206",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000207-2026",
+    "student_id": "STU-000207",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000209-2026",
+    "student_id": "STU-000209",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000211-2026",
+    "student_id": "STU-000211",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000212-2026",
+    "student_id": "STU-000212",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000213-2026",
+    "student_id": "STU-000213",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000214-2026",
+    "student_id": "STU-000214",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000215-2026",
+    "student_id": "STU-000215",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000216-2026",
+    "student_id": "STU-000216",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000217-2026",
+    "student_id": "STU-000217",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000022",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000218-2026",
+    "student_id": "STU-000218",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000219-2026",
+    "student_id": "STU-000219",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000220-2026",
+    "student_id": "STU-000220",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000221-2026",
+    "student_id": "STU-000221",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000222-2026",
+    "student_id": "STU-000222",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000223-2026",
+    "student_id": "STU-000223",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000224-2026",
+    "student_id": "STU-000224",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000225-2026",
+    "student_id": "STU-000225",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000226-2026",
+    "student_id": "STU-000226",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000227-2026",
+    "student_id": "STU-000227",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000228-2026",
+    "student_id": "STU-000228",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000229-2026",
+    "student_id": "STU-000229",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000230-2026",
+    "student_id": "STU-000230",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000231-2026",
+    "student_id": "STU-000231",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000232-2026",
+    "student_id": "STU-000232",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000233-2026",
+    "student_id": "STU-000233",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000234-2026",
+    "student_id": "STU-000234",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000235-2026",
+    "student_id": "STU-000235",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000236-2026",
+    "student_id": "STU-000236",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000237-2026",
+    "student_id": "STU-000237",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000238-2026",
+    "student_id": "STU-000238",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000239-2026",
+    "student_id": "STU-000239",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000009",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000240-2026",
+    "student_id": "STU-000240",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000241-2026",
+    "student_id": "STU-000241",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000242-2026",
+    "student_id": "STU-000242",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000243-2026",
+    "student_id": "STU-000243",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000244-2026",
+    "student_id": "STU-000244",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000246-2026",
+    "student_id": "STU-000246",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000009",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000247-2026",
+    "student_id": "STU-000247",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000248-2026",
+    "student_id": "STU-000248",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000249-2026",
+    "student_id": "STU-000249",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000250-2026",
+    "student_id": "STU-000250",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000252-2026",
+    "student_id": "STU-000252",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000024",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000253-2026",
+    "student_id": "STU-000253",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000254-2026",
+    "student_id": "STU-000254",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000255-2026",
+    "student_id": "STU-000255",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000256-2026",
+    "student_id": "STU-000256",
+    "route_id": "ROUTE-2026-000001",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000257-2026",
+    "student_id": "STU-000257",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000001",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000258-2026",
+    "student_id": "STU-000258",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000259-2026",
+    "student_id": "STU-000259",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000260-2026",
+    "student_id": "STU-000260",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000261-2026",
+    "student_id": "STU-000261",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000262-2026",
+    "student_id": "STU-000262",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000263-2026",
+    "student_id": "STU-000263",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000264-2026",
+    "student_id": "STU-000264",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000265-2026",
+    "student_id": "STU-000265",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000266-2026",
+    "student_id": "STU-000266",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000267-2026",
+    "student_id": "STU-000267",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000268-2026",
+    "student_id": "STU-000268",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000269-2026",
+    "student_id": "STU-000269",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000270-2026",
+    "student_id": "STU-000270",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000271-2026",
+    "student_id": "STU-000271",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000272-2026",
+    "student_id": "STU-000272",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000273-2026",
+    "student_id": "STU-000273",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000274-2026",
+    "student_id": "STU-000274",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000022",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000275-2026",
+    "student_id": "STU-000275",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000276-2026",
+    "student_id": "STU-000276",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000277-2026",
+    "student_id": "STU-000277",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000278-2026",
+    "student_id": "STU-000278",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000279-2026",
+    "student_id": "STU-000279",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000022",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000280-2026",
+    "student_id": "STU-000280",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000281-2026",
+    "student_id": "STU-000281",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000282-2026",
+    "student_id": "STU-000282",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000283-2026",
+    "student_id": "STU-000283",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000284-2026",
+    "student_id": "STU-000284",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000285-2026",
+    "student_id": "STU-000285",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000286-2026",
+    "student_id": "STU-000286",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000024",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000287-2026",
+    "student_id": "STU-000287",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000288-2026",
+    "student_id": "STU-000288",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000289-2026",
+    "student_id": "STU-000289",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000290-2026",
+    "student_id": "STU-000290",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000291-2026",
+    "student_id": "STU-000291",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000293-2026",
+    "student_id": "STU-000293",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000294-2026",
+    "student_id": "STU-000294",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000295-2026",
+    "student_id": "STU-000295",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000296-2026",
+    "student_id": "STU-000296",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000297-2026",
+    "student_id": "STU-000297",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000298-2026",
+    "student_id": "STU-000298",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000299-2026",
+    "student_id": "STU-000299",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000301-2026",
+    "student_id": "STU-000301",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000302-2026",
+    "student_id": "STU-000302",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000303-2026",
+    "student_id": "STU-000303",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000304-2026",
+    "student_id": "STU-000304",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000020",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000306-2026",
+    "student_id": "STU-000306",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000307-2026",
+    "student_id": "STU-000307",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000309-2026",
+    "student_id": "STU-000309",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000310-2026",
+    "student_id": "STU-000310",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000311-2026",
+    "student_id": "STU-000311",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000312-2026",
+    "student_id": "STU-000312",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000313-2026",
+    "student_id": "STU-000313",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000314-2026",
+    "student_id": "STU-000314",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000315-2026",
+    "student_id": "STU-000315",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000316-2026",
+    "student_id": "STU-000316",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000317-2026",
+    "student_id": "STU-000317",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000318-2026",
+    "student_id": "STU-000318",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000006",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000319-2026",
+    "student_id": "STU-000319",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000320-2026",
+    "student_id": "STU-000320",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000321-2026",
+    "student_id": "STU-000321",
+    "route_id": "ROUTE-2026-000008",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000322-2026",
+    "student_id": "STU-000322",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000323-2026",
+    "student_id": "STU-000323",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000324-2026",
+    "student_id": "STU-000324",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000325-2026",
+    "student_id": "STU-000325",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000326-2026",
+    "student_id": "STU-000326",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000327-2026",
+    "student_id": "STU-000327",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000329-2026",
+    "student_id": "STU-000329",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000330-2026",
+    "student_id": "STU-000330",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000022",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000331-2026",
+    "student_id": "STU-000331",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000333-2026",
+    "student_id": "STU-000333",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000334-2026",
+    "student_id": "STU-000334",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000335-2026",
+    "student_id": "STU-000335",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000336-2026",
+    "student_id": "STU-000336",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000337-2026",
+    "student_id": "STU-000337",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000338-2026",
+    "student_id": "STU-000338",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000339-2026",
+    "student_id": "STU-000339",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000340-2026",
+    "student_id": "STU-000340",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000341-2026",
+    "student_id": "STU-000341",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000342-2026",
+    "student_id": "STU-000342",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000343-2026",
+    "student_id": "STU-000343",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000344-2026",
+    "student_id": "STU-000344",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000345-2026",
+    "student_id": "STU-000345",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000346-2026",
+    "student_id": "STU-000346",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000347-2026",
+    "student_id": "STU-000347",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000348-2026",
+    "student_id": "STU-000348",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000351-2026",
+    "student_id": "STU-000351",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000352-2026",
+    "student_id": "STU-000352",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000009",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000353-2026",
+    "student_id": "STU-000353",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000354-2026",
+    "student_id": "STU-000354",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000355-2026",
+    "student_id": "STU-000355",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000356-2026",
+    "student_id": "STU-000356",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000357-2026",
+    "student_id": "STU-000357",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000358-2026",
+    "student_id": "STU-000358",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000359-2026",
+    "student_id": "STU-000359",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000360-2026",
+    "student_id": "STU-000360",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000361-2026",
+    "student_id": "STU-000361",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000362-2026",
+    "student_id": "STU-000362",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000363-2026",
+    "student_id": "STU-000363",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000365-2026",
+    "student_id": "STU-000365",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000366-2026",
+    "student_id": "STU-000366",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000367-2026",
+    "student_id": "STU-000367",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000368-2026",
+    "student_id": "STU-000368",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000369-2026",
+    "student_id": "STU-000369",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000370-2026",
+    "student_id": "STU-000370",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000371-2026",
+    "student_id": "STU-000371",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000372-2026",
+    "student_id": "STU-000372",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000373-2026",
+    "student_id": "STU-000373",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000374-2026",
+    "student_id": "STU-000374",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000006",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000375-2026",
+    "student_id": "STU-000375",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000377-2026",
+    "student_id": "STU-000377",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000378-2026",
+    "student_id": "STU-000378",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000379-2026",
+    "student_id": "STU-000379",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000380-2026",
+    "student_id": "STU-000380",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000381-2026",
+    "student_id": "STU-000381",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000382-2026",
+    "student_id": "STU-000382",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000383-2026",
+    "student_id": "STU-000383",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000384-2026",
+    "student_id": "STU-000384",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000385-2026",
+    "student_id": "STU-000385",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000009",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000386-2026",
+    "student_id": "STU-000386",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000387-2026",
+    "student_id": "STU-000387",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000006",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000388-2026",
+    "student_id": "STU-000388",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000389-2026",
+    "student_id": "STU-000389",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000015",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000390-2026",
+    "student_id": "STU-000390",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000391-2026",
+    "student_id": "STU-000391",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000393-2026",
+    "student_id": "STU-000393",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000010",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000394-2026",
+    "student_id": "STU-000394",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000395-2026",
+    "student_id": "STU-000395",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000396-2026",
+    "student_id": "STU-000396",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000397-2026",
+    "student_id": "STU-000397",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000398-2026",
+    "student_id": "STU-000398",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000399-2026",
+    "student_id": "STU-000399",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000400-2026",
+    "student_id": "STU-000400",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000401-2026",
+    "student_id": "STU-000401",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000402-2026",
+    "student_id": "STU-000402",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000403-2026",
+    "student_id": "STU-000403",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000404-2026",
+    "student_id": "STU-000404",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000405-2026",
+    "student_id": "STU-000405",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000406-2026",
+    "student_id": "STU-000406",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000407-2026",
+    "student_id": "STU-000407",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000409-2026",
+    "student_id": "STU-000409",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000410-2026",
+    "student_id": "STU-000410",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000411-2026",
+    "student_id": "STU-000411",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000412-2026",
+    "student_id": "STU-000412",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000413-2026",
+    "student_id": "STU-000413",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000414-2026",
+    "student_id": "STU-000414",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000415-2026",
+    "student_id": "STU-000415",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000416-2026",
+    "student_id": "STU-000416",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000011",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000417-2026",
+    "student_id": "STU-000417",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000420-2026",
+    "student_id": "STU-000420",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000421-2026",
+    "student_id": "STU-000421",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000422-2026",
+    "student_id": "STU-000422",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000423-2026",
+    "student_id": "STU-000423",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000424-2026",
+    "student_id": "STU-000424",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000425-2026",
+    "student_id": "STU-000425",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000426-2026",
+    "student_id": "STU-000426",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000017",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000427-2026",
+    "student_id": "STU-000427",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000428-2026",
+    "student_id": "STU-000428",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000429-2026",
+    "student_id": "STU-000429",
+    "route_id": "ROUTE-2026-000004",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000430-2026",
+    "student_id": "STU-000430",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000432-2026",
+    "student_id": "STU-000432",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000433-2026",
+    "student_id": "STU-000433",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000006",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000434-2026",
+    "student_id": "STU-000434",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000435-2026",
+    "student_id": "STU-000435",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000436-2026",
+    "student_id": "STU-000436",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000437-2026",
+    "student_id": "STU-000437",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000438-2026",
+    "student_id": "STU-000438",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000439-2026",
+    "student_id": "STU-000439",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000440-2026",
+    "student_id": "STU-000440",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000441-2026",
+    "student_id": "STU-000441",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000442-2026",
+    "student_id": "STU-000442",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000443-2026",
+    "student_id": "STU-000443",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000444-2026",
+    "student_id": "STU-000444",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000445-2026",
+    "student_id": "STU-000445",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000446-2026",
+    "student_id": "STU-000446",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000447-2026",
+    "student_id": "STU-000447",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000448-2026",
+    "student_id": "STU-000448",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000449-2026",
+    "student_id": "STU-000449",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000450-2026",
+    "student_id": "STU-000450",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000037",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000451-2026",
+    "student_id": "STU-000451",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000452-2026",
+    "student_id": "STU-000452",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000454-2026",
+    "student_id": "STU-000454",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000455-2026",
+    "student_id": "STU-000455",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000457-2026",
+    "student_id": "STU-000457",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000458-2026",
+    "student_id": "STU-000458",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000459-2026",
+    "student_id": "STU-000459",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000460-2026",
+    "student_id": "STU-000460",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000461-2026",
+    "student_id": "STU-000461",
+    "route_id": "ROUTE-2026-000005",
+    "stop_id": "STOP-000013",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000462-2026",
+    "student_id": "STU-000462",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000019",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000464-2026",
+    "student_id": "STU-000464",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000002",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000465-2026",
+    "student_id": "STU-000465",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000466-2026",
+    "student_id": "STU-000466",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000467-2026",
+    "student_id": "STU-000467",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000468-2026",
+    "student_id": "STU-000468",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000469-2026",
+    "student_id": "STU-000469",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000024",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000470-2026",
+    "student_id": "STU-000470",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000471-2026",
+    "student_id": "STU-000471",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000472-2026",
+    "student_id": "STU-000472",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000001",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000473-2026",
+    "student_id": "STU-000473",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000474-2026",
+    "student_id": "STU-000474",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000018",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000475-2026",
+    "student_id": "STU-000475",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000476-2026",
+    "student_id": "STU-000476",
+    "route_id": "ROUTE-2026-000012",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000477-2026",
+    "student_id": "STU-000477",
+    "route_id": "ROUTE-2026-000011",
+    "stop_id": "STOP-000005",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000478-2026",
+    "student_id": "STU-000478",
+    "route_id": "ROUTE-2026-000012",
+    "stop_id": "STOP-000029",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000479-2026",
+    "student_id": "STU-000479",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000480-2026",
+    "student_id": "STU-000480",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000481-2026",
+    "student_id": "STU-000481",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000030",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000482-2026",
+    "student_id": "STU-000482",
+    "route_id": "ROUTE-2026-000006",
+    "stop_id": "STOP-000007",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000484-2026",
+    "student_id": "STU-000484",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000485-2026",
+    "student_id": "STU-000485",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000486-2026",
+    "student_id": "STU-000486",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000487-2026",
+    "student_id": "STU-000487",
+    "route_id": "ROUTE-2026-000007",
+    "stop_id": "STOP-000025",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000488-2026",
+    "student_id": "STU-000488",
+    "route_id": "ROUTE-2026-000016",
+    "stop_id": "STOP-000033",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000489-2026",
+    "student_id": "STU-000489",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000491-2026",
+    "student_id": "STU-000491",
+    "route_id": "ROUTE-2026-000018",
+    "stop_id": "STOP-000028",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000492-2026",
+    "student_id": "STU-000492",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000008",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000496-2026",
+    "student_id": "STU-000496",
+    "route_id": "ROUTE-2026-000002",
+    "stop_id": "STOP-000027",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000497-2026",
+    "student_id": "STU-000497",
+    "route_id": "ROUTE-2026-000003",
+    "stop_id": "STOP-000004",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000498-2026",
+    "student_id": "STU-000498",
+    "route_id": "ROUTE-2026-000010",
+    "stop_id": "STOP-000014",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000499-2026",
+    "student_id": "STU-000499",
+    "route_id": "ROUTE-2026-000009",
+    "stop_id": "STOP-000016",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  },
+  {
+    "id": "ASN-STU-000500-2026",
+    "student_id": "STU-000500",
+    "route_id": "ROUTE-2026-000014",
+    "stop_id": "STOP-000003",
+    "status": "active",
+    "effective_from": "2025-09-01",
+    "effective_to": null,
+    "academic_year": 2026
+  }
+]

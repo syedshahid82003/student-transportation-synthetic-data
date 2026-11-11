@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+!.env.example
+venv/
+.venv/
+.pytest_cache/
+.coverage
+# Node
+node_modules/
+frontend/dist/
+# OS
+.DS_Store
+Thumbs.db
+# Generated output
+data/generated/*.csv
+data/generated/*.json
+data/generated/*.sql
+data/ground_truth/*.csv
+data/ground_truth/*.json
+!data/generated/.gitkeep
+!data/ground_truth/.gitkeep

@@ -1,0 +1,78 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "first_name", "last_name", "date_of_birth", "grade", "zone_id", "accessibility_required", "status", "effective_from", "created_at"],
+    "additionalProperties": true,
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "pattern": "^STU-[0-9]{6}$",
+        "description": "Student business ID. Format: STU-000001"
+      },
+      "first_name": {
+        "bsonType": "string",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "last_name": {
+        "bsonType": "string",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "date_of_birth": {
+        "bsonType": "date",
+        "description": "Student date of birth (UTC)"
+      },
+      "grade": {
+        "bsonType": "int",
+        "minimum": 0,
+        "maximum": 12,
+        "description": "Grade level 0 (Kindergarten) through 12"
+      },
+      "zone_id": {
+        "bsonType": "string",
+        "pattern": "^ZONE-[0-9]{4}$",
+        "description": "Reference to address_zones._id"
+      },
+      "home_address": {
+        "bsonType": "object",
+        "properties": {
+          "street": { "bsonType": "string" },
+          "city":   { "bsonType": "string" },
+          "state":  { "bsonType": "string", "minLength": 2, "maxLength": 2 },
+          "zip":    { "bsonType": "string", "pattern": "^[0-9]{5}$" },
+          "lat":    { "bsonType": "double" },
+          "lng":    { "bsonType": "double" }
+        }
+      },
+      "guardian_ids": {
+        "bsonType": "array",
+        "items": { "bsonType": "string", "pattern": "^GRD-[0-9]{6}$" },
+        "description": "References to guardian_contacts._id"
+      },
+      "accessibility_required": {
+        "bsonType": "bool",
+        "description": "True if student requires an accessible vehicle"
+      },
+      "accessibility_notes": {
+        "bsonType": "string",
+        "maxLength": 500
+      },
+      "status": {
+        "bsonType": "string",
+        "enum": ["active", "inactive", "suspended", "transferred"],
+        "description": "Lifecycle state"
+      },
+      "effective_from": {
+        "bsonType": "date",
+        "description": "Date from which this record version is valid (UTC)"
+      },
+      "effective_to": {
+        "bsonType": ["date", "null"],
+        "description": "Date on which this record version expires; null = current"
+      },
+      "created_at": { "bsonType": "date" },
+      "updated_at": { "bsonType": "date" }
+    }
+  }
+}

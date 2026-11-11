@@ -1,0 +1,55 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "first_name", "last_name", "relationship", "phone_primary", "contact_status", "is_valid", "created_at"],
+    "additionalProperties": true,
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "pattern": "^GRD-[0-9]{6}$",
+        "description": "Guardian business ID. Format: GRD-000001"
+      },
+      "first_name": { "bsonType": "string", "minLength": 1, "maxLength": 100 },
+      "last_name":  { "bsonType": "string", "minLength": 1, "maxLength": 100 },
+      "relationship": {
+        "bsonType": "string",
+        "enum": ["parent", "legal_guardian", "emergency_contact", "other"]
+      },
+      "phone_primary": {
+        "bsonType": "string",
+        "minLength": 1,
+        "maxLength": 30,
+        "description": "Primary phone. Well-formed valid contacts use 10 digits; anomaly/invalid contacts may contain any non-empty string."
+      },
+      "phone_secondary": {
+        "bsonType": "string",
+        "minLength": 1,
+        "maxLength": 30
+      },
+      "email": {
+        "bsonType": "string",
+        "minLength": 1,
+        "maxLength": 254,
+        "description": "Email address. Well-formed valid contacts follow RFC-5322; anomaly/bounced contacts may contain any non-empty string."
+      },
+      "contact_status": {
+        "bsonType": "string",
+        "enum": ["VALID", "INVALID", "BOUNCED"],
+        "description": "VALID = passes format checks; INVALID = deliberately malformed (anomaly injection); BOUNCED = was valid but delivery failed repeatedly"
+      },
+      "is_valid": {
+        "bsonType": "bool",
+        "description": "True when contact_status is VALID. Denormalised for fast filtering."
+      },
+      "notification_preferences": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string",
+          "enum": ["sms", "email", "push", "none"]
+        }
+      },
+      "created_at": { "bsonType": "date" },
+      "updated_at": { "bsonType": "date" }
+    }
+  }
+}

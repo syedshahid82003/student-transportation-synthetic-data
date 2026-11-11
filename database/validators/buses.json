@@ -1,0 +1,44 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "license_plate", "capacity", "is_accessible", "status", "effective_from", "created_at"],
+    "additionalProperties": true,
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "pattern": "^BUS-[0-9]{6}$",
+        "description": "Bus business ID. Format: BUS-000001"
+      },
+      "license_plate": {
+        "bsonType": "string",
+        "minLength": 2,
+        "maxLength": 10
+      },
+      "make":  { "bsonType": "string", "maxLength": 50 },
+      "model": { "bsonType": "string", "maxLength": 50 },
+      "year": {
+        "bsonType": "int",
+        "minimum": 1990,
+        "maximum": 2100
+      },
+      "capacity": {
+        "bsonType": "int",
+        "minimum": 1,
+        "maximum": 100,
+        "description": "Maximum student passenger capacity"
+      },
+      "is_accessible": {
+        "bsonType": "bool",
+        "description": "True if the bus has wheelchair lift / accessibility equipment"
+      },
+      "status": {
+        "bsonType": "string",
+        "enum": ["active", "inactive", "maintenance", "retired"]
+      },
+      "effective_from": { "bsonType": "date" },
+      "effective_to":   { "bsonType": ["date", "null"] },
+      "created_at": { "bsonType": "date" },
+      "updated_at": { "bsonType": "date" }
+    }
+  }
+}

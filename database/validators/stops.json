@@ -1,0 +1,46 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "name", "lat", "lng", "zone_id", "is_approved", "status", "created_at"],
+    "additionalProperties": true,
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "pattern": "^STOP-[0-9]{6}$",
+        "description": "Stop business ID. Format: STOP-000001"
+      },
+      "name": { "bsonType": "string", "minLength": 1, "maxLength": 150 },
+      "lat": {
+        "bsonType": "double",
+        "minimum": -90,
+        "maximum": 90
+      },
+      "lng": {
+        "bsonType": "double",
+        "minimum": -180,
+        "maximum": 180
+      },
+      "street_address": { "bsonType": "string", "maxLength": 200 },
+      "zone_id": {
+        "bsonType": "string",
+        "pattern": "^ZONE-[0-9]{4}$",
+        "description": "Reference to address_zones._id"
+      },
+      "is_approved": {
+        "bsonType": "bool",
+        "description": "Whether the stop has been approved for use"
+      },
+      "is_accessible": {
+        "bsonType": "bool",
+        "description": "Whether the stop is wheelchair/accessibility accessible"
+      },
+      "status": {
+        "bsonType": "string",
+        "enum": ["active", "inactive", "pending_approval", "retired"]
+      },
+      "notes": { "bsonType": "string", "maxLength": 500 },
+      "created_at": { "bsonType": "date" },
+      "updated_at": { "bsonType": "date" }
+    }
+  }
+}

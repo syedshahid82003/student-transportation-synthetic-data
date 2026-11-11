@@ -1,0 +1,38 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "first_name", "last_name", "license_number", "license_class", "status", "created_at"],
+    "additionalProperties": true,
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "pattern": "^DRV-[0-9]{6}$",
+        "description": "Driver business ID. Format: DRV-000001"
+      },
+      "first_name": { "bsonType": "string", "minLength": 1, "maxLength": 100 },
+      "last_name":  { "bsonType": "string", "minLength": 1, "maxLength": 100 },
+      "license_number": {
+        "bsonType": "string",
+        "minLength": 5,
+        "maxLength": 20,
+        "description": "Driver's commercial vehicle license number"
+      },
+      "license_class": {
+        "bsonType": "string",
+        "enum": ["A", "B", "C"],
+        "description": "CDL class required to operate the assigned bus"
+      },
+      "license_expiry": { "bsonType": "date" },
+      "phone": {
+        "bsonType": "string",
+        "pattern": "^[0-9]{10}$"
+      },
+      "status": {
+        "bsonType": "string",
+        "enum": ["active", "inactive", "on_leave", "terminated"]
+      },
+      "created_at": { "bsonType": "date" },
+      "updated_at": { "bsonType": "date" }
+    }
+  }
+}

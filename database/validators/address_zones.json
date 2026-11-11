@@ -1,0 +1,31 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "name", "zone_type", "created_at"],
+    "additionalProperties": true,
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "pattern": "^ZONE-[0-9]{4}$",
+        "description": "Zone business ID. Format: ZONE-0001"
+      },
+      "name": { "bsonType": "string", "minLength": 1, "maxLength": 100 },
+      "zone_type": {
+        "bsonType": "string",
+        "enum": ["elementary", "middle", "high", "mixed", "special_education"]
+      },
+      "boundary_geojson": {
+        "bsonType": "object",
+        "description": "GeoJSON Polygon describing the zone boundary"
+      },
+      "school_ids": {
+        "bsonType": "array",
+        "items": { "bsonType": "string" },
+        "description": "School identifiers served by this zone"
+      },
+      "notes": { "bsonType": "string", "maxLength": 500 },
+      "created_at": { "bsonType": "date" },
+      "updated_at": { "bsonType": "date" }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-11-11T10:50:08.356799Z",
+  "scale": "starter",
+  "seed": 20261022,
+  "school_days": 20,
+  "students_total": 500,
+  "students_assigned": 496,
+  "students_rejected": 4,
+  "students_inactive_assignment": 0,
+  "routes_active": 20,
+  "buses_total": 20,
+  "stops_total": 40,
+  "attendance": {
+    "total_events": 9920,
+    "boarded": 9280,
+    "absent": 588,
+    "no_show": 52,
+    "late_pickup": 0,
+    "overall_rate": 0.9355
+  },
+  "disruptions": {
+    "total": 9,
+    "cancelled": 1,
+    "delay": 8
+  },
+  "notifications": {
+    "sent": 640,
+    "delivered": 543,
+    "failed": 97,
+    "skipped": 0
+  }
+}

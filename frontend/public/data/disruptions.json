@@ -1,0 +1,65 @@
+[
+  {
+    "disruption_id": "DISR-20250901-ROUTE-2026-000014",
+    "route_id": "ROUTE-2026-000014",
+    "date": "2025-09-01",
+    "type": "DELAY",
+    "reason": "Driver ran late at previous stop"
+  },
+  {
+    "disruption_id": "DISR-20250902-ROUTE-2026-000009",
+    "route_id": "ROUTE-2026-000009",
+    "date": "2025-09-02",
+    "type": "DELAY",
+    "reason": "Vehicle breakdown \u2014 temporary replacement"
+  },
+  {
+    "disruption_id": "DISR-20250912-ROUTE-2026-000018",
+    "route_id": "ROUTE-2026-000018",
+    "date": "2025-09-12",
+    "type": "DELAY",
+    "reason": "Road closure due to construction"
+  },
+  {
+    "disruption_id": "DISR-20250915-ROUTE-2026-000009",
+    "route_id": "ROUTE-2026-000009",
+    "date": "2025-09-15",
+    "type": "DELAY",
+    "reason": "Traffic congestion on main route"
+  },
+  {
+    "disruption_id": "DISR-20250917-ROUTE-2026-000014",
+    "route_id": "ROUTE-2026-000014",
+    "date": "2025-09-17",
+    "type": "DELAY",
+    "reason": "Driver ran late at previous stop"
+  },
+  {
+    "disruption_id": "DISR-20250917-ROUTE-2026-000016",
+    "route_id": "ROUTE-2026-000016",
+    "date": "2025-09-17",
+    "type": "CANCELLED",
+    "reason": "Vehicle mechanical failure \u2014 no replacement available"
+  },
+  {
+    "disruption_id": "DISR-20250918-ROUTE-2026-000014",
+    "route_id": "ROUTE-2026-000014",
+    "date": "2025-09-18",
+    "type": "DELAY",
+    "reason": "Traffic congestion on main route"
+  },
+  {
+    "disruption_id": "DISR-20250919-ROUTE-2026-000004",
+    "route_id": "ROUTE-2026-000004",
+    "date": "2025-09-19",
+    "type": "DELAY",
+    "reason": "Road closure due to construction"
+  },
+  {
+    "disruption_id": "DISR-20250924-ROUTE-2026-000011",
+    "route_id": "ROUTE-2026-000011",
+    "date": "2025-09-24",
+    "type": "DELAY",
+    "reason": "Driver ran late at previous stop"
+  }
+]

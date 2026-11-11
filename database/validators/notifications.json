@@ -1,0 +1,50 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "guardian_id", "student_id", "event_id", "event_collection", "channel", "status", "created_at"],
+    "additionalProperties": true,
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "pattern": "^NOT-[0-9]{4}-[0-9]{6}$",
+        "description": "Notification business ID. Format: NOT-2026-000001"
+      },
+      "guardian_id": {
+        "bsonType": "string",
+        "pattern": "^GRD-[0-9]{6}$",
+        "description": "Reference to guardian_contacts._id"
+      },
+      "student_id": {
+        "bsonType": "string",
+        "pattern": "^STU-[0-9]{6}$",
+        "description": "Denormalized reference to the student this notification concerns"
+      },
+      "event_id": {
+        "bsonType": "string",
+        "description": "Reference to the triggering event document _id"
+      },
+      "event_collection": {
+        "bsonType": "string",
+        "enum": ["attendance_events", "assignments", "routes"],
+        "description": "Which collection the event_id belongs to"
+      },
+      "channel": {
+        "bsonType": "string",
+        "enum": ["sms", "email", "push"],
+        "description": "Delivery channel"
+      },
+      "status": {
+        "bsonType": "string",
+        "enum": ["pending", "sent", "delivered", "failed", "cancelled"],
+        "description": "Delivery lifecycle state"
+      },
+      "sent_at":      { "bsonType": ["date", "null"] },
+      "delivered_at": { "bsonType": ["date", "null"] },
+      "failed_at":    { "bsonType": ["date", "null"] },
+      "failure_reason": { "bsonType": "string", "maxLength": 500 },
+      "template_id": { "bsonType": "string", "maxLength": 50 },
+      "created_at": { "bsonType": "date" },
+      "updated_at": { "bsonType": "date" }
+    }
+  }
+}

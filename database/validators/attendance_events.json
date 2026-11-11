@@ -1,0 +1,53 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "assignment_id", "student_id", "route_id", "stop_id", "date", "event_type", "created_at"],
+    "additionalProperties": true,
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "pattern": "^ATT-[0-9]{8}-STU-[0-9]{6}-[a-z_]+$",
+        "description": "Attendance event ID. Format: ATT-20261022-STU-000001-boarded"
+      },
+      "assignment_id": {
+        "bsonType": "string",
+        "pattern": "^ASN-STU-[0-9]{6}-[0-9]{4}$",
+        "description": "Reference to assignments._id"
+      },
+      "student_id": {
+        "bsonType": "string",
+        "pattern": "^STU-[0-9]{6}$",
+        "description": "Denormalized reference to students._id for query performance"
+      },
+      "route_id": {
+        "bsonType": "string",
+        "pattern": "^ROUTE-[0-9]{4}-[0-9]{6}$",
+        "description": "Denormalized reference to routes._id"
+      },
+      "stop_id": {
+        "bsonType": "string",
+        "pattern": "^STOP-[0-9]{6}$",
+        "description": "Denormalized reference to stops._id"
+      },
+      "date": {
+        "bsonType": "date",
+        "description": "Calendar date of the event (UTC midnight)"
+      },
+      "event_type": {
+        "bsonType": "string",
+        "enum": ["boarded", "alighted", "no_show", "absent", "late_pickup", "emergency_exit"],
+        "description": "What happened at this stop on this date"
+      },
+      "recorded_at": {
+        "bsonType": "date",
+        "description": "Timestamp when the event was recorded (UTC)"
+      },
+      "recorded_by": {
+        "bsonType": "string",
+        "description": "Driver ID or system identifier that recorded the event"
+      },
+      "notes": { "bsonType": "string", "maxLength": 500 },
+      "created_at": { "bsonType": "date" }
+    }
+  }
+}
