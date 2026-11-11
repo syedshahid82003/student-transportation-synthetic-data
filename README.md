@@ -63,7 +63,10 @@ See `docs/data_dictionary.md` and `docs/erd.md`.
 
 **Seed:** `20261022`
 
-All generators use `numpy.random.default_rng(20261022)`. Entity data files are checksum-identical for the same seed and scale. The generated `source_manifest.json` and `validation_summary.json` include timestamps and therefore differ between runs; `checksums.sha256` also changes because it includes the summary checksum.
+All generators use numpy.random.default_rng(20261022). For the same seed and scale,
+the entity data files, ground truth, source_manifest.json, validation_summary.json and
+checksums.sha256 are identical across runs (verified at starter scale by running the
+export twice and comparing checksums.sha256).
 
 ```bash
 python scripts/reproducibility.py
@@ -98,3 +101,19 @@ Deferred to Phase 2.
 ## Data Provenance
 
 Fully synthetic. No real PII. Names from fictional word-lists. Phones: 555-01xx. Emails: @example.com.
+
+## Dashboard (starter scale)
+
+The dashboard reads generated JSON from frontend/public/data/, which is not committed.
+
+    python scripts/export_frontend_data.py
+    cd frontend
+    npm install
+    npm run dev
+
+Notes:
+- Shows starter scale (500 students, 20 buses, 20 school days).
+- The anomaly page is a read-only placeholder with no access control.
+  Ground truth is in sample_output/starter/ground_truth.csv and .json.
+- Architecture is file-based by design: generators write CSV/JSON, the dashboard
+  reads exported JSON. FastAPI and MongoDB loading are out of scope.

@@ -212,9 +212,7 @@ def main() -> None:
     print(f"\nOutput: {OUT_DIR}")
     print(f"Files: {len(written_files) + 2}")
     print(f"\nData files are checksum-identical on repeated runs.")
-    print(f"(Manifest and validation_summary excluded from checksum claim.)")
 
 
 if __name__ == "__main__":
     main()
-
